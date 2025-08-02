@@ -1,0 +1,38 @@
+{
+	x: -3.0d,
+	y: 4.5d,
+	text: [
+		"500金币就能少打6次凋零"
+	],
+	dependencies: [
+		"fdf69da0"
+	],
+	tasks: [{
+		uid: "3fad7d2f",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_wither"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "507cb1fe",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "f0749afa",
+		type: "item",
+		item: {
+			id: "deepmoblearning:data_model_wither",
+			tag: {
+				simulationCount: 0,
+				tier: 1,
+				killCount: 3,
+				totalKillCount: 9
+			}
+		}
+	}]
+}

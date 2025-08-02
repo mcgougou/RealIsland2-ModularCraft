@@ -1,0 +1,40 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	text: [
+		"皮革用来制作风箱",
+		"杂酚油不想要可以扔垃圾桶"
+	],
+	dependencies: [
+		"26a0b6da"
+	],
+	tasks: [{
+		uid: "cf4c470b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:yinghuajiaolu_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "112d2989",
+		type: "item",
+		item: "minecraft:leather",
+		count: 4
+	},
+	{
+		uid: "1cd79f1c",
+		type: "item",
+		item: "extrautils2:trashcanfluid"
+	},
+	{
+		uid: "5eb5371f",
+		type: "item",
+		item: "extrautils2:pipe",
+		count: 32
+	},
+	{
+		uid: "ee877a42",
+		type: "item",
+		item: "extrautils2:grocket 1 2"
+	}]
+}

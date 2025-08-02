@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"将至少basic等级的模型放入模拟器，同时放入聚合粘土，机器就会开始工作，有概率产生相应的原始物质。再将原始物质放到模拟器中，选择需要的材料即可"
+	],
+	dependencies: [
+		"363316c5"
+	],
+	tasks: [{
+		uid: "fd113649",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:simulation_chamber"
+		}]
+	},
+	{
+		uid: "87e2b252",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:extraction_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "23ceaa87",
+		type: "item",
+		item: "deepmoblearning:polymer_clay",
+		count: 64
+	}]
+}

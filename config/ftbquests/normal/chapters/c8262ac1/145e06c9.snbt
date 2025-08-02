@@ -1,0 +1,45 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"整合包由狗勾制作，交流群980970757"
+	],
+	dependencies: [
+		"d9625f8e"
+	],
+	tasks: [{
+		uid: "143a33d9",
+		type: "checkmark",
+		title: "整合包制作成员"
+	}],
+	rewards: [{
+		uid: "12d4171d",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	},
+	{
+		uid: "33d9ffd0",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	},
+	{
+		uid: "6fbeb230",
+		type: "ftbmoney:money",
+		ftb_money: 4L
+	},
+	{
+		uid: "5af23565",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "bff7bb66",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	},
+	{
+		uid: "54595895",
+		type: "ftbmoney:money",
+		ftb_money: 4L
+	}]
+}

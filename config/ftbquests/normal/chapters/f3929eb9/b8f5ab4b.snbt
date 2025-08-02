@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"95ac7215",
+		"07789659"
+	],
+	tasks: [{
+		uid: "bdce2abf",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

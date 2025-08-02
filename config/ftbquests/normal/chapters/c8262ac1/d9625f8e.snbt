@@ -1,0 +1,60 @@
+{
+	title: "欢迎来到整合包",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"欢迎来到真实空岛2：模块化之旅！"
+	],
+	tasks: [{
+		uid: "e1734861",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "2cb35760",
+		type: "item",
+		item: "extrautils2:itemcreativebuilderswand"
+	},
+	{
+		uid: "9abacede",
+		type: "item",
+		item: "torcherino:blocktorcherino"
+	},
+	{
+		uid: "9d71f7d3",
+		type: "item",
+		item: {
+			id: "chisel:chisel_diamond",
+			tag: {
+				Unbreakable: 1b,
+				chiseldata: {
+					target: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					}
+				}
+			}
+		}
+	},
+	{
+		uid: "444e32f9",
+		type: "item",
+		item: "minecraft:concrete",
+		count: 128
+	},
+	{
+		uid: "a4e5c725",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "769c980c",
+		type: "item",
+		item: {
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}
+	}]
+}

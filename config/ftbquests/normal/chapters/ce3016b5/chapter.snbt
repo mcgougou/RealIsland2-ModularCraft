@@ -1,0 +1,7 @@
+{
+	title: "第二章：沉浸工艺",
+	icon: "immersiveengineering:tool",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

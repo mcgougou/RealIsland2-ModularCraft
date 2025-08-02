@@ -1,0 +1,48 @@
+{
+	title: "基础机器",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"本模组有些配方能耗过大，所以如果合成时遇到无法合成的问题（箭头满了但是不出成品），可以试试把机器升级成更高级的工厂来解决"
+	],
+	dependencies: [
+		"13bff5b1"
+	],
+	tasks: [{
+		uid: "bb2fb961",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f85770b",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 10"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "86767944",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5894771b",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e0446d0",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

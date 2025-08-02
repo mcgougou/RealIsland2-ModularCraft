@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: 1.5d,
+	dependencies: [
+		"b38f09af"
+	],
+	tasks: [{
+		uid: "dff020b7",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "deepmoblearning:glitch"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f6cfceb4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

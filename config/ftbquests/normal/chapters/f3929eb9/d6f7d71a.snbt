@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 4.5d,
+	dependencies: [
+		"402f290e"
+	],
+	tasks: [{
+		uid: "0d80711e",
+		type: "item",
+		items: [{
+			item: "mekanism:emptycrystals"
+		}]
+	}],
+	rewards: [{
+		uid: "f63d5499",
+		type: "loot",
+		table: 0
+	}]
+}

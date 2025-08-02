@@ -1,0 +1,27 @@
+{
+	x: -0.5d,
+	y: 0.5d,
+	text: [
+		"商店有创造GP发电机"
+	],
+	dependencies: [
+		"1ab8e0e1"
+	],
+	tasks: [{
+		uid: "6690f981",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "e4a25f68",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "88ffeae6",
+		type: "item",
+		item: "extrautils2:angelring 1 1"
+	}]
+}

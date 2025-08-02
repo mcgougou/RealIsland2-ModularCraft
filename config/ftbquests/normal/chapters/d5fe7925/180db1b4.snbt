@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		"最好四个精炼厂叠起来放，然后放上岩浆等热源，其他地方用方块堵住防止散热"
+	],
+	dependencies: [
+		"16974f8b",
+		"b2b799e5"
+	],
+	tasks: [{
+		uid: "22847ee9",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:refinery"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ee3224eb",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

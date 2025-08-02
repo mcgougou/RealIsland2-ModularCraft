@@ -1,0 +1,68 @@
+{
+	title: "工业挤压机",
+	icon: "immersiveengineering:metal_multiblock 1 7",
+	x: 3.0d,
+	y: 0.5d,
+	dependencies: [
+		"e7d03574"
+	],
+	tasks: [{
+		uid: "3a04c454",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 6L
+	},
+	{
+		uid: "7e1451bb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "d2fe8bdf",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "decfb6b7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "2199f0b0",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "0497de61",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	},
+	{
+		uid: "60cacf80",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "f75e8ced",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

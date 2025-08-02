@@ -1,0 +1,22 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	text: [
+		"建议用工程师装配台制作，否则只有一半耐久"
+	],
+	dependencies: [
+		"d7dffe15"
+	],
+	tasks: [{
+		uid: "8e53d2f9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:graphite_electrode"
+		}]
+	}],
+	rewards: [{
+		uid: "1efb9ee8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

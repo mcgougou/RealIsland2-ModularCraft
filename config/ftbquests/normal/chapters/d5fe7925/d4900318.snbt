@@ -1,0 +1,19 @@
+{
+	x: 10.5d,
+	y: 1.5d,
+	dependencies: [
+		"0e3ae5e4"
+	],
+	tasks: [{
+		uid: "f34f6057",
+		type: "item",
+		items: [{
+			item: "modularmachinery:daxingyalishi_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "35532a78",
+		type: "item",
+		item: "pneumaticcraft:flux_compressor"
+	}]
+}

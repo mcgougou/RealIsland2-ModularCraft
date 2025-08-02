@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"先合成需要的生物模型，再放入深度学习器中，随后击杀一定数量的怪物即可将模型升级（至少升到basic等级才能使用）"
+	],
+	dependencies: [
+		"2d20b32b"
+	],
+	tasks: [{
+		uid: "8d4db797",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_blank"
+		}]
+	},
+	{
+		uid: "d432a90c",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:deep_learner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

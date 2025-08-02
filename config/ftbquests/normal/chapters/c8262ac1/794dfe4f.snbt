@@ -1,0 +1,16 @@
+{
+	title: "时间暂停",
+	x: -1.5d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "478c428e",
+		type: "ftbmoney:money",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "646c60c1",
+		type: "command",
+		command: "/gamerule doDaylightCycle false"
+	}]
+}

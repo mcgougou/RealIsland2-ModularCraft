@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"77ae4f62"
+	],
+	tasks: [{
+		uid: "1697e2d0",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c6545f9a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

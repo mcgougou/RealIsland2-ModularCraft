@@ -1,0 +1,7 @@
+{
+	title: "第七章：通用机械",
+	icon: "mekanism:machineblock 1 8",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

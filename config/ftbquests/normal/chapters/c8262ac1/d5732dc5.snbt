@@ -1,0 +1,16 @@
+{
+	title: "天晴",
+	x: 1.5d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "64e83cb6",
+		type: "ftbmoney:money",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "1adf7bf6",
+		type: "command",
+		command: "/weather clear"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -4.5d,
+	y: 6.5d,
+	dependencies: [
+		"e395b60f"
+	],
+	tasks: [{
+		uid: "8854bd21",
+		type: "item",
+		items: [{
+			item: "modularmachinery:daochuanranliaofadianji_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "fd06ad23",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "e9313987",
+		type: "loot",
+		table: 0
+	}]
+}

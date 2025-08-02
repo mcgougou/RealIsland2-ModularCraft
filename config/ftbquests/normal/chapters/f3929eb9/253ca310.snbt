@@ -1,0 +1,41 @@
+{
+	title: "硫酸",
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"80c4a7c2"
+	],
+	tasks: [{
+		uid: "400e8ca4",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f9bf0b55",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d97e38c7",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95047412",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

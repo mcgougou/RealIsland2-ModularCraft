@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	dependencies: [
+		"ad5829f5"
+	],
+	tasks: [{
+		uid: "5c95eb44",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:printed_circuit_board"
+		}]
+	}],
+	rewards: [{
+		uid: "254deccf",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	shape: "gear",
+	dependencies: [
+		"b0d9bc10",
+		"2fbe1b70"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1d17845a",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "85ace3b4",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "e6caa515",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "e0281263",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

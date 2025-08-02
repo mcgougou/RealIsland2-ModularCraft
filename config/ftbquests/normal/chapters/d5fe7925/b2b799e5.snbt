@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"丢出一些铁锭，然后用在旁边点燃tnt后获得"
+	],
+	dependencies: [
+		"a1769c41"
+	],
+	tasks: [{
+		uid: "22715953",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:ingot_iron_compressed"
+		}]
+	}],
+	rewards: [{
+		uid: "41f3bd04",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

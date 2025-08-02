@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"b2b799e5"
+	],
+	tasks: [{
+		uid: "1a5d19d5",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:plastic_mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "2aef7071",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

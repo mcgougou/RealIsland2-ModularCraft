@@ -1,0 +1,52 @@
+{
+	title: "压力室",
+	x: 4.0d,
+	y: 0.0d,
+	text: [
+		"详细搭建方法请查看手册",
+		"压力室接口需要连接其他管道运输物品"
+	],
+	dependencies: [
+		"70c1c029",
+		"b2b799e5",
+		"67a5feca"
+	],
+	tasks: [{
+		uid: "178257fd",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_valve"
+		}]
+	},
+	{
+		uid: "b81a7067",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_interface"
+		}],
+		count: 2L
+	},
+	{
+		uid: "30587e14",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_wall"
+		}]
+	}],
+	rewards: [{
+		uid: "c1c45034",
+		type: "item",
+		item: "pneumaticcraft:pressure_chamber_wall",
+		count: 10
+	},
+	{
+		uid: "a5c60d2d",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "pneumaticcraft:book"
+			}
+		}
+	}]
+}

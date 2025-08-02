@@ -1,0 +1,21 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	dependencies: [
+		"2fd9589c",
+		"ad091207",
+		"2f9a4e79"
+	],
+	tasks: [{
+		uid: "156fdf18",
+		type: "item",
+		items: [{
+			item: "real_island_mod:youjishengwuranliao"
+		}]
+	}],
+	rewards: [{
+		uid: "273a7f89",
+		type: "loot",
+		table: 0
+	}]
+}

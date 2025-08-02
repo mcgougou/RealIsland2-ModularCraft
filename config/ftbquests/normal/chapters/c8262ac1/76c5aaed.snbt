@@ -1,0 +1,16 @@
+{
+	title: "下雨",
+	x: -1.5d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "2e31432f",
+		type: "ftbmoney:money",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "b31ef607",
+		type: "command",
+		command: "/weather rain"
+	}]
+}

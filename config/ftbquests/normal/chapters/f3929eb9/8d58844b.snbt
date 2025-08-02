@@ -1,0 +1,24 @@
+{
+	title: "氘",
+	x: -4.5d,
+	y: 3.0d,
+	text: [
+		"将重水店里分解后获得"
+	],
+	dependencies: [
+		"2300f88a"
+	],
+	tasks: [{
+		uid: "6b8cc96b",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "078bd7be",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

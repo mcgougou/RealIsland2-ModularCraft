@@ -1,0 +1,30 @@
+{
+	x: 2.5d,
+	y: -1.5d,
+	text: [
+		"添加燃料并用管道连接即可"
+	],
+	dependencies: [
+		"b2b799e5"
+	],
+	tasks: [{
+		uid: "a10e1857",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:air_compressor"
+		}]
+	},
+	{
+		uid: "3374649c",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_tube"
+		}]
+	}],
+	rewards: [{
+		uid: "588a0e7e",
+		type: "item",
+		item: "minecraft:coal",
+		count: 64
+	}]
+}

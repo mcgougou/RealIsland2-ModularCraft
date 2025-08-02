@@ -1,0 +1,62 @@
+{
+	title: "炼油厂",
+	icon: "immersiveengineering:metal_multiblock 1 9",
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"d0df821d",
+		"42b5f742"
+	],
+	tasks: [{
+		uid: "d948b66f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "831acb02",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 5L
+	},
+	{
+		uid: "a851dd2f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "fb872b87",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "ac8381ea",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 2L
+	},
+	{
+		uid: "99a44cee",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 9"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e845a8f4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

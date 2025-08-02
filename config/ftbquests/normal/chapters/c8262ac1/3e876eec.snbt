@@ -1,0 +1,135 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"d9625f8e"
+	],
+	tasks: [{
+		uid: "1d385d40",
+		type: "checkmark",
+		title: "指南"
+	}],
+	rewards: [{
+		uid: "fdc4624d",
+		type: "item",
+		item: {
+			id: "akashictome:tome",
+			tag: {
+				"akashictome:is_morphing": 1b,
+				"akashictome:data": {
+					packagedauto: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "packagedauto",
+							"patchouli:book": "packagedauto:guide"
+						},
+						Damage: 0s
+					},
+					extendedcrafting: {
+						id: "extendedcrafting:guide",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "extendedcrafting"
+						},
+						Damage: 0s
+					},
+					tconstruct: {
+						id: "tconstruct:book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "tconstruct"
+						},
+						Damage: 0s
+					},
+					theoneprobe: {
+						id: "theoneprobe:probenote",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "theoneprobe"
+						},
+						Damage: 0s
+					},
+					ftbquests: {
+						id: "ftbquests:book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "ftbquests"
+						},
+						Damage: 0s
+					},
+					pneumaticcraft: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "pneumaticcraft",
+							"patchouli:book": "pneumaticcraft:book"
+						},
+						Damage: 0s
+					},
+					thermalfoundation: {
+						id: "thermalfoundation:tome_lexicon",
+						Count: 1,
+						tag: {
+							"akashictome:displayName": "铁匠词典",
+							"akashictome:definedMod": "thermalfoundation",
+							"akashictome:is_morphing": 1b,
+							display: {
+								Name: "§r阿卡什宝典（§a铁匠词典§r）"
+							},
+							Inventory: {}
+						},
+						Damage: 0s
+					},
+					extrautils2: {
+						id: "extrautils2:book",
+						Count: 1,
+						tag: {
+							"akashictome:displayName": "实用设备手册",
+							"akashictome:definedMod": "extrautils2",
+							"akashictome:is_morphing": 1b,
+							display: {
+								Name: "§r阿卡什宝典（§a实用设备手册§r）"
+							}
+						},
+						Damage: 0s
+					},
+					immersiveengineering: {
+						id: "immersiveengineering:tool",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "immersiveengineering"
+						},
+						Damage: 3s
+					},
+					deepmoblearning: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "deepmoblearning",
+							"patchouli:book": "deepmoblearning:book"
+						},
+						Damage: 0s
+					},
+					xnet: {
+						id: "xnet:xnet_manual",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "xnet"
+						},
+						Damage: 0s
+					},
+					prodigytech: {
+						id: "patchouli:guide_book",
+						Count: 1,
+						tag: {
+							"akashictome:definedMod": "prodigytech",
+							"patchouli:book": "prodigytech:guide"
+						},
+						Damage: 0s
+					}
+				}
+			}
+		}
+	}]
+}

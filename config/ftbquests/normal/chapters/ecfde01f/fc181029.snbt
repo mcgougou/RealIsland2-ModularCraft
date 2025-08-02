@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: 4.5d,
+	dependencies: [
+		"fdf69da0"
+	],
+	tasks: [{
+		uid: "c8534073",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:data_model_dragon"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ec048d40",
+		type: "ftbmoney:money",
+		value: 800L
+	}],
+	rewards: [{
+		uid: "171df732",
+		type: "item",
+		item: {
+			id: "deepmoblearning:data_model_dragon",
+			tag: {
+				simulationCount: 0,
+				tier: 1,
+				killCount: 0,
+				totalKillCount: 6
+			}
+		}
+	}]
+}

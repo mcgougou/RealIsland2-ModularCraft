@@ -1,0 +1,32 @@
+{
+	title: "锂",
+	x: -1.5d,
+	y: 5.0d,
+	text: [
+		"滴管可以抽取一些气体和液体",
+		"注意：此处硫酸需用液态（因翻译问题气态和液态硫酸的名称相同）"
+	],
+	dependencies: [
+		"253ca310",
+		"e0342e9d"
+	],
+	tasks: [{
+		uid: "a38a9ca6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:renenglixinji_controller"
+		}]
+	},
+	{
+		uid: "085337c6",
+		type: "item",
+		items: [{
+			item: "ic2:dust 1 24"
+		}]
+	}],
+	rewards: [{
+		uid: "9db93ad3",
+		type: "item",
+		item: "mekanism:gaugedropper"
+	}]
+}

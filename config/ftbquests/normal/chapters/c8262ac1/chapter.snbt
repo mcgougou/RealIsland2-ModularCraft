@@ -1,0 +1,7 @@
+{
+	title: "前言",
+	icon: "minecraft:wooden_pickaxe",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "circle"
+}

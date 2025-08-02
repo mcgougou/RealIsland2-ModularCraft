@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: 2.5d,
+	dependencies: [
+		"483d5f9f",
+		"53e1c666"
+	],
+	tasks: [{
+		uid: "9dd44d2b",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "plastic",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e8101149",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

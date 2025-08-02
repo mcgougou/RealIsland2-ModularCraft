@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: 0.5d,
+	dependencies: [
+		"26a0b6da"
+	],
+	tasks: [{
+		uid: "784b49b7",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}],
+	rewards: [{
+		uid: "8fd86a67",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 32
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	text: [
+		"热源放岩浆即可"
+	],
+	dependencies: [
+		"b2b799e5"
+	],
+	tasks: [{
+		uid: "a8775035",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:thermopneumatic_processing_plant"
+		}]
+	}],
+	rewards: [{
+		uid: "e64a530f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

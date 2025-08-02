@@ -1,0 +1,36 @@
+{
+	x: 11.0d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"这……对吗？",
+		"一个mek的机器都没做就搓出这个了"
+	],
+	dependencies: [
+		"0f0d33cd"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b7e0d6e0",
+		type: "item",
+		items: [{
+			item: "mekanism:polyethene"
+		}]
+	}],
+	rewards: [{
+		uid: "d7766dc6",
+		type: "item",
+		item: "mekanism:polyethene 1 2",
+		count: 4
+	},
+	{
+		uid: "5347a9c1",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "88aeba9b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "时间继续流动",
+	x: 1.5d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "7beb7ea8",
+		type: "ftbmoney:money",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "a91e836f",
+		type: "command",
+		command: "/gamerule doDaylightCycle true"
+	}]
+}

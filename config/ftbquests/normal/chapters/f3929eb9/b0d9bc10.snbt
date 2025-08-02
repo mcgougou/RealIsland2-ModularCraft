@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"3b5516b3"
+	],
+	tasks: [{
+		uid: "aa09c837",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "376e3964",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

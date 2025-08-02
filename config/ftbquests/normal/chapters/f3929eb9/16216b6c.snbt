@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		"更简易的聚乙烯合成"
+	],
+	dependencies: [
+		"80c4a7c2"
+	],
+	tasks: [{
+		uid: "eaf74a27",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 10"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "927d061d",
+		type: "item",
+		item: "mekanism:configurator"
+	}]
+}

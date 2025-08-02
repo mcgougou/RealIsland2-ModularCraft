@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"1ab8e0e1"
+	],
+	tasks: [{
+		uid: "9e6003fc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:yinghuagaolu_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "bdc43ec4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

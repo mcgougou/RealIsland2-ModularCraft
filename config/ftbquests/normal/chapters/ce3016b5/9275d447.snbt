@@ -1,0 +1,42 @@
+{
+	title: "乙烯",
+	x: 7.0d,
+	y: -1.0d,
+	text: [
+		"为什么要用铝矿？因为乙醇脱水法制乙烯需要氧化铝做催化剂：）"
+	],
+	dependencies: [
+		"d3ace75b"
+	],
+	tasks: [{
+		uid: "f0f99b0c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:daxingyixizhizaoji_controller"
+		}]
+	},
+	{
+		uid: "7d71a727",
+		type: "item",
+		items: [{
+			item: "modularmachinery:youjiranliaofadianji_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "8348d05f",
+		type: "item",
+		item: {
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 2s
+		},
+		count: 64
+	},
+	{
+		uid: "015da570",
+		type: "item",
+		item: "mekanism:configurator"
+	}]
+}

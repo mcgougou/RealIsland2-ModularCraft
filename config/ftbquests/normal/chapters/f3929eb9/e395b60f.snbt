@@ -1,0 +1,27 @@
+{
+	title: "氘氚燃料",
+	x: -4.5d,
+	y: 5.0d,
+	dependencies: [
+		"ecadb390",
+		"8d58844b"
+	],
+	tasks: [{
+		uid: "bdf2fb44",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "liquidfusionfuel",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a7adc0d3",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "第五章：气动工艺",
+	icon: "pneumaticcraft:thermopneumatic_processing_plant",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

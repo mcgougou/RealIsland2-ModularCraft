@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 1.5d,
+	dependencies: [
+		"9e38ae65"
+	],
+	tasks: [{
+		uid: "ed5050ba",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:advanced_pressure_tube"
+		}]
+	}],
+	rewards: [{
+		uid: "2fdee9d2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}
