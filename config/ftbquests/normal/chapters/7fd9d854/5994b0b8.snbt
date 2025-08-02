@@ -1,0 +1,55 @@
+{
+	title: "uu物质",
+	x: 0.5d,
+	y: 1.0d,
+	dependencies: [
+		"2dfec8c4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e19d400",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 61"
+		}]
+	},
+	{
+		uid: "e5afeb78",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 62"
+		}]
+	},
+	{
+		uid: "3e551df7",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 63"
+		}]
+	},
+	{
+		uid: "e6fa6fed",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 64"
+		}]
+	},
+	{
+		uid: "beed55f9",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2uu_matter",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3b60dc5a",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	dependencies: [
+		"3d898e1d"
+	],
+	tasks: [{
+		uid: "372f3e5b",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "fe515b05",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

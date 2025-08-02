@@ -1,0 +1,41 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	text: [
+		"也是好用的管道，真正意义上实现了一根线缆同时传输能量、流体、物品等。（使用时控制器需要消耗能量）",
+		"感谢cueavyqwp提供的XNet模组汉化"
+	],
+	tasks: [{
+		uid: "cbd637d5",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "3013a3cd",
+		type: "item",
+		item: {
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "42598b67",
+		type: "item",
+		item: {
+			id: "xnet:netcable",
+			tag: {
+				display: {
+					LocName: "tile.xnet.netcable_blue.name"
+				}
+			}
+		},
+		count: 128
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"3d898e1d"
+	],
+	tasks: [{
+		uid: "b7c2ebd1",
+		type: "item",
+		items: [{
+			item: "ic2:quad_uranium_fuel_rod"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d1b7f0e",
+		type: "item",
+		item: "ic2:hazmat_helmet"
+	},
+	{
+		uid: "9534a251",
+		type: "item",
+		item: "ic2:hazmat_chestplate"
+	},
+	{
+		uid: "893f8c9c",
+		type: "item",
+		item: "ic2:hazmat_leggings"
+	},
+	{
+		uid: "d4a523a2",
+		type: "item",
+		item: "ic2:rubber_boots"
+	}]
+}

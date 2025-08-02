@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"b49e1a63",
+		"d6794d74"
+	],
+	tasks: [{
+		uid: "87b93bc5",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "b71a9b79",
+		type: "loot",
+		table: 0
+	}]
+}

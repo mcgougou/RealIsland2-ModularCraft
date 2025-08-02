@@ -1,0 +1,46 @@
+{
+	title: "基础机器",
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"35b9e010"
+	],
+	tasks: [{
+		uid: "818ff4a4",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 55"
+		}]
+	},
+	{
+		uid: "444078a3",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 47"
+		}]
+	},
+	{
+		uid: "701338da",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 43"
+		}]
+	},
+	{
+		uid: "5e0f92d1",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 42"
+		}]
+	}],
+	rewards: [{
+		uid: "e672258c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "19806f4c",
+		type: "item",
+		item: "ic2:containment_box"
+	}]
+}

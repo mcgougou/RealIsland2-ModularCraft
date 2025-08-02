@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"7103fa43"
+	],
+	tasks: [{
+		uid: "4e8bc32d",
+		type: "item",
+		items: [{
+			item: "advanced_solar_panels:crafting"
+		}]
+	}],
+	rewards: [{
+		uid: "2a958de7",
+		type: "loot",
+		table: 0
+	}]
+}

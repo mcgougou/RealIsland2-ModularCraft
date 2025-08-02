@@ -1,0 +1,26 @@
+{
+	x: -0.5d,
+	y: -6.0d,
+	text: [
+		"更好的反应堆燃料"
+	],
+	dependencies: [
+		"ca0a1442"
+	],
+	tasks: [{
+		uid: "6a25d364",
+		type: "item",
+		items: [{
+			id: "ic2:quad_mox_fuel_rod",
+			tag: {
+				advDmg: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "89a9397f",
+		type: "random",
+		table: 0
+	}]
+}

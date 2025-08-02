@@ -1,0 +1,30 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"bdee73de",
+		"2dfec8c4"
+	],
+	tasks: [{
+		uid: "a5dce0ca",
+		type: "item",
+		items: [{
+			item: "modularmachinery:hefanyingdui_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "d2bd240f",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "35f4111e",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "7fc8f657",
+		type: "loot",
+		table: 0
+	}]
+}

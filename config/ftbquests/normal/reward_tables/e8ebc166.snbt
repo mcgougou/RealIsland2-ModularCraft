@@ -1,0 +1,67 @@
+{
+	title: "加速火把",
+	loot_size: 1,
+	rewards: [{
+		item: "torcherino:blocktorcherino",
+		weight: 11
+	},
+	{
+		item: "minecraft:dirt",
+		weight: 100
+	},
+	{
+		item: "pyrotech:rock",
+		count: 16,
+		weight: 40
+	},
+	{
+		ftb_money: 5L,
+		type: "ftbmoney:money",
+		weight: 50
+	},
+	{
+		item: "minecraft:planks",
+		weight: 40
+	},
+	{
+		item: "torcherino:blockcompressedtorcherino"
+	},
+	{
+		item: "pyrotech:material 1 13",
+		count: 8,
+		weight: 40
+	},
+	{
+		item: {
+			id: "minecraft:stick",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "模块化自动搭建手杖"
+				}
+			}
+		},
+		weight: 20
+	},
+	{
+		item: "avaritia:singularity",
+		weight: 3
+	},
+	{
+		item: "pyrotech:masonry_brick_block",
+		weight: 15
+	},
+	{
+		item: "minecraft:iron_nugget",
+		weight: 20
+	}],
+	loot_crate: {
+		string_id: "_",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: -4.0d,
+	dependencies: [
+		"e0d968c7"
+	],
+	tasks: [{
+		uid: "1e6d5587",
+		type: "item",
+		items: [{
+			item: "ic2:nuclear 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "c5bd7463",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

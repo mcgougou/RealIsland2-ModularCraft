@@ -1,0 +1,27 @@
+{
+	x: 4.5d,
+	y: -4.0d,
+	shape: "gear",
+	dependencies: [
+		"562de9c9",
+		"1f1f1cf5"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ee556c59",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_elite"
+		}]
+	}],
+	rewards: [{
+		uid: "370b5979",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "46877e28",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

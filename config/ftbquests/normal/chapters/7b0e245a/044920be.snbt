@@ -1,0 +1,44 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"前期最好用的管道，造价便宜"
+	],
+	tasks: [{
+		uid: "0f1debd2",
+		type: "item",
+		items: [{
+			item: "extrautils2:pipe"
+		}]
+	}],
+	rewards: [{
+		uid: "be14d644",
+		type: "item",
+		item: "extrautils2:grocket",
+		count: 8
+	},
+	{
+		uid: "6a4c009a",
+		type: "item",
+		item: "extrautils2:grocket 1 2",
+		count: 8
+	},
+	{
+		uid: "9f45e7ea",
+		type: "item",
+		item: "extrautils2:pipe",
+		count: 64
+	},
+	{
+		uid: "832043b3",
+		type: "item",
+		item: "extrautils2:filter",
+		count: 2
+	},
+	{
+		uid: "d985bf7c",
+		type: "item",
+		item: "extrautils2:filterfluids",
+		count: 2
+	}]
+}

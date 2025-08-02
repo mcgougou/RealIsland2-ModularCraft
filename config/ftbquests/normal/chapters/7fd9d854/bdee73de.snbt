@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"机械外壳终于能简易合成了"
+	],
+	dependencies: [
+		"2dfec8c4"
+	],
+	tasks: [{
+		uid: "d9d4112b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "6c90fd04",
+		type: "item",
+		item: "extendedcrafting:ender_alternator",
+		count: 48
+	}]
+}

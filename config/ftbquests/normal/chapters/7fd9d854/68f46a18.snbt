@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -5.0d,
+	dependencies: [
+		"7103fa43"
+	],
+	tasks: [{
+		uid: "9aa1a160",
+		type: "item",
+		items: [{
+			item: "ic2:misc_resource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "17355995",
+		type: "loot",
+		table: 0
+	}]
+}
