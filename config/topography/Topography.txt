@@ -1,0 +1,16 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets if the mod should print documentation.
+printDocumentation(false)
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+
+
+fogExample = registerPreset("空岛", "images/sky", "经典的真实空岛2：模块化之旅的空岛地图")
+fogExample.registerDimension(0, "examples/Transitioning_Fog")
+
+
+
