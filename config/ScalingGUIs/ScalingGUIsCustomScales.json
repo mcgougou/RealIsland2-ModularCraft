@@ -1,0 +1,52 @@
+{
+  "guiScale": 9,
+  "hudScale": 9,
+  "tooltipScale": 9,
+  "customIndividualGuiScales": {
+    "mezz.jei.gui.recipes.RecipesGui": {
+      "scale": 3,
+      "name": "mezz.jei.gui.recipes.RecipesGui"
+    },
+    "com.feed_the_beast.ftblib.lib.gui.GuiWrapper": {
+      "scale": 3,
+      "name": "com.feed_the_beast.ftblib.lib.gui.GuiWrapper"
+    }
+  },
+  "customGroupGuiScales": {},
+  "loggedGuiClassNames": [
+    "net.minecraft.client.gui.GuiMainMenu",
+    "net.minecraft.client.gui.GuiScreenBook",
+    "net.minecraft.client.gui.GuiYesNo",
+    "vazkii.akashictome.client.GuiTome",
+    "com.blakebr0.extendedcrafting.client.gui.GuiAdvancedTable",
+    "net.minecraft.client.gui.GuiChat",
+    "mezz.jei.gui.recipes.RecipesGui",
+    "net.minecraft.client.gui.GuiScreenResourcePacks",
+    "net.minecraft.client.gui.GuiScreenOptionsSounds",
+    "spazley.scalingguis.gui.guiconfig.GuiSelectStringSG",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG$GuiNewScale",
+    "lumien.custommainmenu.gui.GuiCustom",
+    "com.bloodnbonesgaming.topography.client.gui.GuiWorldSelectionOverride",
+    "com.bloodnbonesgaming.loadingscreens.client.gui.override.GuiWorkingOverride",
+    "net.minecraftforge.fml.client.GuiModList",
+    "journeymap.client.ui.waypoint.WaypointEditor",
+    "net.minecraft.client.gui.inventory.GuiInventory",
+    "net.minecraft.client.gui.inventory.GuiContainerCreative",
+    "com.feed_the_beast.ftblib.lib.gui.GuiWrapper",
+    "net.minecraft.client.gui.GuiIngameMenu",
+    "net.minecraft.client.gui.GuiOptions",
+    "net.minecraft.client.gui.GuiVideoSettings",
+    "net.minecraftforge.fml.client.config.GuiConfig",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG"
+  ],
+  "blacklistGuiClassNames": [
+    "slimeknights.tconstruct.smeltery.client.module.GuiSearedFurnaceSideInventory",
+    "slimeknights.tconstruct.smeltery.client.module.GuiSmelterySideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsStencilTable",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsToolStation",
+    "slimeknights.tconstruct.tools.common.client.module.GuiInfoPanel",
+    "slimeknights.tconstruct.tools.common.client.module.GuiSideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiTinkerTabs"
+  ],
+  "dynamicGuiScales": []
+}

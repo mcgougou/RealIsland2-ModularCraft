@@ -1,0 +1,1365 @@
+{   "registryname": "daxingyalishi", 
+    "localizedname": "大型压力室", 
+    "requires-blueprint": false, 
+    "color": "000000",
+    "parts": [
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockfluidinputhatch"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "gugu-utils:pressurehatch@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "pneumaticcraft:pressure_chamber_glass@0"
+            ]
+        }
+    ]}
