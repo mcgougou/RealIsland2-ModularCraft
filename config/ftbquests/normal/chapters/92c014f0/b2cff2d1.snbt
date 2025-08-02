@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"地上有，可以直接挖",
+		"缺石块可以挖掘草方块或泥土获得土块，土块合成石块"
+	],
+	dependencies: [
+		"9cf435e2"
+	],
+	tasks: [{
+		uid: "60506268",
+		type: "item",
+		items: [{
+			item: "pyrotech:rock"
+		}]
+	}],
+	rewards: [{
+		uid: "fe424e5b",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 64
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -4.5d,
+	dependencies: [
+		"f5ba0cde"
+	],
+	tasks: [{
+		uid: "71ccc77a",
+		type: "item",
+		items: [{
+			item: "dirtcraft:hongbaoshiyanbo"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aa9b23fb",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

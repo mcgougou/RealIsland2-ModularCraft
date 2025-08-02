@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 5.5d,
+	text: [
+		"注意输出仓容量至少为11格，以后所有模块化机械都要注意输入输出仓容量要大于配方所需的容量"
+	],
+	dependencies: [
+		"c778efbf"
+	],
+	tasks: [{
+		uid: "64c6e449",
+		type: "item",
+		items: [{
+			item: "modularmachinery:zidongzuanshishaizi_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "77a79998",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		"燃料可以放稻草捆",
+		"可以直接用木桶、粘土桶之类的装液态粘土，液态粘土不属于\"滚烫的流体\""
+	],
+	dependencies: [
+		"425251f4"
+	],
+	tasks: [{
+		uid: "f8626e12",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "70aa4e6f",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

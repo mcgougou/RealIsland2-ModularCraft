@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	text: [
+		"钢筋混凝土可以用便携岩浆合成，不会消耗便携岩浆"
+	],
+	dependencies: [
+		"6159f9fb"
+	],
+	tasks: [{
+		uid: "4e77ae93",
+		type: "item",
+		items: [{
+			item: "dirtcraft:zuanshihun"
+		}]
+	}],
+	rewards: [{
+		uid: "b359efd0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

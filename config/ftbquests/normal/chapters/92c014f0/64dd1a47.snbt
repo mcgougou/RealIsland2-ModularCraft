@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 1.5d,
+	dependencies: [
+		"dfbb3941"
+	],
+	tasks: [{
+		uid: "45f63ca3",
+		type: "item",
+		items: [{
+			item: "excompressum:wooden_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "62e776c4",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

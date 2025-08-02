@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	text: [
+		"用尘土右键装有水的木桶中获得粘土块，粘土块挖掉会掉落粘土球"
+	],
+	dependencies: [
+		"81e3e512"
+	],
+	tasks: [{
+		uid: "fed5726b",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	},
+	{
+		uid: "03bfbf81",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}]
+	}],
+	rewards: [{
+		uid: "79d77e88",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

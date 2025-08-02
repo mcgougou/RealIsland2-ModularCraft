@@ -1,0 +1,22 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	text: [
+		"先放入矿石，再放入燃料（推荐木碳块）等待烧制，烧制完成后用锹右键清除灰烬，用钳将烧制好的矿移动到花岗岩砧上，最后用锤右键即可获得相应的矿物粒"
+	],
+	dependencies: [
+		"269a0694"
+	],
+	tasks: [{
+		uid: "f8a17065",
+		type: "item",
+		items: [{
+			item: "pyrotech:bloomery"
+		}]
+	}],
+	rewards: [{
+		uid: "8e634a77",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

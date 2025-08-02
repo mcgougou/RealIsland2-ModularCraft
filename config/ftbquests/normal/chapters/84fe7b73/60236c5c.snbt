@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	dependencies: [
+		"276f8234"
+	],
+	tasks: [{
+		uid: "d2ef3c68",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_breath"
+		}]
+	}],
+	rewards: [{
+		uid: "d43fd852",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 10.25d,
+	y: 0.0d,
+	shape: "gear",
+	dependencies: [
+		"df3c1c02"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "5d3903fc",
+		type: "item",
+		items: [{
+			item: "minecraft:bedrock"
+		}]
+	}],
+	rewards: [{
+		uid: "d03d4fd4",
+		type: "item",
+		item: "minecraft:bedrock",
+		count: 9
+	},
+	{
+		uid: "41e7c6ac",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "3b1c6830",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

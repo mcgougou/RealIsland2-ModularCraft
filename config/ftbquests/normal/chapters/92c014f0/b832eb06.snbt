@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"总比用火把加热好"
+	],
+	dependencies: [
+		"00fda0a5",
+		"dfbb3941"
+	],
+	tasks: [{
+		uid: "d2d74fbe",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "64acc4f9",
+		type: "item",
+		item: "minecraft:magma"
+	}]
+}

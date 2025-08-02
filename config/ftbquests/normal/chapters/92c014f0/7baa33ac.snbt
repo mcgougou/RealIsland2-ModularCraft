@@ -1,0 +1,19 @@
+{
+	x: 15.0d,
+	y: 2.0d,
+	dependencies: [
+		"18dca6e2"
+	],
+	tasks: [{
+		uid: "ca8d8d74",
+		type: "item",
+		items: [{
+			item: "real_island_mod:mokuaihuahejincupei"
+		}]
+	}],
+	rewards: [{
+		uid: "e04cf5d4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

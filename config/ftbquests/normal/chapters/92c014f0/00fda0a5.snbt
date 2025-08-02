@@ -1,0 +1,34 @@
+{
+	x: -0.5d,
+	y: -1.5d,
+	text: [
+		"使用方法请查看jei",
+		"一次最多烧8个物品（建议配合加速火把使用）",
+		"燧石和火绒用鼠标长按右键生火"
+	],
+	dependencies: [
+		"49eb68f7",
+		"88d136ef"
+	],
+	tasks: [{
+		uid: "0f29418c",
+		type: "item",
+		items: [{
+			item: "pyrotech:kiln_pit"
+		}]
+	},
+	{
+		uid: "5d7d938b",
+		type: "item",
+		items: [{
+			item: "pyrotech:flint_and_tinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30a3e743",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

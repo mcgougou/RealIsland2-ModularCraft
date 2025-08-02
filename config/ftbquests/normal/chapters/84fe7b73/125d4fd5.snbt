@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: -3.5d,
+	text: [
+		"屠龙"
+	],
+	dependencies: [
+		"23bc6f83"
+	],
+	tasks: [{
+		uid: "f5723106",
+		type: "item",
+		items: [{
+			item: "minecraft:end_portal_frame"
+		}]
+	}],
+	rewards: [{
+		uid: "fa92b670",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

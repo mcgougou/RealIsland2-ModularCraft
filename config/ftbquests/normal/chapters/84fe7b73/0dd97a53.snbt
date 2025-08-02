@@ -1,0 +1,33 @@
+{
+	x: 11.5d,
+	y: 0.0d,
+	dependencies: [
+		"0b990dd9",
+		"b38f09af",
+		"7185b538"
+	],
+	tasks: [{
+		uid: "3b55cec8",
+		type: "item",
+		items: [{
+			item: "dirtcraft:jiyangao"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "debea8ca",
+		type: "item",
+		item: "torcherino:blocktorcherino"
+	},
+	{
+		uid: "9afdfc2f",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "d8363da4",
+		type: "random",
+		table: 0
+	}]
+}

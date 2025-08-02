@@ -1,0 +1,10 @@
+{
+	title: "第三章：泥土工艺",
+	icon: "minecraft:bedrock",
+	tags: [
+		""
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: -2.5d,
+	dependencies: [
+		"8900c0b5",
+		"df3c1c02"
+	],
+	tasks: [{
+		uid: "3df91d22",
+		type: "item",
+		items: [{
+			item: "minecraft:command_block"
+		}]
+	}],
+	rewards: [{
+		uid: "f0a6a753",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "6565ef31",
+		type: "loot",
+		table: 0
+	}]
+}

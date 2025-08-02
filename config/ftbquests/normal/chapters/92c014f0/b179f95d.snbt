@@ -1,0 +1,60 @@
+{
+	title: "AE",
+	icon: "appliedenergistics2:controller",
+	x: 17.5d,
+	y: -3.5d,
+	shape: "diamond",
+	text: [
+		"不要998，不要98，299全套ae带回家"
+	],
+	dependencies: [
+		"efd2a770"
+	],
+	size: 3.5d,
+	tasks: [{
+		uid: "8ab356a2",
+		type: "ftbmoney:money",
+		value: 299L
+	}],
+	rewards: [{
+		uid: "0adf84b0",
+		type: "item",
+		item: "appliedenergistics2:controller",
+		count: 32
+	},
+	{
+		uid: "8a94a128",
+		type: "item",
+		item: "appliedenergistics2:creative_energy_cell"
+	},
+	{
+		uid: "6b09b0be",
+		type: "item",
+		item: "appliedenergistics2:part 1 40",
+		count: 64
+	},
+	{
+		uid: "43be5c29",
+		type: "item",
+		item: "appliedenergistics2:drive"
+	},
+	{
+		uid: "8eb90e7a",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		count: 6
+	},
+	{
+		uid: "e9243bbe",
+		type: "item",
+		item: "appliedenergistics2:part 1 360"
+	},
+	{
+		uid: "3fa88c9d",
+		type: "item",
+		item: "ae2stuff:wireless_kit"
+	}]
+}

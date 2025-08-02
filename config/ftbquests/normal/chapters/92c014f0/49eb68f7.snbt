@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"有了它就能做燧石工具了"
+	],
+	dependencies: [
+		"88d136ef"
+	],
+	tasks: [{
+		uid: "b9f743c3",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "18f633ca",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

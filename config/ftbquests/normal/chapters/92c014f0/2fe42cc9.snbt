@@ -1,0 +1,34 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	dependencies: [
+		"f539843a"
+	],
+	tasks: [{
+		uid: "9e3be6c0",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 3"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b7c4839c",
+		type: "item",
+		item: {
+			id: "exnihilocreatio:item_mesh",
+			tag: {
+				ench: [{
+					lvl: 5s,
+					id: 36s
+				},
+				{
+					lvl: 3s,
+					id: 37s
+				}],
+				RepairCost: 3
+			},
+			Damage: 3s
+		}
+	}]
+}

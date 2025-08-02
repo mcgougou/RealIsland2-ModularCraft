@@ -1,0 +1,20 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"425251f4",
+		"9997c759"
+	],
+	tasks: [{
+		uid: "ad87aae6",
+		type: "item",
+		items: [{
+			item: "pyrotech:soaking_pot"
+		}]
+	}],
+	rewards: [{
+		uid: "2a235d14",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

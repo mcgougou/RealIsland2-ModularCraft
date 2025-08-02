@@ -1,0 +1,46 @@
+{
+	title: "真正的开始",
+	x: 15.0d,
+	y: 3.5d,
+	text: [
+		"木棍右键机械控制器可以自动搭建"
+	],
+	dependencies: [
+		"7baa33ac"
+	],
+	tasks: [{
+		uid: "ef69a18b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}],
+	rewards: [{
+		uid: "bccf15e6",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "81540d9d",
+		type: "item",
+		item: {
+			id: "minecraft:stick",
+			tag: {
+				RepairCost: 0,
+				display: {
+					Name: "模块化自动搭建手杖"
+				}
+			}
+		}
+	},
+	{
+		uid: "81d0ddff",
+		type: "item",
+		item: "modularmachinery:machine_projector"
+	},
+	{
+		uid: "344a98f5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

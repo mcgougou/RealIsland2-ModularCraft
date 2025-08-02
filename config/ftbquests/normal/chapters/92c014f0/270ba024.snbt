@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 1.5d,
+	dependencies: [
+		"88d136ef"
+	],
+	tasks: [{
+		uid: "d9ed1454",
+		type: "item",
+		items: [{
+			item: "pyrotech:drying_rack"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "65a249b8",
+		type: "item",
+		item: "pyrotech:material 1 13",
+		count: 16
+	},
+	{
+		uid: "d821d706",
+		type: "item",
+		item: "pyrotech:drying_rack 1 1"
+	}]
+}

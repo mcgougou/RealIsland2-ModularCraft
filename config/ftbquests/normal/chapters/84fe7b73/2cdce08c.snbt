@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"3f474607"
+	],
+	tasks: [{
+		uid: "aef7e2a4",
+		type: "item",
+		items: [{
+			item: "dirtcraft:hunningnituding"
+		}]
+	}]
+}

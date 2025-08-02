@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 3.5d,
+	text: [
+		"生物燃料可以用来堆肥获得泥土"
+	],
+	dependencies: [
+		"78e980d3"
+	],
+	tasks: [{
+		uid: "4645282d",
+		type: "item",
+		items: [{
+			item: "mekanism:biofuel"
+		}]
+	}],
+	rewards: [{
+		uid: "7a20bd78",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

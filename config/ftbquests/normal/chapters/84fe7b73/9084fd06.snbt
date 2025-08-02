@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -1.5d,
+	dependencies: [
+		"6159f9fb"
+	],
+	tasks: [{
+		uid: "f2b37b97",
+		type: "item",
+		items: [{
+			item: "dirtcraft:shichu"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "43279b8f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

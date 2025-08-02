@@ -1,0 +1,54 @@
+{
+	title: "大型分子装配室",
+	icon: "threng:big_assembler 1 2",
+	x: 18.0d,
+	y: -7.5d,
+	shape: "square",
+	text: [
+		"材料可以组装成10*10*10的大型分子装配室",
+		"样板核心和处理核心数量可以自行调整，商店有卖"
+	],
+	dependencies: [
+		"b179f95d"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "a7b1581f",
+		type: "ftbmoney:money",
+		value: 599L
+	}],
+	rewards: [{
+		uid: "7962ef0c",
+		type: "item",
+		item: "threng:big_assembler 1 2"
+	},
+	{
+		uid: "e8ed75b6",
+		type: "item",
+		item: "threng:big_assembler 1 5"
+	},
+	{
+		uid: "bfb28359",
+		type: "item",
+		item: "threng:big_assembler",
+		count: 104
+	},
+	{
+		uid: "68c47dde",
+		type: "item",
+		item: "threng:big_assembler 1 1",
+		count: 382
+	},
+	{
+		uid: "57fc51b4",
+		type: "item",
+		item: "threng:big_assembler 1 3",
+		count: 192
+	},
+	{
+		uid: "7c1a5d49",
+		type: "item",
+		item: "threng:big_assembler 1 4",
+		count: 320
+	}]
+}

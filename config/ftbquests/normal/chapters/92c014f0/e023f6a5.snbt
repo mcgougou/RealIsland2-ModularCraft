@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	dependencies: [
+		"88d136ef"
+	],
+	tasks: [{
+		uid: "5cf6f66c",
+		type: "item",
+		items: [{
+			item: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc27ed47",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

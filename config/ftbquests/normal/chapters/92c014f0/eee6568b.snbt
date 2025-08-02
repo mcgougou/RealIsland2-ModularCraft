@@ -1,0 +1,63 @@
+{
+	title: "刷怪塔",
+	x: 5.5d,
+	y: 4.5d,
+	dependencies: [
+		"45b0b190"
+	],
+	tasks: [{
+		uid: "00eae3a0",
+		type: "ftbmoney:money",
+		value: 75L
+	}],
+	rewards: [{
+		uid: "3c3911d1",
+		type: "item",
+		item: "darkutils:trap_move_fast",
+		count: 64
+	},
+	{
+		uid: "300083e9",
+		type: "item",
+		item: "darkutils:trap_move_fast",
+		count: 64
+	},
+	{
+		uid: "7e88c4c5",
+		type: "item",
+		item: "darkutils:trap_tile 1 7",
+		count: 4
+	},
+	{
+		uid: "7a84ae2e",
+		type: "item",
+		item: "randomthings:advanceditemcollector"
+	},
+	{
+		uid: "69be2a07",
+		type: "item",
+		item: "extrautils2:ingredients 1 10"
+	},
+	{
+		uid: "848673e2",
+		type: "item",
+		item: "darkutils:ender_tether"
+	},
+	{
+		uid: "21786166",
+		type: "item",
+		item: "storagedrawers:controller"
+	},
+	{
+		uid: "44eb706a",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		},
+		count: 16
+	}]
+}

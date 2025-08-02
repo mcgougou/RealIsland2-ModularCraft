@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: -2.5d,
+	dependencies: [
+		"23bc6f83"
+	],
+	tasks: [{
+		uid: "85b5e9b8",
+		type: "item",
+		items: [{
+			item: "minecraft:knowledge_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "edc24dca",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"e023f6a5"
+	],
+	tasks: [{
+		uid: "5f599b7e",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	}],
+	rewards: [{
+		uid: "6131a1f9",
+		type: "item",
+		item: "minecraft:planks",
+		count: 16
+	},
+	{
+		uid: "42a49320",
+		type: "item",
+		item: "minecraft:wooden_slab",
+		count: 8
+	}]
+}

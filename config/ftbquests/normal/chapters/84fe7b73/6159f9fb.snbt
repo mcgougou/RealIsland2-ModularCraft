@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"2cdce08c"
+	],
+	tasks: [{
+		uid: "7b6c92ec",
+		type: "item",
+		items: [{
+			item: "dirtcraft:chengxinghunningnituding"
+		}]
+	}],
+	rewards: [{
+		uid: "3662a099",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

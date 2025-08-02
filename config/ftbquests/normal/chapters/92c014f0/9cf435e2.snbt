@@ -1,0 +1,28 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	text: [
+		"打树叶获得",
+		"tips:不要空手挖原木，必须用斧头才会掉落"
+	],
+	dependencies: [
+		"d9625f8e"
+	],
+	tasks: [{
+		uid: "310d157c",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "dcd3c1fe",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "24320804",
+		type: "item",
+		item: "mekanism:basicblock3 1 13"
+	}]
+}

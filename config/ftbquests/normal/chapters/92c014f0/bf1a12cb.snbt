@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	text: [
+		"将柴堆进行填坑焚烧后获得（详细方法见JEI或MC百科）",
+		"注意：不是用坑窑烧木炭！不是用坑窑烧木炭！不是用坑窑烧木炭！烧木炭是另外一种名叫填坑焚烧的方法！！！"
+	],
+	dependencies: [
+		"00fda0a5"
+	],
+	tasks: [{
+		uid: "663fafbc",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c12efb70",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 15
+	}]
+}

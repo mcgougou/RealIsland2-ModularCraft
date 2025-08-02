@@ -1,0 +1,24 @@
+{
+	x: 17.5d,
+	y: 0.0d,
+	dependencies: [
+		"18dca6e2"
+	],
+	tasks: [{
+		uid: "5016beb8",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "30f24ace",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d7b0e768",
+		type: "random",
+		table: 0
+	}]
+}

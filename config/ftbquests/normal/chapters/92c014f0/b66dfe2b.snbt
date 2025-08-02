@@ -1,0 +1,21 @@
+{
+	x: -5.0d,
+	y: 1.5d,
+	dependencies: [
+		"9cf435e2"
+	],
+	tasks: [{
+		uid: "de9ed239",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c273b0e",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

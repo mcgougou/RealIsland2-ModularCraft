@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: 1.5d,
+	dependencies: [
+		"0b990dd9"
+	],
+	tasks: [{
+		uid: "67d76612",
+		type: "item",
+		items: [{
+			item: "modularmachinery:xiajiezhixingchuliji_controller"
+		}]
+	}]
+}

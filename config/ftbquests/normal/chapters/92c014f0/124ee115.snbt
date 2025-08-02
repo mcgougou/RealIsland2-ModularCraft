@@ -1,0 +1,44 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"dfbb3941"
+	],
+	tasks: [{
+		uid: "dc6673eb",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "7b416141",
+		type: "item",
+		item: "extrautils2:compressedgravel",
+		count: 64
+	},
+	{
+		uid: "10ece300",
+		type: "item",
+		item: "exnihilocreatio:hammer_diamond"
+	},
+	{
+		uid: "4800dcd2",
+		type: "item",
+		item: {
+			id: "exnihilocreatio:item_mesh",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 37s
+				},
+				{
+					lvl: 5s,
+					id: 36s
+				}],
+				RepairCost: 3
+			},
+			Damage: 1s
+		}
+	}]
+}

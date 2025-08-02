@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 1.0d,
+	dependencies: [
+		"45b0b190"
+	],
+	tasks: [{
+		uid: "8bf70374",
+		type: "checkmark",
+		title: "泥土工艺"
+	}],
+	rewards: [{
+		uid: "55ec80bc",
+		type: "item",
+		item: "minecraft:dirt"
+	}]
+}
