@@ -1,0 +1,33 @@
+{
+	title: "氢氟酸",
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"9bf2dd3f"
+	],
+	tasks: [{
+		uid: "6972160e",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "liquidhydrofluricacid",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "b3226acb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gaojihuaxuefanyingshi_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "85062991",
+		type: "loot",
+		table: 0
+	}]
+}

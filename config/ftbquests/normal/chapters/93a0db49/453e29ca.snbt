@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"d530cfbd",
+		"4c008203"
+	],
+	tasks: [{
+		uid: "86da4acf",
+		type: "item",
+		items: [{
+			item: "prodigytech:rotary_grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "15be1091",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

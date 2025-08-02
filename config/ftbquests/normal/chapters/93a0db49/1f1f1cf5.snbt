@@ -1,0 +1,20 @@
+{
+	x: 5.5d,
+	y: 1.5d,
+	dependencies: [
+		"ee8fa182",
+		"4a864c9c"
+	],
+	tasks: [{
+		uid: "ed5b00f5",
+		type: "item",
+		items: [{
+			item: "prodigytech:aeternus_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "1e2c8a72",
+		type: "loot",
+		table: 0
+	}]
+}

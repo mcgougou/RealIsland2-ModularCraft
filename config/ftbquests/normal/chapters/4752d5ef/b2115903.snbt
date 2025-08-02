@@ -1,0 +1,39 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"24a758ba"
+	],
+	tasks: [{
+		uid: "c5c0595f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "ranliao",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "db76ea58",
+		type: "item",
+		items: [{
+			item: "modularmachinery:daxingliutirongheji_controller"
+		}]
+	},
+	{
+		uid: "6e1e1e44",
+		type: "item",
+		items: [{
+			item: "modularmachinery:jiujiliebianfanyingcang_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "b9351e39",
+		type: "loot",
+		table: 0
+	}]
+}

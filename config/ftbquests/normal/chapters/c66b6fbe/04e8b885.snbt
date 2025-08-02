@@ -1,0 +1,35 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	dependencies: [
+		"a1ea8532",
+		"21e844cb"
+	],
+	tasks: [{
+		uid: "49908ec3",
+		type: "item",
+		items: [{
+			item: "real_island_mod:hengxinhejin"
+		}]
+	},
+	{
+		uid: "9de8a1b9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:liutirongheji_controller"
+		}]
+	},
+	{
+		uid: "60e5630f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:lengdongji_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "3e2ab0f4",
+		type: "item",
+		item: "real_island_mod:hengxinhejin",
+		count: 4
+	}]
+}

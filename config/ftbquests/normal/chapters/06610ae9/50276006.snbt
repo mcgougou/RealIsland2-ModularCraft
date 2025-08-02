@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	can_repeat: true,
+	dependencies: [
+		"a1769c41"
+	],
+	tasks: [{
+		uid: "f15d34fc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 47"
+		}]
+	}],
+	rewards: [{
+		uid: "fad0d4ed",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

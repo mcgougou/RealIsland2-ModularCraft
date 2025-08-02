@@ -1,0 +1,30 @@
+{
+	title: "自动提交任务",
+	x: -8.0d,
+	y: -1.0d,
+	shape: "gear",
+	text: [
+		"任务显示器用来输入提交的物品/流体（需要右键选择任务）",
+		"箱子图标的reward collecter 用来自动领取任务奖励（金币）"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "a8cca378",
+		type: "item",
+		items: [{
+			item: "ftbquests:screen"
+		}]
+	},
+	{
+		uid: "1133a41f",
+		type: "item",
+		items: [{
+			item: "ftbquests:reward_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "399362bf",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

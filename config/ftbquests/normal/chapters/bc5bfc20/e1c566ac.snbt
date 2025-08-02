@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "3c1e6710",
+		type: "item",
+		items: [{
+			id: "calculator:calculator",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b24db3e7",
+		type: "item",
+		items: [{
+			item: "sonarcore:reinforcedstoneblock"
+		}]
+	}]
+}

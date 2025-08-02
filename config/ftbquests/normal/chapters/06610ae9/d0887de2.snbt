@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	can_repeat: true,
+	dependencies: [
+		"d3ace75b"
+	],
+	tasks: [{
+		uid: "da920e39",
+		type: "item",
+		items: [{
+			item: "real_island_mod:youjishengwuranliao"
+		}]
+	}],
+	rewards: [{
+		uid: "46dd66fc",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

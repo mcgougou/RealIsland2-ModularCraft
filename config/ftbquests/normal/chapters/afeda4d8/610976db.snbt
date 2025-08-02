@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"存储器相当于缓存能量的地方",
+		"接入点通常与发电机相连，能将能量转移到存储器内",
+		"接出点通常与耗电的机器相连，能将存储器中的能量转移到机器中"
+	],
+	dependencies: [
+		"6c06c7cc"
+	],
+	tasks: [{
+		uid: "227e9a82",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxstorage"
+		}]
+	},
+	{
+		uid: "8cb626b1",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	},
+	{
+		uid: "860024b3",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxpoint"
+		}]
+	}],
+	rewards: [{
+		uid: "0eecff61",
+		type: "item",
+		item: "fluxnetworks:fluxpoint",
+		count: 16
+	}]
+}

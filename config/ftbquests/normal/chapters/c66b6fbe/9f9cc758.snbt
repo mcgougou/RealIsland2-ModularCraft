@@ -1,0 +1,37 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	text: [
+		"先合成热力的模型，然后用无中生有的人偶生成相应的怪物来升级模型，最后就能获得相应材料"
+	],
+	dependencies: [
+		"0ae40c2c",
+		"fdf69da0"
+	],
+	tasks: [{
+		uid: "6eb331ee",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2048"
+		}]
+	},
+	{
+		uid: "d6333bc4",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2050"
+		}]
+	},
+	{
+		uid: "9c29cb6e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 2052"
+		}]
+	}],
+	rewards: [{
+		uid: "c2abffa5",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

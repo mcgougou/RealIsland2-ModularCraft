@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"这个模组以热空气为燃料，机器底面和上面都有传输热空气的孔。只要把气热炉放底下，上面就可以放其它机器了"
+	],
+	dependencies: [
+		"ac2241b2"
+	],
+	tasks: [{
+		uid: "457348f6",
+		type: "item",
+		items: [{
+			item: "prodigytech:solid_fuel_aeroheater"
+		}]
+	}],
+	rewards: [{
+		uid: "118fb279",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

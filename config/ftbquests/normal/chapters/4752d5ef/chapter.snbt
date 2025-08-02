@@ -1,0 +1,7 @@
+{
+	title: "第九章：反物质？",
+	icon: "mekanism:antimatterpellet",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

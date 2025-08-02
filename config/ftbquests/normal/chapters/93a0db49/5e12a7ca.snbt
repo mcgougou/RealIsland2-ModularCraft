@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"453e29ca"
+	],
+	tasks: [{
+		uid: "d7c3fb36",
+		type: "item",
+		items: [{
+			item: "prodigytech:coal_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "8621b90a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

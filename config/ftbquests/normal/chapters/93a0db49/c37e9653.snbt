@@ -1,0 +1,22 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	text: [
+		"挖掘佐拉树树叶掉落"
+	],
+	dependencies: [
+		"0f16c738"
+	],
+	tasks: [{
+		uid: "5081e050",
+		type: "item",
+		items: [{
+			item: "prodigytech:zorra_leaf"
+		}]
+	}],
+	rewards: [{
+		uid: "45dd9b2b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

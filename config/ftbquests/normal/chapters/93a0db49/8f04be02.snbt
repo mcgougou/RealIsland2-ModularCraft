@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"5e12a7ca"
+	],
+	tasks: [{
+		uid: "3e1e049a",
+		type: "item",
+		items: [{
+			item: "prodigytech:carbon_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "ee50ecb3",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

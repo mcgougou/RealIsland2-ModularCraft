@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	shape: "gear",
+	dependencies: [
+		"4f3450bb"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e7202e96",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}],
+	rewards: [{
+		uid: "e2540676",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

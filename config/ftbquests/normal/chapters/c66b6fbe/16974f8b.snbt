@@ -1,0 +1,39 @@
+{
+	title: "石油",
+	icon: "pneumaticcraft:fluid.oil",
+	x: 6.0d,
+	y: -3.0d,
+	shape: "gear",
+	dependencies: [
+		"b19aeb5d"
+	],
+	tasks: [{
+		uid: "6f0f3c3e",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "crude_oil",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	},
+	{
+		uid: "03975ec4",
+		type: "item",
+		items: [{
+			item: "real_island_mod:shiyou"
+		}]
+	}],
+	rewards: [{
+		uid: "ff8338de",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "55aa4979",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

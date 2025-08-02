@@ -1,0 +1,16 @@
+{
+	title: "搏一搏，单车变摩托",
+	x: -1.0d,
+	y: -5.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "51c0a15c",
+		type: "ftbmoney:money",
+		value: 40L
+	}],
+	rewards: [{
+		uid: "7b07b66a",
+		type: "loot",
+		table: 0
+	}]
+}

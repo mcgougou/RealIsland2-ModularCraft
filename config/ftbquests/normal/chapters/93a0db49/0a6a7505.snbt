@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"a236ff81"
+	],
+	tasks: [{
+		uid: "57451db7",
+		type: "item",
+		items: [{
+			item: "prodigytech:magnetic_reassembler"
+		}]
+	}],
+	rewards: [{
+		uid: "929128e4",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

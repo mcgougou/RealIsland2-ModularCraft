@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 3.0d,
+	dependencies: [
+		"c37e9653"
+	],
+	tasks: [{
+		uid: "0629cc68",
+		type: "item",
+		items: [{
+			item: "prodigytech:zorrasteel_raw"
+		}]
+	}],
+	rewards: [{
+		uid: "33b7bc65",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

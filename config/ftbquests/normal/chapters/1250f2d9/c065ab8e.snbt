@@ -1,0 +1,21 @@
+{
+	x: 8.75d,
+	y: 0.0d,
+	shape: "gear",
+	dependencies: [
+		"ec62126e"
+	],
+	size: 2.5d,
+	tasks: [{
+		uid: "2c557367",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c85ede74",
+		type: "command",
+		command: "/gamemode 1 @a"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "裂变燃料",
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"c7810983"
+	],
+	tasks: [{
+		uid: "e25428bc",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3 1 9"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1c15ef0",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

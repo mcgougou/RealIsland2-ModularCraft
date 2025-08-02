@@ -1,0 +1,18 @@
+{
+	x: 1.0d,
+	y: 1.5d,
+	can_repeat: true,
+	dependencies: [
+		"b2115903"
+	],
+	tasks: [{
+		uid: "243b34eb",
+		type: "fluid",
+		fluid: "ranliao"
+	}],
+	rewards: [{
+		uid: "c7d3f552",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 5.5d,
+	y: 3.0d,
+	dependencies: [
+		"ee8fa182"
+	],
+	tasks: [{
+		uid: "93e2e11c",
+		type: "item",
+		items: [{
+			item: "prodigytech:zorra_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "654e66b1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

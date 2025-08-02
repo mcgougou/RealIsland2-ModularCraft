@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"ea2e02e8"
+	],
+	tasks: [{
+		uid: "dc20a442",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}]
+	},
+	{
+		uid: "997db0c1",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "5059d67d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

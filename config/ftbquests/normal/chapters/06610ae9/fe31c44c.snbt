@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "baa0600b",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "cc3c63c6",
+		type: "item",
+		item: "thermalfoundation:coin 1 1"
+	}]
+}

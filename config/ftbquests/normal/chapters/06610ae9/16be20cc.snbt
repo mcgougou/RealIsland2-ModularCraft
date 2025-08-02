@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	can_repeat: true,
+	dependencies: [
+		"ed04ee0a"
+	],
+	tasks: [{
+		uid: "6239183e",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:graphite_electrode"
+		}]
+	}],
+	rewards: [{
+		uid: "7c887f68",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

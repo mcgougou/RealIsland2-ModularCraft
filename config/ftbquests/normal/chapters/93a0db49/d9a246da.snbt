@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 4.5d,
+	dependencies: [
+		"ac2bb0f2"
+	],
+	tasks: [{
+		uid: "e1076843",
+		type: "item",
+		items: [{
+			item: "modularmachinery:baozharonglu_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "940bd1b1",
+		type: "random",
+		table: 0
+	}]
+}

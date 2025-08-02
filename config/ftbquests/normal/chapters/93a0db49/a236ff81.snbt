@@ -1,0 +1,33 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	dependencies: [
+		"a4cbd492"
+	],
+	tasks: [{
+		uid: "c8123c20",
+		type: "item",
+		items: [{
+			item: "prodigytech:circuit_perfected"
+		}]
+	},
+	{
+		uid: "80b27683",
+		type: "item",
+		items: [{
+			item: "prodigytech:circuit_refined"
+		}]
+	},
+	{
+		uid: "98a4594a",
+		type: "item",
+		items: [{
+			item: "prodigytech:circuit_crude"
+		}]
+	}],
+	rewards: [{
+		uid: "df14a842",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

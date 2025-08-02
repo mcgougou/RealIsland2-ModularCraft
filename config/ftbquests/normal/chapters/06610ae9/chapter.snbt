@@ -1,0 +1,7 @@
+{
+	title: "金币",
+	icon: "minecraft:gold_ingot",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

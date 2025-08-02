@@ -1,0 +1,23 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	text: [
+		"量子压缩机已ban"
+	],
+	dependencies: [
+		"359b5a13",
+		"4955fa81"
+	],
+	tasks: [{
+		uid: "04f0fc69",
+		type: "item",
+		items: [{
+			item: "modularmachinery:daxingzhongzisuyasuoji_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "9724baea",
+		type: "loot",
+		table: 0
+	}]
+}

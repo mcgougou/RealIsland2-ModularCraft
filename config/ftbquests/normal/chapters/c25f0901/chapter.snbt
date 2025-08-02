@@ -1,0 +1,7 @@
+{
+	title: "其他章节",
+	icon: "deepmoblearning:data_model_zombie",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

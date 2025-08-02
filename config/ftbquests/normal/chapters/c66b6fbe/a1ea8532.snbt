@@ -1,0 +1,48 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"包好用的"
+	],
+	dependencies: [
+		"1bd3ae1d"
+	],
+	tasks: [{
+		uid: "8e29bb3c",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "5a2b7b6d",
+		type: "item",
+		item: {
+			id: "enderio:item_end_steel_pickaxe",
+			tag: {
+				enderio.darksteel.upgrade.travel: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.direct: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 4,
+					energy: 2500000
+				},
+				enderio.darksteel.upgrade.spoon: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.depth: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.carpet: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.tnt: {
+					level: 4
+				}
+			}
+		}
+	}]
+}

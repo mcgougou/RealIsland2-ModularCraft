@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"bb668c47"
+	],
+	tasks: [{
+		uid: "936459e1",
+		type: "item",
+		items: [{
+			item: "calculator:extractionchamber"
+		},
+		{
+			item: "calculator:precisionchamber"
+		}]
+	},
+	{
+		uid: "e0512770",
+		type: "item",
+		items: [{
+			item: "calculator:weakeneddiamond"
+		}]
+	}],
+	rewards: [{
+		uid: "65f0c92e",
+		type: "item",
+		item: "calculator:wrench"
+	}]
+}

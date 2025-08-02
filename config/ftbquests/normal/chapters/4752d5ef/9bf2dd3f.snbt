@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"dfd64226"
+	],
+	tasks: [{
+		uid: "70ab1acf",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "6d90aa21",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 5.5d,
+	y: 0.0d,
+	dependencies: [
+		"22c6c1de",
+		"0a6a7505"
+	],
+	tasks: [{
+		uid: "ba964857",
+		type: "item",
+		items: [{
+			item: "prodigytech:inferno_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "6411f3fa",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

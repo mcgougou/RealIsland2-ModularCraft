@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"用黑曜石压缩红石获得",
+		"注意：jei中将红石扔进岩浆中的方法不可用，请使用第二种方法"
+	],
+	dependencies: [
+		"7535ed18"
+	],
+	tasks: [{
+		uid: "0cbd1a3b",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}]
+	}]
+}

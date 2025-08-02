@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"71144dae"
+	],
+	tasks: [{
+		uid: "3d1ae4cf",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "02999e41",
+		type: "loot",
+		table: 0
+	}]
+}

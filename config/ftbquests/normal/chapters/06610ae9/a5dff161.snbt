@@ -1,0 +1,20 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	can_repeat: true,
+	dependencies: [
+		"04e8b885"
+	],
+	tasks: [{
+		uid: "5b521894",
+		type: "item",
+		items: [{
+			item: "real_island_mod:hengxinhejin"
+		}]
+	}],
+	rewards: [{
+		uid: "4d0d3bd8",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

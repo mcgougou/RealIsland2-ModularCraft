@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: -1.5d,
+	dependencies: [
+		"3e42bebb"
+	],
+	tasks: [{
+		uid: "a4915c40",
+		type: "item",
+		items: [{
+			item: "prodigytech:ash"
+		}]
+	}],
+	rewards: [{
+		uid: "ece3aac6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

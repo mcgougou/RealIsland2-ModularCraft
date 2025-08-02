@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	text: [
+		"反应器材料的种类要多，这样速度会快一些"
+	],
+	dependencies: [
+		"a236ff81"
+	],
+	tasks: [{
+		uid: "938c60ed",
+		type: "item",
+		items: [{
+			item: "prodigytech:primordialis_reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "f76a1df7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

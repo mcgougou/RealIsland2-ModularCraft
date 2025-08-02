@@ -1,0 +1,36 @@
+{
+	title: "结束了……？",
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"2c586efc"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "922a39a8",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "2ccd15f5",
+		type: "item",
+		item: "avaritia:infinity_helmet"
+	},
+	{
+		uid: "0a073338",
+		type: "item",
+		item: "avaritia:infinity_chestplate"
+	},
+	{
+		uid: "e0c20da4",
+		type: "item",
+		item: "avaritia:infinity_pants"
+	},
+	{
+		uid: "ab33afd5",
+		type: "item",
+		item: "avaritia:infinity_boots"
+	}]
+}

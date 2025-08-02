@@ -1,0 +1,34 @@
+{
+	title: "升级！",
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"c9486366"
+	],
+	tasks: [{
+		uid: "21b2128b",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}]
+	},
+	{
+		uid: "cb95ab21",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}]
+	},
+	{
+		uid: "df43bcef",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "f9598460",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

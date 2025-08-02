@@ -1,0 +1,21 @@
+{
+	x: 10.5d,
+	y: 3.0d,
+	shape: "gear",
+	dependencies: [
+		"ac2bb0f2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2d95837b",
+		type: "item",
+		items: [{
+			item: "prodigytech:zorrasteel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "698e7dc2",
+		type: "random",
+		table: 0
+	}]
+}

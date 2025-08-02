@@ -1,0 +1,15 @@
+{
+	title: "死亡后金币刷新",
+	x: -5.0d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "d1545f34",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6282738c",
+		type: "ftbmoney:money",
+		ftb_money: 0L
+	}]
+}

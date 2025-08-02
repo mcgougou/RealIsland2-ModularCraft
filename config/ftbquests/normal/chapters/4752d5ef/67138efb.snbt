@@ -1,0 +1,32 @@
+{
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		"在高级化学反应室可以简易合成反物质"
+	],
+	dependencies: [
+		"59583f4b"
+	],
+	tasks: [{
+		uid: "6921d861",
+		type: "checkmark",
+		title: "反物质简易合成"
+	}],
+	rewards: [{
+		uid: "8d22c902",
+		type: "item",
+		item: "minecraft:dirt"
+	},
+	{
+		uid: "e3e2cb3a",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:horse"
+				}
+			}
+		}
+	}]
+}

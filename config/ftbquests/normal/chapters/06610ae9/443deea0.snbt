@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	text: [
+		"一次性任务"
+	],
+	tasks: [{
+		uid: "05cc9d1b",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolid 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "a129a2da",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

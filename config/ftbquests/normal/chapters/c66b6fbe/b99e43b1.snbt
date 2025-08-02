@@ -1,0 +1,25 @@
+{
+	x: 4.5d,
+	y: 2.0d,
+	dependencies: [
+		"3be4696d"
+	],
+	tasks: [{
+		uid: "f36b2186",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_stellar"
+		}]
+	}],
+	rewards: [{
+		uid: "8f1bd024",
+		type: "item",
+		item: "torcherino:blocktorcherino",
+		count: 3
+	},
+	{
+		uid: "ed2fd5db",
+		type: "loot",
+		table: 0
+	}]
+}

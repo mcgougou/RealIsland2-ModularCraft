@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 3.5d,
+	dependencies: [
+		"bcd6c61c"
+	],
+	tasks: [{
+		uid: "14336d5b",
+		type: "item",
+		items: [{
+			item: "mekanism:antimatterpellet"
+		}]
+	}],
+	rewards: [{
+		uid: "850f8a38",
+		type: "loot",
+		table: 0
+	}]
+}

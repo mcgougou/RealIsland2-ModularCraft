@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	dependencies: [
+		"275ff1d7"
+	],
+	tasks: [{
+		uid: "969e3a0d",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_crystalline"
+		}]
+	}],
+	rewards: [{
+		uid: "2454e8e8",
+		type: "loot",
+		table: 0
+	}]
+}

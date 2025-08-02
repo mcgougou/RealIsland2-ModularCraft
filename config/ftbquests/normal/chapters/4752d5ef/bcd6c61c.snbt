@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 2.5d,
+	dependencies: [
+		"3beca762"
+	],
+	tasks: [{
+		uid: "c706aec2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:chaolinjieyixiangqi_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "f2d047a4",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: 1.5d,
+	dependencies: [
+		"c7810983"
+	],
+	tasks: [{
+		uid: "3ef36365",
+		type: "item",
+		items: [{
+			item: "mekanism:plutoniumpellet"
+		}]
+	}],
+	rewards: [{
+		uid: "30829b0d",
+		type: "loot",
+		table: 0
+	}]
+}

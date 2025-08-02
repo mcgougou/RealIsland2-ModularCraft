@@ -1,0 +1,22 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	text: [
+		"可以将任何东西烧成灰"
+	],
+	dependencies: [
+		"ac2241b2"
+	],
+	tasks: [{
+		uid: "6a0a91b8",
+		type: "item",
+		items: [{
+			item: "prodigytech:incinerator"
+		}]
+	}],
+	rewards: [{
+		uid: "ab9b6dad",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

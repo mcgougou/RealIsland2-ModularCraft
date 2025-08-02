@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"81b440f3"
+	],
+	tasks: [{
+		uid: "27292298",
+		type: "item",
+		items: [{
+			item: "prodigytech:ferramic_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4a1717f7",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

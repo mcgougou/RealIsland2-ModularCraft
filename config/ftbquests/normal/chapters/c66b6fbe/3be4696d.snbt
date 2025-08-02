@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"b243bcc4"
+	],
+	tasks: [{
+		uid: "b0765df6",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_melodic"
+		}]
+	}],
+	rewards: [{
+		uid: "d6f2210d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4cf826bb",
+		type: "loot",
+		table: 0
+	}]
+}

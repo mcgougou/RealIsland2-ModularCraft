@@ -1,0 +1,22 @@
+{
+	x: 9.0d,
+	y: 1.0d,
+	text: [
+		"还能再快吗？"
+	],
+	dependencies: [
+		"a91dae88"
+	],
+	tasks: [{
+		uid: "9f933207",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 128"
+		}]
+	}],
+	rewards: [{
+		uid: "1166f473",
+		type: "item",
+		item: "thermalexpansion:augment 1 129"
+	}]
+}

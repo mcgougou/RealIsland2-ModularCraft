@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	dependencies: [
+		"d6f7d71a",
+		"83635edc"
+	],
+	tasks: [{
+		uid: "d878e8f0",
+		type: "item",
+		items: [{
+			item: "mekanism:cosmicmatter"
+		}]
+	}],
+	rewards: [{
+		uid: "5812be97",
+		type: "loot",
+		table: 0
+	}]
+}

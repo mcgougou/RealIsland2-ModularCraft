@@ -1,0 +1,43 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"提取室可以提取污秽的电路板，然后污秽的再放运算室里面变成未分析电路板，再把电路板放分析室之后会提取出一个东西，然后电路板就分析好了"
+	],
+	dependencies: [
+		"bd6d7c86"
+	],
+	tasks: [{
+		uid: "76ff3522",
+		type: "item",
+		items: [{
+			item: "calculator:atomicmodule"
+		}]
+	},
+	{
+		uid: "d8709a87",
+		type: "item",
+		items: [{
+			item: "calculator:storagechamber"
+		}]
+	},
+	{
+		uid: "5ccb2cde",
+		type: "item",
+		items: [{
+			item: "calculator:analysingchamber"
+		}]
+	},
+	{
+		uid: "b031f66f",
+		type: "item",
+		items: [{
+			item: "calculator:processingchamber"
+		}]
+	}],
+	rewards: [{
+		uid: "c4743bc9",
+		type: "item",
+		item: "torcherino:blockcompressedtorcherino"
+	}]
+}
