@@ -1,0 +1,1396 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.data.IData;
+import mod.mekanism.gas.IGasStack;
+
+import mods.modularmachinery.IngredientArrayBuilder;
+import mods.modularmachinery.IngredientArrayPrimer;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.RecipeStartEvent;
+import mods.modularmachinery.RecipeTickEvent;
+import mods.modularmachinery.RecipeFinishEvent;
+import mods.modularmachinery.RecipeModifierBuilder;
+
+
+import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.MachineStructureFormedEvent;
+import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.SmartInterfaceData;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.SmartInterfaceType;
+
+//.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+//.addCatalystInput(<torcherino:blockcompressedtorcherino>, ["速度消耗降低 96%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.04, 1, false).build()]).setChance(0)
+//.addCatalystInput(<torcherino:blockdoublecompressedtorcherino>, ["速度消耗降低 99.2%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.008, 1, false).build()]).setChance(0)
+
+//木材切割机
+RecipeBuilder.newBuilder("xiangmumuban1", "mucaiqiegeji", 1)
+.addItemInput(<minecraft:log:0>)
+.addItemOutput(<minecraft:planks:0>*5)
+.build();
+RecipeBuilder.newBuilder("xiangmutaijie1","mucaiqiegeji",1)
+.addItemInput(<minecraft:planks:0>)
+.addItemOutput(<minecraft:wooden_slab:0>*2)
+.build();
+RecipeBuilder.newBuilder("mubancai1","mucaiqiegeji",1)
+.addItemInput(<minecraft:wooden_slab:0>)
+.addItemOutput(<pyrotech:material:20>*2)
+.build();
+RecipeBuilder.newBuilder("shitaij1","mucaiqiegeji",1)
+.addItemInput(<minecraft:stone>)
+.addItemOutput(<minecraft:stone_slab>*2)
+.build();
+RecipeBuilder.newBuilder("stj2222","mucaiqiegeji",1)
+.addItemInput(<minecraft:cobblestone>)
+.addItemOutput(<minecraft:stone_slab:3>*2)
+.build();
+RecipeBuilder.newBuilder("shizhuantj1","mucaiqiegeji",1)
+.addItemInput(<minecraft:stonebrick>)
+.addItemOutput(<minecraft:stone_slab:5>*2)
+.build();
+RecipeBuilder.newBuilder("qizhuani1","mucaiqiegeji",1)
+.addItemInput(<minecraft:stone_slab:5>)
+.addItemOutput(<pyrotech:material:16>*2)
+.build();
+
+//岩浆制造机
+mods.modularmachinery.RecipeBuilder.newBuilder("yanjiang1","yanjiangzhizaoji",40)
+.addItemInput(<minecraft:cobblestone>*2)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addFluidOutput(<liquid:lava> * 900)
+.build();
+//大型岩浆制造机
+mods.modularmachinery.RecipeBuilder.newBuilder("yanjiang2","daxingyanjiangzhizaoji",20)
+.addItemInput(<ore:compressed1xCobblestone>)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addFluidOutput(<liquid:lava> * 5000)
+.build();
+//自动钻石筛子
+RecipeBuilder.newBuilder("shaishali1","zidongzuanshishaizi",1,10)
+.addItemInput(<ore:compressed1xGravel>)
+.addItemOutput(<minecraft:coal>)
+.addItemOutput(<minecraft:dye:4>)
+.addItemOutput(<minecraft:diamond>)
+.addItemOutput(<minecraft:emerald>)
+.addItemOutput(<exnihilocreatio:item_ore_gold:1>)
+.addItemOutput(<exnihilocreatio:item_ore_iron:1>)
+.addItemOutput(<exnihilocreatio:item_ore_copper:1>)
+.addItemOutput(<exnihilocreatio:item_ore_nickel:1>)
+.addItemOutput(<exnihilocreatio:item_ore_uranium:1>)
+.addItemOutput(<exnihilocreatio:item_ore_osmium:1>)
+.addItemOutput(<exnihilocreatio:item_ore_lead:1>)
+.build();
+RecipeBuilder.newBuilder("shaishali2","zidongzuanshishaizi",1,1)
+.addItemInput(<ore:compressed1xGravel>)
+.addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
+.addItemOutput(<minecraft:coal_block>)
+.addItemOutput(<minecraft:lapis_block>)
+.addItemOutput(<minecraft:diamond_block>)
+.addItemOutput(<minecraft:emerald_block>)
+.addItemOutput(<exnihilocreatio:item_ore_gold:1>*9)
+.addItemOutput(<exnihilocreatio:item_ore_iron:1>*9)
+.addItemOutput(<exnihilocreatio:item_ore_copper:1>*9)
+.addItemOutput(<exnihilocreatio:item_ore_nickel:1>*9)
+.addItemOutput(<exnihilocreatio:item_ore_uranium:1>*9)
+.addItemOutput(<exnihilocreatio:item_ore_osmium:1>*9)
+.addItemOutput(<exnihilocreatio:item_ore_lead:1>*9)
+.build();
+RecipeBuilder.newBuilder("shaishazi1","zidongzuanshishaizi",1,10)
+.addItemInput(<ore:compressed1xSand>)
+.addItemOutputs([
+<exnihilocreatio:item_ore_aluminium:1>,
+<exnihilocreatio:item_ore_tin:1>,
+<minecraft:prismarine_shard>,
+])
+.build();
+RecipeBuilder.newBuilder("shaishazi2","zidongzuanshishaizi",1,1)
+.addItemInput(<ore:compressed1xSand>)
+.addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
+.addItemOutputs([
+<exnihilocreatio:item_ore_aluminium:1>*9,
+<exnihilocreatio:item_ore_tin:1>*9,
+<minecraft:prismarine_shard>*3,
+])
+.build();
+RecipeBuilder.newBuilder("shaichentu1","zidongzuanshishaizi",1,10)
+.addItemInput(<ore:compressed1xDust>)
+.addItemOutputs([
+<minecraft:gunpowder>,
+<enderio:item_material:20>,
+<minecraft:dye:15>,
+<minecraft:glowstone_dust>*3,
+<minecraft:blaze_powder>*3,
+<minecraft:redstone>*3,
+<appliedenergistics2:material:45>*3,
+])
+.build();
+RecipeBuilder.newBuilder("shaichentu2","zidongzuanshishaizi",1,1)
+.addItemInput(<ore:compressed1xDust>)
+.addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
+.addItemOutputs([
+<minecraft:gunpowder>*3,
+<enderio:item_material:20>*9,
+<minecraft:dye:15>*3,
+<minecraft:glowstone_dust>*27,
+<minecraft:blaze_powder>*27,
+<minecraft:redstone>*27,
+<appliedenergistics2:material:45>*27,
+])
+.build();
+RecipeBuilder.newBuilder("shaijiyanfen1","zidongzuanshishaizi",1,10)
+.addItemInput(<ore:compressed3xDustBedrock>)
+.addItemOutputs([
+<exnihilocreatio:item_ore_mithril:1>*3,
+<enderio:item_material:20>*3    ,
+<exnihilocreatio:item_ore_platinum:1>*3,
+])
+.build();
+RecipeBuilder.newBuilder("shaijiyanfen2","zidongzuanshishaizi",1,1)
+.addItemInput(<ore:compressed3xDustBedrock>)
+.addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
+.addItemOutputs([
+<exnihilocreatio:item_ore_mithril:1>*9,
+<enderio:item_material:20>*27,
+<exnihilocreatio:item_ore_platinum:1>*9,
+])
+.build();
+RecipeBuilder.newBuilder("shailinghunsha1","zidongzuanshishaizi",1,10)
+.addItemInput(<ore:compressed1xSoulsand>)
+.addItemOutputs([
+<minecraft:ghast_tear>*3,
+<minecraft:nether_wart>*3,
+<minecraft:quartz>*9,
+])
+.build();
+RecipeBuilder.newBuilder("shaijilinghunsha2","zidongzuanshishaizi",1,1)
+.addItemInput(<ore:compressed1xSoulsand>)
+.addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
+.addItemOutputs([
+<minecraft:ghast_tear>*9,
+<minecraft:nether_wart>*9,
+<minecraft:quartz>*27,
+])
+.build();
+RecipeBuilder.newBuilder("shaimodiyan1","zidongzuanshishaizi",1,10)
+.addItemInput(<excompressum:compressed_block:7>)
+.addItemOutputs([
+<exnihilocreatio:item_ore_silver:1>*3,
+<exnihilocreatio:item_ore_aluminium:1>*3,
+<draconicevolution:draconium_dust>*9,
+])
+.build();
+RecipeBuilder.newBuilder("shaimodiyan2","zidongzuanshishaizi",1,1)
+.addItemInput(<excompressum:compressed_block:7>)
+.addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
+.addItemOutputs([
+<exnihilocreatio:item_ore_silver:1>*9,
+<exnihilocreatio:item_ore_aluminium:1>*9,
+<draconicevolution:draconium_dust>*27,
+])
+.build();
+RecipeBuilder.newBuilder("shaidiyuyan1","zidongzuanshishaizi",1,10)
+.addItemInput(<excompressum:compressed_block:6>)
+.addItemOutputs([
+<exnihilocreatio:item_ore_cobalt:1>*3,
+<exnihilocreatio:item_ore_gold:1>*3,
+<exnihilocreatio:item_ore_ardite:1>*3,
+<minecraft:blaze_powder>*9,
+<draconicevolution:draconium_dust>*9,
+])
+.build();
+RecipeBuilder.newBuilder("shaidiyuyan2","zidongzuanshishaizi",1,1)
+.addItemInput(<excompressum:compressed_block:6>)
+.addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
+.addItemOutputs([
+<exnihilocreatio:item_ore_cobalt:1>*9,
+<exnihilocreatio:item_ore_gold:1>*9,
+<exnihilocreatio:item_ore_ardite:1>*9,
+<minecraft:blaze_powder>*9,
+<draconicevolution:draconium_dust>*27,
+])
+.build();
+RecipeBuilder.newBuilder("shaiyunshi1","zidongzuanshishaizi",1,10)
+.addItemInput(<exnihilocreatio:block_skystone_crushed>*9)
+.addItemOutputs([
+<appliedenergistics2:crystal_seed>.withTag({progress: 0.0 as float})*3,
+<appliedenergistics2:material>*9,
+<appliedenergistics2:material:1>*3,
+])
+.build();
+RecipeBuilder.newBuilder("shaiyuns2","zidongzuanshishaizi",1,1)
+.addItemInput(<exnihilocreatio:block_skystone_crushed>*9)
+.addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
+.addItemOutputs([
+<appliedenergistics2:crystal_seed>.withTag({progress: 0.0 as float})*9,
+<appliedenergistics2:material>*27,
+<appliedenergistics2:material:1>*9,
+])
+.build();
+//自动粉碎机
+RecipeBuilder.newBuilder("shali1","zidongfensuiji",1)
+.addItemInput(<minecraft:cobblestone>)
+.addItemOutput(<minecraft:gravel>*3)
+.build();
+RecipeBuilder.newBuilder("shazi1","zidongfensuiji",1)
+.addItemInput(<minecraft:gravel>)
+.addItemOutput(<minecraft:sand>*2)
+.build();
+RecipeBuilder.newBuilder("chentu1","zidongfensuiji",1)
+.addItemInput(<minecraft:sand>)
+.addItemOutput(<exnihilocreatio:block_dust>)
+.build();
+RecipeBuilder.newBuilder("modishifensui1","zidongfensuiji",1)
+.addItemInput(<minecraft:end_stone>)
+.addItemOutput(<exnihilocreatio:block_endstone_crushed>*2)
+.build();
+RecipeBuilder.newBuilder("diyuyanfensui1","zidongfensuiji",1)
+.addItemInput(<minecraft:netherrack>)
+.addItemOutput(<exnihilocreatio:block_netherrack_crushed>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao1","zidongfensuiji",5)
+.addItemInput(<ore:treeSapling>)
+.addItemOutput(<mekanism:biofuel>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao2","zidongfensuiji",5)
+.addItemInput(<minecraft:baked_potato>)
+.addItemOutput(<mekanism:biofuel>*4)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao3","zidongfensuiji",5)
+.addItemInput(<minecraft:melon_seeds>)
+.addItemOutput(<mekanism:biofuel>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao4","zidongfensuiji",5)
+.addItemInput(<minecraft:wheat_seeds>)
+.addItemOutput(<mekanism:biofuel>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao5","zidongfensuiji",5)
+.addItemInput(<minecraft:reeds>)
+.addItemOutput(<mekanism:biofuel>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao6","zidongfensuiji",5)
+.addItemInput(<minecraft:beetroot>)
+.addItemOutput(<mekanism:biofuel>*4)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao8","zidongfensuiji",5)
+.addItemInput(<minecraft:potato>)
+.addItemOutput(<mekanism:biofuel>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao7","zidongfensuiji",5)
+.addItemInput(<minecraft:beetroot_seeds>)
+.addItemOutput(<mekanism:biofuel>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao9","zidongfensuiji",5)
+.addItemInput(<minecraft:carrot>)
+.addItemOutput(<mekanism:biofuel>*4)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao10","zidongfensuiji",5)
+.addItemInput(<minecraft:rotten_flesh>)
+.addItemOutput(<mekanism:biofuel>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao11","zidongfensuiji",5)
+.addItemInput(<minecraft:bread>)
+.addItemOutput(<mekanism:biofuel>*4)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao12","zidongfensuiji",5)
+.addItemInput(<minecraft:poisonous_potato>)
+.addItemOutput(<mekanism:biofuel>*4)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao13","zidongfensuiji",5)
+.addItemInput(<minecraft:cactus>)
+.addItemOutput(<mekanism:biofuel>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao14","zidongfensuiji",5)
+.addItemInput(<minecraft:tallgrass>)
+.addItemOutput(<mekanism:biofuel>*4)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao15","zidongfensuiji",5)
+.addItemInput(<minecraft:pumpkin>)
+.addItemOutput(<mekanism:biofuel>*6)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao16","zidongfensuiji",5)
+.addItemInput(<minecraft:apple>)
+.addItemOutput(<mekanism:biofuel>*4)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao17","zidongfensuiji",5)
+.addItemInput(<minecraft:melon>)
+.addItemOutput(<mekanism:biofuel>*4)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao18","zidongfensuiji",5)
+.addItemInput(<minecraft:pumpkin_seeds>)
+.addItemOutput(<mekanism:biofuel>*2)
+.build();
+RecipeBuilder.newBuilder("shengwuranliao19","zidongfensuiji",5)
+.addItemInput(<minecraft:wheat>)
+.addItemOutput(<mekanism:biofuel>*4)
+.build();
+RecipeBuilder.newBuilder("mosuishi1","zidongfensuiji",1)
+.addItemInput(<minecraft:flint>)
+.addItemOutput(<pyrotech:material:31>)
+.build();
+RecipeBuilder.newBuilder("mojiaomei1","zidongfensuiji",1)
+.addItemInput(<immersiveengineering:material:6>)
+.addItemOutput(<immersiveengineering:material:17>)
+.build();
+RecipeBuilder.newBuilder("mfensuiyi1","zidongfensuiji",1)
+.addItemInput(<appliedenergistics2:sky_stone_block>)
+.addItemOutput(<exnihilocreatio:block_skystone_crushed>*3)
+.build();
+//大型造石机
+RecipeBuilder.newBuilder("yasuoyuanshi1","daxingzaoshiji",2)
+.addItemInput(<minecraft:diamond_pickaxe>).setChance(0)
+.addItemOutput(<extrautils2:compressedcobblestone>)
+.build();
+//硬化焦炉
+RecipeBuilder.newBuilder("jiaomei1","yinghuajiaolu",1)
+.addItemInput(<minecraft:coal>)
+.addItemOutput(<immersiveengineering:material:6>)
+.addFluidOutput(<fluid:creosote>*500)
+.build();
+RecipeBuilder.newBuilder("jiaomeikuai1","yinghuajiaolu",4)
+.addItemInput(<ore:blockCoal>)
+.addItemOutput(<immersiveengineering:stone_decoration:3>)
+.addFluidOutput(<fluid:creosote>*5000)
+.build();
+RecipeBuilder.newBuilder("jiaoheizhuan1","yinghuajiaolu",5)
+.addItemInput(<tconstruct:soil>)
+.addItemOutput(<tconstruct:materials>)
+.build();
+//硬化高炉
+RecipeBuilder.newBuilder("gangding1","yinghuagaolu",1)
+.addItemInput(<ore:ingotIron>*2)
+.addItemInput(<immersiveengineering:material:6>)
+.addItemOutput(<immersiveengineering:metal:8>*2)
+.build();
+RecipeBuilder.newBuilder("heitieding1","yinghuagaolu",1)
+.addItemInput(<ore:dustObsidian>)
+.addItemInput(<immersiveengineering:material:17>)
+.addItemInput(<pyrotech:material:31>)
+.addItemInput(<enderio:item_alloy_ingot:6>)
+.addItemOutput(<extendedcrafting:material>*2)
+.build();
+//无限水
+RecipeBuilder.newBuilder("wuxianshui1","wuxianshuiyuan",1)
+.addFluidOutput(<liquid:water>*2000)
+.build();
+//流体/物体转化机
+RecipeBuilder.newBuilder("chentu2","liutiwutizhuanhuaji",2)
+.addFluidInput(<liquid:water>*10000).setChance(0)
+.addItemInput(<exnihilocreatio:block_dust>)
+.addItemOutput(<minecraft:clay>)
+.build();
+RecipeBuilder.newBuilder("lhs1","liutiwutizhuanhuaji",10,1)
+.addFluidInput(<liquid:witchwater>*10000).setChance(0)
+.addItemInput(<real_island_mod:liutiwuxianshengji>).setChance(0)
+.addItemInput(<ore:sand>)
+.addItemOutput(<minecraft:soul_sand>)
+.build();
+RecipeBuilder.newBuilder("linghusn2","liutiwutizhuanhuaji",1,10)
+.addFluidInput(<liquid:witchwater>*500)
+.addItemInput(<ore:sand>)
+.addItemOutput(<minecraft:soul_sand>)
+.build();
+RecipeBuilder.newBuilder("diyuyan1","liutiwutizhuanhuaji",10,1)
+.addFluidInput(<liquid:lava>*10000).setChance(0)
+.addItemInput(<real_island_mod:liutiwuxianshengji>).setChance(0)
+.addItemInput(<minecraft:redstone>)
+.addItemOutput(<minecraft:netherrack>)
+.build();
+RecipeBuilder.newBuilder("diyuyan2","liutiwutizhuanhuaji",1,10)
+.addFluidInput(<liquid:lava>*500)
+.addItemInput(<minecraft:redstone>)
+.addItemOutput(<minecraft:netherrack>)
+.build();
+RecipeBuilder.newBuilder("modiyan1","liutiwutizhuanhuaji",10,1)
+.addFluidInput(<liquid:lava>*10000).setChance(0)
+.addItemInput(<real_island_mod:liutiwuxianshengji>).setChance(0)
+.addItemInput(<minecraft:glowstone_dust>)
+.addItemOutput(<minecraft:end_stone>)
+.build();
+RecipeBuilder.newBuilder("modiyan2","liutiwutizhuanhuaji",1,10)
+.addFluidInput(<liquid:lava>*500)
+.addItemInput(<minecraft:glowstone_dust>)
+.addItemOutput(<minecraft:end_stone>)
+.build();
+RecipeBuilder.newBuilder("yunshi1","liutiwutizhuanhuaji",10,1)
+.addFluidInput(<liquid:lava>*10000).setChance(0)
+.addItemInput(<real_island_mod:liutiwuxianshengji>).setChance(0)
+.addItemInput(<appliedenergistics2:material:45>)
+.addItemOutput(<appliedenergistics2:sky_stone_block>)
+.build();
+RecipeBuilder.newBuilder("yunshi2","liutiwutizhuanhuaji",1,10)
+.addFluidInput(<liquid:lava>*500)
+.addItemInput(<appliedenergistics2:material:45>)
+.addItemOutput(<appliedenergistics2:sky_stone_block>)
+.build();
+RecipeBuilder.newBuilder("heiyaoshi1","liutiwutizhuanhuaji",20,1)
+.addFluidInput(<liquid:lava>*10000).setChance(0)
+.addFluidInput(<liquid:water>*10000).setChance(0)
+.addItemInput(<real_island_mod:liutiwuxianshengji>).setChance(0)
+.addItemInput(<minecraft:diamond_pickaxe>).setChance(0)
+.addItemOutput(<minecraft:obsidian>)
+.build();
+RecipeBuilder.newBuilder("heiyaoshi2","liutiwutizhuanhuaji",2,10)
+.addFluidInput(<liquid:water>*10000).setChance(0)
+.addFluidInput(<liquid:lava>*500)
+.addItemInput(<minecraft:diamond_pickaxe>).setChance(0)
+.addItemOutput(<minecraft:obsidian>)
+.build();
+RecipeBuilder.newBuilder("jiaoyou1","liutiwutizhuanhuaji",10,1)
+.addFluidInput(<liquid:biodiesel>*10000).setChance(0)
+.addItemInput(<real_island_mod:liutiwuxianshengji>).setChance(0)
+.addItemInput(<immersiveengineering:stone_decoration:3>)
+.addItemOutput(<real_island_mod:jiaomei>)
+.build();
+RecipeBuilder.newBuilder("jiaoyou2","liutiwutizhuanhuaji",1,10)
+.addFluidInput(<liquid:biodiesel>*500)
+.addItemInput(<immersiveengineering:stone_decoration:3>)
+.addItemOutput(<real_island_mod:jiaomei>)
+.build();
+RecipeBuilder.newBuilder("shiyou1","liutiwutizhuanhuaji",10,1)
+.addFluidInput(<liquid:coal>*10000).setChance(0)
+.addItemInput(<real_island_mod:liutiwuxianshengji>).setChance(0)
+.addItemInput(<real_island_mod:jiaomei>)
+.addItemOutput(<real_island_mod:shiyou>)
+.build();
+RecipeBuilder.newBuilder("shiyou2","liutiwutizhuanhuaji",1,10)
+.addFluidInput(<liquid:coal>*500)
+.addItemInput(<real_island_mod:jiaomei>)
+.addItemOutput(<real_island_mod:shiyou>)
+.build();
+//大型乙烯制造机
+RecipeBuilder.newBuilder("yixi1","daxingyixizhizaoji",100)
+.addFluidInput(<liquid:ethanol>*2000)
+.addEnergyPerTickInput(3000)
+.addItemInput(<ore:oreAluminium>)
+.addItemOutput(<immersiveengineering:material:7>)
+.addGasOutput(<gas:ethene>*500)
+.addGasOutput(<gas:water>*500)
+.build();
+//有机燃料发电机
+RecipeBuilder.newBuilder("youjifadian2","youjiranliaofadianji",100)
+.addItemInput(<real_island_mod:youjishengwuranliao>)
+.addEnergyPerTickOutput(4096)
+.build();
+RecipeBuilder.newBuilder("youjifadian3","youjiranliaofadianji",150)
+.addFluidInput(<liquid:biodiesel>*1000)
+.addEnergyPerTickOutput(4096)
+.build();
+RecipeBuilder.newBuilder("youjifadian4","youjiranliaofadianji",160)
+.addFluidInput(<liquid:crude_oil>*1000)
+.addEnergyPerTickOutput(4096)
+.build();
+RecipeBuilder.newBuilder("youjifadian5","youjiranliaofadianji",200)
+.addFluidInput(<liquid:lpg>*1000)
+.addEnergyPerTickOutput(10086)
+.build();
+//<liquid:crude_oil>
+//大型加压反应室
+RecipeBuilder.newBuilder("dianjie1","daxingjiayafanyingshi",1,10)
+.addFluidInput(<liquid:water>*100)
+.addEnergyPerTickInput(800)
+.addGasOutput(<gas:oxygen>*50)
+.addGasOutput(<gas:hydrogen>*100)
+.build();
+RecipeBuilder.newBuilder("jipian1","daxingjiayafanyingshi",10,1)
+.addFluidInput(<liquid:water>*10)
+.addEnergyPerTickInput(500)
+.addGasInput(<gas:hydrogen>*100)
+.addItemInput(<real_island_mod:youjishengwuranliao>)
+.addItemOutput(<mekanism:substrate>)
+.build();
+// RecipeBuilder.newBuilder("jipian2","daxingjiayafanyingshi",10)
+// .addFluidInput(<liquid:water>*200)
+// .addEnergyPerTickInput(1200)
+// .addGasInput(<gas:ethene>*200)
+// .addItemInput(<mekanism:substrate>)
+// .addItemOutput(<mekanism:substrate>*8)
+// .addGasOutput(<gas:oxygen>*10)
+// .build();
+RecipeBuilder.newBuilder("hdpe1","daxingjiayafanyingshi",30)
+.addEnergyPerTickInput(800)
+.addGasInput(<gas:ethene>*100)
+.addGasInput(<gas:oxygen>*10)
+.addItemInput(<mekanism:substrate>)
+.addItemOutput(<mekanism:polyethene>)
+.build();
+//流体融合机
+RecipeBuilder.newBuilder("hengxinghejin1","liutirongheji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addEnergyPerTickInput(1000)
+.addFluidInput(<liquid:liquid_sunshine>*2000)
+.addFluidInput(<liquid:stellar_alloy>*144)
+.addItemOutput(<real_island_mod:hengxinhejin>)
+.build();
+RecipeBuilder.newBuilder("fujihejin1","liutirongheji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addEnergyPerTickInput(1000)
+.addItemInput(<mekanism:enrichedalloy>)
+.addFluidInput(<liquid:vivid_alloy>*144)
+.addItemOutput(<real_island_mod:hejin_1>)
+.build();
+RecipeBuilder.newBuilder("qhhejin1","liutirongheji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addEnergyPerTickInput(1000)
+.addItemInput(<mekanism:reinforcedalloy>)
+.addFluidInput(<liquid:melodic_alloy>*144)
+.addItemOutput(<real_island_mod:hejin_2>)
+.build();
+//动物屠宰机
+RecipeBuilder.newBuilder("niu1","dongwutuzaiji",50)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<excompressum:bait:2>*16)
+.addItemOutput(<minecraft:leather>*8)
+.addItemOutput(<minecraft:beef>*12)
+.build();
+RecipeBuilder.newBuilder("zhu1","dongwutuzaiji",50)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<excompressum:bait:3>*16)
+.addItemOutput(<minecraft:porkchop>*12)
+.build();
+RecipeBuilder.newBuilder("yang1","dongwutuzaiji",50)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<excompressum:bait:5>*16)
+.addItemOutput(<minecraft:mutton>*12)
+.addItemOutput(<minecraft:wool>*8)
+.build();
+RecipeBuilder.newBuilder("tuzi1","dongwutuzaiji",50)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<excompressum:bait:7>*16)
+.addItemOutput(<minecraft:rabbit>*12)
+.addItemOutput(<minecraft:rabbit_hide>*8)
+.addItemOutput(<minecraft:rabbit_foot>*4)
+.build();
+RecipeBuilder.newBuilder("ji1","dongwutuzaiji",50)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<excompressum:bait:4>*16)
+.addItemOutput(<minecraft:chicken>*12)
+.addItemOutput(<minecraft:feather>*8)
+.addItemOutput(<minecraft:egg>*4)
+.build();
+//大型熔岩炉
+/*
+R.I.P.
+*/
+//泥土制造机
+RecipeBuilder.newBuilder("nituzhizao1","nituzhizaoji",10)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<mekanism:biofuel>*9)
+.addItemOutput(<minecraft:dirt>*2)
+.build();
+RecipeBuilder.newBuilder("nituzhizao2","nituzhizaoji",5)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<real_island_mod:youjishengwuranliao>*9)
+.addItemOutput(<minecraft:dirt>*18)
+.build();
+//大型压力室
+RecipeBuilder.newBuilder("kongdianluban1","daxingyalishi",5)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<pneumaticcraft:ingot_iron_compressed>)
+.addItemInput(<pneumaticcraft:plastic:2>)
+.addEnergyPerTickInput(3000)
+.addCompressedAirInput(10,1000)
+.addItemOutput(<pneumaticcraft:empty_pcb:100>)
+.build();
+RecipeBuilder.newBuilder("dianrong1","daxingyalishi",5)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<pneumaticcraft:ingot_iron_compressed>)
+.addItemInput(<pneumaticcraft:plastic:6>)
+.addItemInput(<minecraft:redstone>)
+.addEnergyPerTickInput(3000)
+.addCompressedAirInput(10,1000)
+.addItemOutput(<pneumaticcraft:capacitor>)
+.build();
+RecipeBuilder.newBuilder("jintiguan1","daxingyalishi",5)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<pneumaticcraft:ingot_iron_compressed>)
+.addItemInput(<pneumaticcraft:plastic:0>)
+.addItemInput(<minecraft:redstone>)
+.addEnergyPerTickInput(3000)
+.addCompressedAirInput(10, 1000)
+.addItemOutput(<pneumaticcraft:transistor>)
+.build();
+RecipeBuilder.newBuilder("yikuaieeee1","daxingyalishi",5)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:ingotIridium>*9)
+.addEnergyPerTickInput(3000)
+.addCompressedAirInput(10, 4000)
+.addItemOutput(<thermalfoundation:storage:7>)
+.build();
+RecipeBuilder.newBuilder("yuzhouhejin11111","daxingyalishi",40)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<mekanism:atomicalloy>)
+.addItemInput(<minecraft:bedrock>)
+.addFluidInput(<liquid:liquidfusionfuel>*200)
+.addEnergyPerTickInput(500000)
+.addCompressedAirInput(15,75000)
+.addItemOutput(<mekanism:cosmicalloy>)
+.build();
+RecipeBuilder.newBuilder("yasuotd1","daxingyalishi",10)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<minecraft:iron_ingot>)
+.addEnergyPerTickInput(500)
+.addCompressedAirInput(5,1000)
+.addItemOutput(<pneumaticcraft:ingot_iron_compressed>)
+.build();
+//热能离心机
+RecipeBuilder.newBuilder("eryanghg1","renenglixinji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<minecraft:sand>)
+.addEnergyPerTickInput(3000)
+.addItemOutput(<ic2:dust:13>)
+.build();
+RecipeBuilder.newBuilder("lifen1","renenglixinji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dustNetherQuartz>)
+.addFluidInput(<liquid:sulfuricacid>*100)
+.addEnergyPerTickInput(3000)
+.addItemOutput(<ic2:dust:24>)
+.build();
+RecipeBuilder.newBuilder("renenglixinyou1","renenglixinji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:oreUranium>)
+.addEnergyPerTickInput(3000)
+.addItemOutput(<ic2:nuclear:2>*3)
+.addItemOutput(<ic2:nuclear:5>*2)
+.build();
+RecipeBuilder.newBuilder("renenglixinyouranliaobang1","renenglixinji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ic2:nuclear:13>)
+.addEnergyPerTickInput(3000)
+.addItemOutput(<ic2:nuclear:7>*9)
+.addItemOutput(<ic2:nuclear:2>*16)
+.addItemOutput(<ic2:dust:8>*9)
+.build();
+RecipeBuilder.newBuilder("renenglixinmoxranliaobang1","renenglixinji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ic2:nuclear:16>)
+.addEnergyPerTickInput(3000)
+.addItemOutput(<ic2:nuclear:7>*9)
+.addItemOutput(<ic2:nuclear:3>*16)
+.addItemOutput(<ic2:dust:8>*9)
+.build();
+//氘氚燃料发电机
+RecipeBuilder.newBuilder("daochuanfadian1","daochuanranliaofadianji",2000,10)
+.addFluidInput(<liquid:liquidfusionfuel>*1000)
+.addEnergyPerTickOutput(800000)
+.build();
+RecipeBuilder.newBuilder("daochuanfadian2","daochuanranliaofadianji",400,9)
+.addFluidInput(<liquid:liquidfusionfuel>*1000)
+.addItemInput(<torcherino:blocktorcherino>).setChance(0)
+.addEnergyPerTickOutput(4000000)
+.build();
+RecipeBuilder.newBuilder("daochuanfadian3","daochuanranliaofadianji",80,8)
+.addFluidInput(<liquid:liquidfusionfuel>*1000)
+.addItemInput(<torcherino:blockcompressedtorcherino>).setChance(0)
+.addEnergyPerTickOutput(20000000)
+.build();
+RecipeBuilder.newBuilder("daochuanfadian4","daochuanranliaofadianji",16,7)
+.addFluidInput(<liquid:liquidfusionfuel>*1000)
+.addItemInput(<torcherino:blockdoublecompressedtorcherino>).setChance(0)
+.addEnergyPerTickOutput(100000000)
+.build();
+//下界之星R.I.P.
+RecipeBuilder.newBuilder("xiajiezhixingli1","xiajiezhixingchuliji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addEnergyPerTickInput(5000)
+.addItemInput(<minecraft:ghast_tear>*9)
+.addItemInput(<ore:ingotSteel>)
+.addItemOutput(<minecraft:nether_star>)
+.build();
+//核反应堆
+/*.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addCatalystInput(<torcherino:blockcompressedtorcherino>, ["速度消耗降低 96%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.04, 1, false).build()]).setChance(0)
+.addCatalystInput(<torcherino:blockdoublecompressedtorcherino>, ["速度消耗降低 99.2%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.008, 1, false).build()]).setChance(0)*/
+RecipeBuilder.newBuilder("youranliaobang1","hefanyingdui",200000,10)
+.addEnergyPerTickOutput(4000)
+.addItemInput(<ic2:quad_uranium_fuel_rod>*8)
+.addItemOutput(<ic2:nuclear:13>*8)
+.build();
+RecipeBuilder.newBuilder("youranliaobang2","hefanyingdui",40000,9)
+.addItemInput(<torcherino:blocktorcherino>).setChance(0)
+.addEnergyPerTickOutput(20000)
+.addItemInput(<ic2:quad_uranium_fuel_rod>*8)
+.addItemOutput(<ic2:nuclear:13>*8)
+.build();
+RecipeBuilder.newBuilder("youranliaobang3","hefanyingdui",8000,8)
+.addItemInput(<torcherino:blockcompressedtorcherino>).setChance(0)
+.addEnergyPerTickOutput(100000)
+.addItemInput(<ic2:quad_uranium_fuel_rod>*8)
+.addItemOutput(<ic2:nuclear:13>*8)
+.build();
+RecipeBuilder.newBuilder("youranliaobang4","hefanyingdui",1600,7)
+.addItemInput(<torcherino:blockdoublecompressedtorcherino>).setChance(0)
+.addEnergyPerTickOutput(500000)
+.addItemInput(<ic2:quad_uranium_fuel_rod>*8)
+.addItemOutput(<ic2:nuclear:13>*8)
+.build();
+RecipeBuilder.newBuilder("moxranliaobang1","hefanyingdui",200000,10)
+.addEnergyPerTickOutput(8000)
+.addItemInput(<ic2:quad_mox_fuel_rod>*8)
+.addItemOutput(<ic2:nuclear:16>*8)
+.build();
+RecipeBuilder.newBuilder("moxranliaobang2","hefanyingdui",40000,9)
+.addItemInput(<torcherino:blocktorcherino>).setChance(0)
+.addEnergyPerTickOutput(40000)
+.addItemInput(<ic2:quad_mox_fuel_rod>*8)
+.addItemOutput(<ic2:nuclear:16>*8)
+.build();
+RecipeBuilder.newBuilder("moxranliaobang3","hefanyingdui",8000,8)
+.addItemInput(<torcherino:blockcompressedtorcherino>).setChance(0)
+.addEnergyPerTickOutput(200000)
+.addItemInput(<ic2:quad_mox_fuel_rod>*8)
+.addItemOutput(<ic2:nuclear:16>*8)
+.build();//qwq
+RecipeBuilder.newBuilder("moxranliaobang4","hefanyingdui",1600,7)
+.addItemInput(<torcherino:blockdoublecompressedtorcherino>).setChance(0)
+.addEnergyPerTickOutput(1000000)
+.addItemInput(<ic2:quad_mox_fuel_rod>*8)
+.addItemOutput(<ic2:nuclear:16>*8)
+.build();
+//自动伐木场
+RecipeBuilder.newBuilder("zidongfamu11111","zidongfamuchang",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemOutput(<minecraft:log>*6)
+.build();
+//电量转换器
+RecipeBuilder.newBuilder("dianliangzhuanhuan1","dianliangzhuanhuanqi",2000,10)
+.addItemInput(<mekanism:basicblock3:8>)
+.addEnergyPerTickInput(100000000)
+.addItemOutput(<mekanism:basicblock3:13>)
+.build();
+RecipeBuilder.newBuilder("dianliangzhuanhuan2","dianliangzhuanhuanqi",400,9)
+.addItemInput(<mekanism:basicblock3:8>)
+.addItemInput(<torcherino:blocktorcherino>).setChance(0)
+.addEnergyPerTickInput(500000000)
+.addItemOutput(<mekanism:basicblock3:13>)
+.build();
+RecipeBuilder.newBuilder("dianliangzhuanhuan3","dianliangzhuanhuanqi",80,8)
+.addItemInput(<mekanism:basicblock3:8>)
+.addItemInput(<torcherino:blockcompressedtorcherino>).setChance(0)
+.addEnergyPerTickInput(2500000000)
+.addItemOutput(<mekanism:basicblock3:13>)
+.build();
+RecipeBuilder.newBuilder("dianliangzhuanhuan13","dianliangzhuanhuanqi",2000,10)
+.addItemOutput(<mekanism:basicblock3:8>)
+.addEnergyPerTickOutput(100000000)
+.addItemInput(<mekanism:basicblock3:13>)
+.build();
+RecipeBuilder.newBuilder("dianliangzhuanhuan12","dianliangzhuanhuanqi",400,9)
+.addItemOutput(<mekanism:basicblock3:8>)
+.addItemInput(<torcherino:blocktorcherino>).setChance(0)
+.addEnergyPerTickOutput(500000000)
+.addItemInput(<mekanism:basicblock3:13>)
+.build();
+RecipeBuilder.newBuilder("dianliangzhuanhuan11","dianliangzhuanhuanqi",80,8)
+.addItemOutput(<mekanism:basicblock3:8>)
+.addEnergyPerTickOutput(2500000000)
+.addItemInput(<torcherino:blockcompressedtorcherino>).setChance(0)
+.addItemInput(<mekanism:basicblock3:13>)
+.build();
+RecipeBuilder.newBuilder("dianliang1longkuai","dianliangzhuanhuanqi",40)
+.addItemOutput(<draconicevolution:draconium_block:1>)
+.addEnergyPerTickInput(25000)
+.addItemInput(<draconicevolution:draconium_block>)
+.build();
+//高级化学反应室
+// RecipeBuilder.newBuilder("yuzhouwuz1","gaojihuaxuefanyingshi",20)
+// .addGasInput(<gas:unstabledimensional>*3000)
+// .addEnergyPerTickInput(20000)
+// .addItemInput(<mekanism:emptycrystals>*4)
+// .addItemOutput(<mekanism:cosmicmatter>)
+// .build();
+RecipeBuilder.newBuilder("qingfusuan1","gaojihuaxuefanyingshi",40)
+.addGasInput(<gas:hydrogen>*144)
+.addEnergyPerTickInput(200000)
+.addItemInput(<mekanism:otherdust:7>)
+.addGasOutput(<gas:hydrofluoricacid>*72)
+.build();
+RecipeBuilder.newBuilder("rongrongmox1","gaojihuaxuefanyingshi",40)
+.addEnergyPerTickInput(200000)
+.addItemInput(<ic2:nuclear:4>*9)
+.addFluidOutput(<liquid:mox>*500)
+.build();
+RecipeBuilder.newBuilder("gaojidebu1","gaojihuaxuefanyingshi",10)
+.addEnergyPerTickInput(200000)
+.addItemInput(<ic2:nuclear:3>)
+.addGasOutput(<gas:plutonium>*72)
+.build();
+RecipeBuilder.newBuilder("shawanyi1","gaojihuaxuefanyingshi",10)
+.addEnergyPerTickInput(100000)
+.addItemInput(<mekanism:cosmicmatter>)
+.addFluidInput(<liquid:liquid_sunshine>*1000)
+.addGasInput(<gas:unstabledimensional>*1000)
+.addGasOutput(<gas:antimatter>*30000)
+.build();
+RecipeBuilder.newBuilder("jianhuahecjinti","gaojihuaxuefanyingshi",10)
+.addEnergyPerTickInput(100000)
+.addItemInput(<mekanism:scrapbox>)
+.addGasInput(<gas:unstabledimensional>*1000)
+.addFluidInput(<liquid:liquidfusionfuel>*1000)
+.addItemOutput(<mekanism:emptycrystals>)
+.build();
+//大型流体融合机
+RecipeBuilder.newBuilder("jiujileibianranliao1","daxingliutirongheji",100)
+.addEnergyPerTickInput(200000)
+.addFluidInput(<liquid:mox>*1000)
+.addFluidInput(<liquid:liquid_sunshine>*1000)
+.addFluidInput(<liquid:liquidfusionfuel>*1000)
+.addFluidInput(<liquid:ic2uu_matter>*1000)
+.addGasInput(<gas:fissilefuel>*1000)
+.addFluidOutput(<liquid:ranliao>*1000)
+.build();
+//究极裂变反应仓<modularmachinery:jiujiliebianfanyingcang
+RecipeBuilder.newBuilder("jiujiliebianfanying1","jiujiliebianfanyingcang",100000,10)
+.addEnergyPerTickOutput(1600000)
+.addFluidInput(<liquid:ranliao>*1000)
+.addFluidInput(<liquid:water>*100000)
+.addGasOutput(<gas:nuclearwaste>*50000)
+.build();
+RecipeBuilder.newBuilder("jiujilieban2","jiujiliebianfanyingcang",20000,9)
+.addItemInput(<torcherino:blocktorcherino>).setChance(0)
+.addEnergyPerTickOutput(800000)
+.addFluidInput(<liquid:water>*100000)
+.addGasOutput(<gas:nuclearwaste>*50000)
+.build();
+RecipeBuilder.newBuilder("jiujilieban3","jiujiliebianfanyingcang",4000,8)
+.addItemInput(<torcherino:blockcompressedtorcherino>).setChance(0)
+.addEnergyPerTickOutput(4000000)
+.addFluidInput(<liquid:ranliao>*1000)
+.addFluidInput(<liquid:water>*100000)
+.addGasOutput(<gas:nuclearwaste>*50000)
+.build();
+RecipeBuilder.newBuilder("jiujilieban43","jiujiliebianfanyingcang",800,5)
+.addItemInput(<torcherino:blockdoublecompressedtorcherino>).setChance(0)
+.addEnergyPerTickOutput(20000000)
+.addFluidInput(<liquid:ranliao>*1000)
+.addFluidInput(<liquid:water>*100000)
+.addGasOutput(<gas:nuclearwaste>*50000)
+.build();
+//超临界
+RecipeBuilder.newBuilder("jchaolijie1","chaolinjieyixiangqi",1)
+.addEnergyPerTickInput(4000000)
+.addGasInput(<gas:polonium>*100)
+.addGasOutput(<gas:antimatter>*1)
+.build();
+//压缩机奇点
+RecipeBuilder.newBuilder("qidian1","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockCoal>*999)
+.addItemOutput(<extendedcrafting:singularity>)
+.build();
+RecipeBuilder.newBuilder("qidian2","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<minecraft:glowstone>*999)
+.addItemOutput(<extendedcrafting:singularity:4>)
+.build();
+RecipeBuilder.newBuilder("qidian3","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<minecraft:gold_block>*999)
+.addItemOutput(<extendedcrafting:singularity:5>)
+.build();
+RecipeBuilder.newBuilder("qidian4","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<minecraft:iron_block>*999)
+.addItemOutput(<extendedcrafting:singularity:1>)
+.build();
+RecipeBuilder.newBuilder("qidian5","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<minecraft:lapis_block>*999)
+.addItemOutput(<extendedcrafting:singularity:2>)
+.build();
+RecipeBuilder.newBuilder("qidian6","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<minecraft:redstone_block>*999)
+.addItemOutput(<extendedcrafting:singularity:3>)
+.build();
+RecipeBuilder.newBuilder("qidian7","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<minecraft:diamond_block>*999)
+.addItemOutput(<extendedcrafting:singularity:6>)
+.build();
+RecipeBuilder.newBuilder("qidian8","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<minecraft:emerald_block>*999)
+.addItemOutput(<extendedcrafting:singularity:7>)
+.build();
+RecipeBuilder.newBuilder("qidian9","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockAluminum>*999)
+.addItemOutput(<extendedcrafting:singularity:16>)
+.build();
+RecipeBuilder.newBuilder("qidian10","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockCopper>*999)
+.addItemOutput(<extendedcrafting:singularity:17>)
+.build();
+RecipeBuilder.newBuilder("qidian11","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockTin>*999)
+.addItemOutput(<extendedcrafting:singularity:18>)
+.build();
+RecipeBuilder.newBuilder("qidian12","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockBronze>*999)
+.addItemOutput(<extendedcrafting:singularity:19>)
+.build();
+RecipeBuilder.newBuilder("qidian13","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockSilver>*999)
+.addItemOutput(<extendedcrafting:singularity:22>)
+.build();
+RecipeBuilder.newBuilder("qidian14","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockLead>*999)
+.addItemOutput(<extendedcrafting:singularity:23>)
+.build();
+RecipeBuilder.newBuilder("qidian15","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockSteel>*999)
+.addItemOutput(<extendedcrafting:singularity:24>)
+.build();
+RecipeBuilder.newBuilder("qidian16","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockNickel>*999)
+.addItemOutput(<extendedcrafting:singularity:25>)
+.build();
+RecipeBuilder.newBuilder("qidian17","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockConstantan>*999)
+.addItemOutput(<extendedcrafting:singularity:26>)
+.build();
+RecipeBuilder.newBuilder("qidian18","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockElectrum>*999)
+.addItemOutput(<extendedcrafting:singularity:27>)
+.build();
+RecipeBuilder.newBuilder("qidian19","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockInvar>*999)
+.addItemOutput(<extendedcrafting:singularity:28>)
+.build();
+RecipeBuilder.newBuilder("qidian20","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockMithril>*999)
+.addItemOutput(<extendedcrafting:singularity:29>)
+.build();
+RecipeBuilder.newBuilder("qidian21","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockUranium>*999)
+.addItemOutput(<extendedcrafting:singularity:32>)
+.build();
+RecipeBuilder.newBuilder("qidian22","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockPlatinum>*999)
+.addItemOutput(<extendedcrafting:singularity:34>)
+.build();
+RecipeBuilder.newBuilder("qidian23","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockIridium>*99)
+.addItemOutput(<extendedcrafting:singularity:35>)
+.build();
+RecipeBuilder.newBuilder("qidian24","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockSignalum>*999)
+.addItemOutput(<extendedcrafting:singularity:48>)
+.build();
+RecipeBuilder.newBuilder("qidian25","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockLumium>*999)
+.addItemOutput(<extendedcrafting:singularity:49>)
+.build();
+RecipeBuilder.newBuilder("qidian26","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockEnderium>*999)
+.addItemOutput(<extendedcrafting:singularity:50>)
+.build();
+RecipeBuilder.newBuilder("qidian27","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockArdite>*999)
+.addItemOutput(<extendedcrafting:singularity:64>)
+.build();
+RecipeBuilder.newBuilder("qidian28","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockCobalt>*999)
+.addItemOutput(<extendedcrafting:singularity:65>)
+.build();
+RecipeBuilder.newBuilder("qidian29","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ore:blockManyullyn>*999)
+.addItemOutput(<extendedcrafting:singularity:66>)
+.build();
+RecipeBuilder.newBuilder("qidian30","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<modularmachinery:itemmodularium>*999)
+.addItemOutput(<extendedcrafting:singularity_custom:70>)
+.build();
+// RecipeBuilder.newBuilder("qidian31","daxingzhongzisuyasuoji",50)
+// .addEnergyPerTickInput(4000000)
+// .addItemInput(<appliedenergistics2:material:47>)
+// .addItemInput(<ore:blockMithril>*999)
+// .addItemOutput(<extendedcrafting:singularity_custom:70>)
+// .build();
+RecipeBuilder.newBuilder("qidian32","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<real_island_mod:hengxinhejin>*99)
+.addItemOutput(<extendedcrafting:singularity_custom:71>)
+.build();
+RecipeBuilder.newBuilder("qidian33","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<prodigytech:zorrasteel_block>*499)
+.addItemOutput(<extendedcrafting:singularity_custom:72>)
+.build();
+RecipeBuilder.newBuilder("qidian34","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<mekanism:antimatterpellet>*99)
+.addItemOutput(<extendedcrafting:singularity_custom:73>)
+.build();
+RecipeBuilder.newBuilder("qidian35","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<pneumaticcraft:compressed_iron_block>*499)
+.addItemOutput(<extendedcrafting:singularity_custom:74>)
+.build();
+RecipeBuilder.newBuilder("qidian36","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<mekanism:plutoniumpellet>*99)
+.addItemOutput(<extendedcrafting:singularity_custom:75>)
+.build();
+RecipeBuilder.newBuilder("qidian37","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<mekanism:poloniumpellet>*99)
+.addItemOutput(<extendedcrafting:singularity_custom:76>)
+.build();
+RecipeBuilder.newBuilder("qidian38","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<mekanism:cosmicmatter>*9)
+.addItemOutput(<extendedcrafting:singularity_custom:77>)
+.build();
+RecipeBuilder.newBuilder("qidian39","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<minecraft:bedrock>*399)
+.addItemOutput(<extendedcrafting:singularity_custom:78>)
+.build();
+RecipeBuilder.newBuilder("qidian40","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<ic2:crafting:3>*699)
+.addItemOutput(<extendedcrafting:singularity_custom:79>)
+.build();
+RecipeBuilder.newBuilder("qidian41","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<advanced_solar_panels:crafting:5>*499)
+.addItemOutput(<extendedcrafting:singularity_custom:80>)
+.build();
+RecipeBuilder.newBuilder("qidian42","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<mekanism:cosmicalloy>*49)
+.addItemOutput(<extendedcrafting:singularity_custom:81>)
+.build();
+RecipeBuilder.newBuilder("qidian43","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<torcherino:blocktorcherino>*49)
+.addItemOutput(<extendedcrafting:singularity_custom:82>)
+.build();
+RecipeBuilder.newBuilder("qidian44","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<extendedcrafting:storage:2>*499)
+.addItemOutput(<extendedcrafting:singularity_custom:83>)
+.build();
+RecipeBuilder.newBuilder("qidian45","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<appliedenergistics2:material:12>*999)
+.addItemOutput(<extendedcrafting:singularity_custom:84>)
+.build();
+RecipeBuilder.newBuilder("qidian46","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<dirtcraft:zhongjihunningtu>*9)
+.addItemOutput(<extendedcrafting:singularity_custom:85>)
+.build();
+RecipeBuilder.newBuilder("qidian47","daxingzhongzisuyasuoji",50)
+.addEnergyPerTickInput(4000000)
+.addItemInput(<appliedenergistics2:material:47>)
+.addItemInput(<mekanism:basicblock3:13>*39)
+.addItemOutput(<extendedcrafting:singularity_custom:86>)
+.addItemOutput(<mekanism:basicblock3:8>*39)
+.build();
+RecipeBuilder.newBuilder("zhongjidingmm","daxingzhongzisuyasuoji",100)
+.addEnergyPerTickInput(4000000)
+.addItemInputs(
+    <minecraft:iron_ingot>,
+    <minecraft:gold_ingot>,
+    <advanced_solar_panels:crafting:3>,
+    <ore:ingotIridium>,
+    <ore:ingotUranium>,
+    <avaritia:resource:1>,
+    <avaritia:resource:4>,
+    <calculator:enrichedgoldingot>,
+    <calculator:reinforcedironingot>,
+    <calculator:redstoneingot>,
+    <deepmoblearning:glitch_infused_ingot>,
+    <dirtcraft:nituding>,
+    <dirtcraft:chengxinghunningnituding>,
+    <dirtcraft:enrichedironingot>,
+    <draconicevolution:draconium_ingot>,
+    <draconicevolution:draconic_ingot>,
+    <enderio:item_alloy_ingot>,
+    <enderio:item_alloy_ingot:1>,
+    <enderio:item_alloy_ingot:2>,
+    <enderio:item_alloy_ingot:3>,
+    <enderio:item_alloy_ingot:4>,
+    <enderio:item_alloy_ingot:5>,
+    <enderio:item_alloy_ingot:6>,
+    <enderio:item_alloy_ingot:7>,
+    <enderio:item_alloy_ingot:8>,
+    <enderio:item_alloy_ingot:9>,
+    <enderio:item_alloy_endergy_ingot>,
+    <enderio:item_alloy_endergy_ingot:1>,
+    <enderio:item_alloy_endergy_ingot:2>,
+    <real_island_mod:hengxinhejin>,
+    <enderio:item_alloy_endergy_ingot:4>,
+    <enderio:item_alloy_endergy_ingot:5>,
+    <enderio:item_alloy_endergy_ingot:6>,
+    <extendedcrafting:material>,
+    <extendedcrafting:material:24>,
+    <extendedcrafting:material:48>,
+    <extrautils2:unstableingots:2>,
+    <extrautils2:ingredients:11>,
+    <extrautils2:ingredients:12>,
+    <extrautils2:ingredients:17>,
+    <immersiveengineering:material:19>,
+    <ore:ingotCopper>,
+    <ore:ingotAluminum>,
+    <ore:ingotLead>,
+    <ore:ingotSilver>,
+    <ore:ingotNickel>,
+    <ore:ingotConstantan>,
+    <ore:ingotElectrum>,
+    <ore:ingotSteel>,
+    <ic2:ingot>,
+    <ore:ingotBronze>,
+    <ore:ingotTin>,
+    <threng:material>,
+    <threng:material:2>,
+    <mekanism:ingot>,
+    <mekanism:ingot:1>,
+    <mekanism:ingot:3>,
+    <modularmachinery:itemmodularium>,
+    <pneumaticcraft:ingot_iron_compressed>,
+    <prodigytech:ferramic_ingot>,
+    <prodigytech:zorrasteel_ingot>,
+    <thermalfoundation:material:134>,
+    <thermalfoundation:material:136>,
+    <ore:ingotInvar>,
+    <ore:ingotSignalum>,
+    <ore:ingotLumium>,
+    <ore:ingotEnderium>,
+    <tconstruct:ingots>,
+    <tconstruct:ingots:1>,
+    <tconstruct:ingots:2>,
+    <tconstruct:ingots:3>,
+    <tconstruct:ingots:4>,
+    <tconstruct:ingots:5>
+)
+.addItemOutput(<extendedcrafting:material:32>)
+.build();
+//冷冻机
+RecipeBuilder.newBuilder("lengdon1","lengdongji",50)
+.addEnergyPerTickInput(400)
+.addItemInput(<minecraft:water_bucket>)
+.addItemOutput(<minecraft:bucket>)
+.addItemOutput(<minecraft:snowball>*3)
+.build();
+RecipeBuilder.newBuilder("lengdone1","lengdongji",50)
+.addEnergyPerTickInput(400)
+.addItemInput(<minecraft:snow>)
+.addItemOutput(<minecraft:ice>)
+.build();
+//gaojilengdongji
+RecipeBuilder.newBuilder("lendgdone1","gaojilengdongji",40)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addFluidInput(<liquid:plastic>*500)
+.addItemInput(<ore:dyeWhite>)
+.addItemOutput(<pneumaticcraft:plastic:15>)
+.build();
+RecipeBuilder.newBuilder("lendgdone2","gaojilengdongji",40)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addFluidInput(<liquid:plastic>*500)
+.addItemInput(<ore:dyeBlack>)
+.addItemOutput(<pneumaticcraft:plastic:0>)
+.build();
+RecipeBuilder.newBuilder("lendgdone3","gaojilengdongji",40)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addFluidInput(<liquid:plastic>*500)
+.addItemInput(<ore:dyeRed>)
+.addItemOutput(<pneumaticcraft:plastic:1>)
+.build();
+RecipeBuilder.newBuilder("lendgdone4","gaojilengdongji",40)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addFluidInput(<liquid:plastic>*500)
+.addItemInput(<ore:dyeGreen>)
+.addItemOutput(<pneumaticcraft:plastic:2>)
+.build();
+RecipeBuilder.newBuilder("lendgdone5","gaojilengdongji",40)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addFluidInput(<liquid:plastic>*500)
+.addItemInput(<ore:dyeBrown>)
+.addItemOutput(<pneumaticcraft:plastic:3>)
+.build();
+RecipeBuilder.newBuilder("lendgdone6","gaojilengdongji",40)
+.addFluidInput(<liquid:plastic>*500)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dyeBlue>)
+.addItemOutput(<pneumaticcraft:plastic:4>)
+.build();
+RecipeBuilder.newBuilder("lendgdone7","gaojilengdongji",40)
+.addFluidInput(<liquid:plastic>*500)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dyePurple>)
+.addItemOutput(<pneumaticcraft:plastic:5>)
+.build();
+RecipeBuilder.newBuilder("lendgdone8","gaojilengdongji",40)
+.addFluidInput(<liquid:plastic>*500)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dyeCyan>)
+.addItemOutput(<pneumaticcraft:plastic:6>)
+.build();
+RecipeBuilder.newBuilder("lendgdone9","gaojilengdongji",40)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addFluidInput(<liquid:plastic>*500)
+.addItemInput(<ore:dyeLightGray>)
+.addItemOutput(<pneumaticcraft:plastic:7>)
+.build();
+RecipeBuilder.newBuilder("lendgdone10","gaojilengdongji",40)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addFluidInput(<liquid:plastic>*500)
+.addItemInput(<ore:dyeGray>)
+.addItemOutput(<pneumaticcraft:plastic:8>)
+.build();
+RecipeBuilder.newBuilder("lendgdone11","gaojilengdongji",40)
+.addFluidInput(<liquid:plastic>*500)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dyePink>)
+.addItemOutput(<pneumaticcraft:plastic:9>)
+.build();
+RecipeBuilder.newBuilder("lendgdone12","gaojilengdongji",40)
+.addFluidInput(<liquid:plastic>*500)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dyeLime>)
+.addItemOutput(<pneumaticcraft:plastic:10>)
+.build();
+RecipeBuilder.newBuilder("lendgdone13","gaojilengdongji",40)
+.addFluidInput(<liquid:plastic>*500)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dyeYellow>)
+.addItemOutput(<pneumaticcraft:plastic:11>)
+.build();
+RecipeBuilder.newBuilder("lendgdone14","gaojilengdongji",40)
+.addFluidInput(<liquid:plastic>*500)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dyeLightBlue>)
+.addItemOutput(<pneumaticcraft:plastic:12>)
+.build();
+RecipeBuilder.newBuilder("lendgdone15","gaojilengdongji",40)
+.addFluidInput(<liquid:plastic>*500)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dyeMagenta>)
+.addItemOutput(<pneumaticcraft:plastic:13>)
+.build();
+RecipeBuilder.newBuilder("lendgdone16","gaojilengdongji",40)
+.addFluidInput(<liquid:plastic>*500)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<ore:dyeOrange>)
+.addItemOutput(<pneumaticcraft:plastic:14>)
+.build();
+//爆炸熔炉
+RecipeBuilder.newBuilder("lbaozha1","baozharonglu",40)
+.addEnergyPerTickInput(10000)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<mekanism:obsidiantnt>)
+.addItemInput(<minecraft:iron_ingot>*16)
+.addItemInput(<minecraft:clay>)
+.addItemOutput(<prodigytech:ferramic_ingot>*16)
+.build();
+RecipeBuilder.newBuilder("zorra","baozharonglu",40)
+.addEnergyPerTickInput(10000)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<mekanism:obsidiantnt>*2)
+.addItemInput(<prodigytech:zorrasteel_raw>*16)
+.addItemInput(<ore:dustCoal>*16)
+.addItemOutput(<prodigytech:zorrasteel_ingot>*16)
+.build();
+//uuwuzhi
+RecipeBuilder.newBuilder("uuwuzhiwzhi1","uuwuzhi",160,10)
+.addEnergyPerTickInput(281250)
+.addFluidOutput(<liquid:ic2uu_matter>*10)
+.build();
+RecipeBuilder.newBuilder("uuwuzhiwzhi21","uuwuzhi",40,9)
+.addItemInput(<torcherino:blocktorcherino>).setChance(0)
+.addEnergyPerTickInput(1125000)
+.addFluidOutput(<liquid:ic2uu_matter>*10)
+.build();
+RecipeBuilder.newBuilder("uuwuzhiwzhi31","uuwuzhi",10,8)
+.addItemInput(<torcherino:blockcompressedtorcherino>).setChance(0)
+.addEnergyPerTickInput(4500000)
+.addFluidOutput(<liquid:ic2uu_matter>*10)
+.build();
+RecipeBuilder.newBuilder("uuwuzhiwzhi41","uuwuzhi",3,7)
+.addItemInput(<torcherino:blockdoublecompressedtorcherino>).setChance(0)
+.addEnergyPerTickInput(15000000)
+.addFluidOutput(<liquid:ic2uu_matter>*10)
+.build();
+//yuanji
+RecipeBuilder.newBuilder("yuanjizhiz","yuanjizhizaoji",40)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addItemInput(<prodigytech:tartaric_stoker>)
+.addItemInput(<prodigytech:energion_dust>)
+.addItemInput(<real_island_mod:youjishengwuranliao>*4)
+.addItemOutput(<prodigytech:primordium>)
+.build();

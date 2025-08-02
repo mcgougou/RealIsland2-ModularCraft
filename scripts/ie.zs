@@ -1,0 +1,2 @@
+mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:2>, <appliedenergistics2:material>, 8000);
+mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:8>, <appliedenergistics2:material:7>, 8000);

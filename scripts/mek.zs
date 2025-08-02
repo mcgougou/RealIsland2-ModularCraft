@@ -1,0 +1,15 @@
+mods.mekanism.infuser.removeRecipe(<mekanism:enrichedalloy>);
+mods.mekanism.infuser.addRecipe("REDSTONE", 10, <thermalfoundation:upgrade>, <mekanism:enrichedalloy>);
+mods.mekanism.infuser.removeRecipe(<mekanism:controlcircuit>);
+mods.mekanism.infuser.addRecipe("REDSTONE", 10, <pneumaticcraft:advanced_pcb>, <mekanism:controlcircuit>);
+mods.mekanism.infuser.removeRecipe(<mekanism:reinforcedalloy>);
+mods.mekanism.infuser.addRecipe("DIAMOND", 10, <real_island_mod:hejin_1>, <mekanism:reinforcedalloy>);
+mods.mekanism.infuser.removeRecipe(<mekanism:atomicalloy>);
+mods.mekanism.infuser.addRecipe("OBSIDIAN", 10, <real_island_mod:hejin_2>, <mekanism:atomicalloy>);
+mods.mekanism.chemical.dissolution.removeRecipe(<gas:hydrofluoricacid>);
+mods.mekanism.chemical.washer.removeRecipe(<gas:nuclearwaste>);
+mods.mekanism.chemical.injection.removeRecipe(<mekanism:reprocessedfissilefragment>);
+mods.mekanism.thermalevaporation.removeRecipe(<liquid:liquidsodium>);
+mods.mekanism.thermalevaporation.removeRecipe(<liquid:brine>);
+// mods.mekanism.reaction.removeRecipe(null,<gas:antimatter>);
+// mods.mekanism.reaction.addRecipe(<mekanism:cosmicmatter>*64, <liquid:liquid_sunshine>*1000, <gas:unstabledimensional>*10000, <mekanism:scrapbox>, <gas:antimatter>*5000, 100000, 50);
