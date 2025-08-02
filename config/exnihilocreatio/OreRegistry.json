@@ -1,0 +1,131 @@
+[
+  {
+    "name": "gold",
+    "color": "ffff00",
+    "ingot": "minecraft:gold_ingot:-1",
+    "translations" : {
+      "zh_cn": "\u91d1"
+    },
+    "dust": "immersiveengineering:metal:19"
+  },
+  {
+    "name": "iron",
+    "color": "bf8040",
+    "ingot": "minecraft:iron_ingot:-1",
+    "translations" : {
+      "zh_cn": "\u94c1"
+    },
+    "dust": "immersiveengineering:metal:18"
+  },
+  {
+    "name": "aluminium",
+    "color": "bfbfbf",
+    "ingot": "immersiveengineering:metal:1",
+    "translations" : {
+      "zh_cn": "\u94dd"
+    },
+    "dust": "immersiveengineering:metal:10"
+  },
+  {
+    "name": "ardite",
+    "color": "ff751a",
+    "ingot": "tconstruct:ingots:1",
+    "translations" : {
+      "zh_cn": "\u963f\u8fea\u7279"
+    }
+  },
+  {
+    "name": "cobalt",
+    "color": "3333ff",
+    "ingot": "tconstruct:ingots:0",
+    "translations" : {
+      "zh_cn": "\u94b4"
+    }
+  },
+  {
+    "name": "copper",
+    "color": "ff9933",
+    "ingot": "immersiveengineering:metal:0",
+    "translations" : {
+      "zh_cn": "\u94dc"
+    },
+    "dust": "immersiveengineering:metal:9"
+  },
+  {
+    "name": "lead",
+    "color": "330066",
+    "ingot": "immersiveengineering:metal:2",
+    "translations" : {
+      "zh_cn": "\u94c5"
+    },
+    "dust": "immersiveengineering:metal:11"
+  },
+  {
+    "name": "nickel",
+    "color": "ffffcc",
+    "ingot": "immersiveengineering:metal:4",
+    "translations" : {
+      "zh_cn": "\u954d"
+    },
+    "dust": "immersiveengineering:metal:13"
+  },
+  {
+    "name": "silver",
+    "color": "f2f2f2",
+    "ingot": "immersiveengineering:metal:3",
+    "translations" : {
+      "zh_cn": "\u94f6"
+    },
+    "dust": "immersiveengineering:metal:12"
+  },
+  {
+    "name": "tin",
+    "color": "e6fff2",
+    "ingot": "mekanism:ingot:6",
+    "translations" : {
+      "zh_cn": "\u9521"
+    },
+    "dust": "mekanism:dust:4"
+  },
+  {
+    "name": "uranium",
+    "color": "4e5b43",
+    "ingot": "immersiveengineering:metal:5",
+    "translations" : {
+      "zh_cn": "\u94c0"
+    },
+    "dust": "immersiveengineering:metal:14"
+  },
+  {
+    "name": "osmium",
+    "translations" : {
+      "zh_cn": "\u9507"
+    },
+    "ingot":"mekanism:ingot:1",
+    "color": "bbddff"
+  },
+  {
+    "name": "iridium",
+    "translations" : {
+      "zh_cn": "\u94f1"
+    },
+    "ingot":"thermalfoundation:material:135",
+    "color": "f8f8ff"
+  },
+  {
+    "name": "platinum",
+    "translations" : {
+      "zh_cn": "\u94c2"
+    },
+    "ingot":"thermalfoundation:material:134",
+    "color": "1e90ff"
+  },
+  {
+    "name": "mithril",
+    "translations" : {
+      "zh_cn": "\u8574\u9b54\u79d8\u94f6"
+    },
+    "ingot":"thermalfoundation:material:136",
+    "color": "4682b4"
+  }
+]
