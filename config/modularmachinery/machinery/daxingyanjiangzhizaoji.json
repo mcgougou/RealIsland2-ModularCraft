@@ -17,7 +17,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "botania:blazeblock@0"
+                "minecraft:magma@0"
             ]
         },
         {
@@ -341,7 +341,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "botania:blazeblock@0"
+                "minecraft:magma@0"
             ]
         },
         {
@@ -384,7 +384,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "botania:blazeblock@0"
+                "minecraft:magma@0"
             ]
         },
         {
@@ -575,7 +575,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "botania:blazeblock@0"
+                "minecraft:magma@0"
             ]
         },
         {
@@ -735,7 +735,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "botania:blazeblock@0"
+                "minecraft:magma@0"
             ]
         },
         {
