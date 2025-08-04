@@ -45,7 +45,7 @@
             "z": 2,
 
             "elements": [
-                "modularmachinery:blockenergyinputhatch"
+                "modularmachinery:blockinputbus"
             ]
         },
         {

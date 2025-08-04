@@ -148,7 +148,7 @@
             "alignment" : "bottom_left"
         },
         "minecraftersion": {
-			"text": "#username#，现在是#date#年的#time#，当前版本为1.0.0-pre3(预发布版)",
+			"text": "#username#，现在是#date#年的#time#，当前版本为1.0.0-pre4(预发布版)",
             "color": -1,
             "posX": 2,
             "posY": 0,
