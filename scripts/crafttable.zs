@@ -117,6 +117,8 @@ recipes.addShaped(<minecraft:blaze_rod>, [[null, <ore:itemBlazePowder>, <ore:nug
 recipes.addShaped(<pyrotech:rock:8> * 4, [[null, <ore:rock>, null], [<ore:rock>, <pyrotech:material>, <ore:rock>], [null, <ore:rock>, null]]);
 recipes.addShaped(<mekanism:machineblock:8>, [[<minecraft:iron_ingot>, <minecraft:furnace>, <minecraft:iron_ingot>], [<minecraft:redstone>, <mekanism:basicblock:8>, <minecraft:redstone>], [<minecraft:iron_ingot>, <minecraft:furnace>, <minecraft:iron_ingot>]]);
 //
+recipes.remove(<ic2:crafting:2>);
+recipes.remove(<ic2:crafting:1>);
 recipes.remove(<calculator:atomicmultiplier>);
 recipes.remove(<prodigytech:carbon_plate>);
 recipes.remove(<minecraft:sapling:*>);

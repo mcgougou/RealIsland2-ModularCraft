@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	text: [
+		"塑料板自动"
+	],
+	dependencies: [
+		"67a5feca"
+	],
+	tasks: [{
+		uid: "dab8fa00",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gaojilengdongji_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "35e87a9c",
+		type: "random",
+		table: 0
+	}]
+}

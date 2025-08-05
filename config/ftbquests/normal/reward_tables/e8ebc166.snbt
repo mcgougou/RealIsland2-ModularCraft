@@ -44,16 +44,16 @@
 		weight: 20
 	},
 	{
-		item: "avaritia:singularity",
-		weight: 3
-	},
-	{
 		item: "pyrotech:masonry_brick_block",
 		weight: 15
 	},
 	{
 		item: "minecraft:iron_nugget",
 		weight: 20
+	},
+	{
+		item: "extendedcrafting:singularity_custom 1 85",
+		weight: 3
 	}],
 	loot_crate: {
 		string_id: "_",

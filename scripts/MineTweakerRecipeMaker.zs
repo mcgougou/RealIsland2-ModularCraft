@@ -40,6 +40,8 @@ recipes.addShapeless(<extendedcrafting:material:7> * 9, [<extendedcrafting:stora
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ic2:crafting:2>, [[<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>], [<minecraft:dye:4>, <mekanism:controlcircuit:1>, <minecraft:dye:4>], [<minecraft:redstone>, <minecraft:glowstone_dust>, <minecraft:redstone>]]);
+recipes.addShaped(<ic2:crafting:1>, [[<ore:itemCopperCable>, <ore:itemCopperCable>, <ore:itemCopperCable>], [<minecraft:redstone>, <mekanism:controlcircuit>, <minecraft:redstone>], [<ore:itemCopperCable>, <ore:itemCopperCable>, <ore:itemCopperCable>]]);
 recipes.addShaped(<calculator:storagechamber>, [[<calculator:material:3>, null, <calculator:material:3>], [null, <calculator:reinforcedchest>, null], [<calculator:material:3>, null, <calculator:material:3>]]);
 recipes.addShaped(<modularmachinery:xiajiezhixingchuliji_controller>, [[<modularmachinery:blockcasing>, <modularmachinery:blockcasing>, <modularmachinery:blockcasing>], [<modularmachinery:blockcasing>, <dirtcraft:jiyanjian>, <modularmachinery:blockcasing>], [<modularmachinery:blockcasing>, <modularmachinery:blockcasing>, <modularmachinery:blockcasing>]]);
 recipes.addShaped(<minecraft:nether_star>, [[<real_island_mod:diaolingkulou>, <real_island_mod:diaolingkulou>, <real_island_mod:diaolingkulou>], [<ore:compressed1xSoulsand>, <ore:compressed1xSoulsand>, <ore:compressed1xSoulsand>], [null, <ore:compressed1xSoulsand>, null]]);

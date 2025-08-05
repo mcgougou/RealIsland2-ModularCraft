@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	text: [
+		"这个造石速度会让你满意的：）"
+	],
+	dependencies: [
+		"b832eb06"
+	],
+	tasks: [{
+		uid: "d4248c3b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:daxingzaoshiji_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "420f9129",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

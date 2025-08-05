@@ -1406,3 +1406,13 @@ RecipeBuilder.newBuilder("yuanjizhiz","yuanjizhizaoji",40)
 .addItemInput(<real_island_mod:youjishengwuranliao>*4)
 .addItemOutput(<prodigytech:primordium>)
 .build();
+//zorra
+RecipeBuilder.newBuilder("zuolashu","zuolashu",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addEnergyPerTickInput(500)
+.addItemInput(<exnihilocreatio:crook_diamond>).setChance(0)
+.addItemInput(<minecraft:dye:15>*16)
+.addItemOutput(<prodigytech:zorra_log>*6)
+.addItemOutput(<prodigytech:zorra_leaf>*64)
+.addItemOutput(<minecraft:stick>*16)
+.build();

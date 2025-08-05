@@ -3,6 +3,7 @@
 	y: 4.0d,
 	shape: "gear",
 	dependencies: [
+		"a18b1445",
 		"67a5feca"
 	],
 	tasks: [{
