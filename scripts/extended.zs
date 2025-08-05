@@ -308,3 +308,10 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <modularmachinery:yuanjizhizaoj
 	[<real_island_mod:hengxinhejin>, <prodigytech:primordium>, <prodigytech:primordium>, <prodigytech:primordium>, <real_island_mod:hengxinhejin>], 
 	[<ore:blockZorrasteel>, <real_island_mod:hengxinhejin>, <prodigytech:aeternus_crystal>, <real_island_mod:hengxinhejin>, <ore:blockZorrasteel>]
 ]);
+mods.extendedcrafting.TableCrafting.addShaped(2, <modularmachinery:zuolashu_controller>, [
+	[<ore:blockZorrasteel>, <ore:blockZorrasteel>, <mekanism:basicblock:8>, <ore:blockZorrasteel>, <ore:blockZorrasteel>], 
+	[<ore:blockZorrasteel>, <prodigytech:aeternus_crystal>, <ore:circuitAdvanced>, <prodigytech:aeternus_crystal>, <ore:blockZorrasteel>], 
+	[<mekanism:basicblock:8>, <ore:circuitAdvanced>, <prodigytech:primordium>, <ore:circuitAdvanced>, <mekanism:basicblock:8>], 
+	[<ore:blockZorrasteel>, <prodigytech:aeternus_crystal>, <ore:circuitAdvanced>, <prodigytech:aeternus_crystal>, <ore:blockZorrasteel>], 
+	[<ore:blockZorrasteel>, <ore:blockZorrasteel>, <mekanism:basicblock:8>, <ore:blockZorrasteel>, <ore:blockZorrasteel>]
+]);
