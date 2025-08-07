@@ -1,0 +1,7 @@
+{
+	title: "封包合成",
+	icon: "packagedauto:packager",
+	always_invisible: false,
+	group: -1033959167,
+	default_quest_shape: ""
+}

@@ -5,3 +5,4 @@
 <mekanism:basicblock3:13>.displayName="创造能量立方（满电）";
 <mekanism:basicblock3:13>.addTooltip("放到电量转换器内进行转换,容量200GFE(50GEU)");
 <modularmachinery:youjiranliaofadianji_controller>.addTooltip("自动搭建时熔炉方向可能有误，请对照投影自行修改");
+<thermalfoundation:material:135>.addTooltip("已ban矿辞，所以无法用来合成:（");

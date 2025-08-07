@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"在没有做出精英工作台的情况下是合成不了这个封包合成器的，所以现在需要你提交两个高级工作台来兑换一个封包合成器，很实惠吧：）"
+	],
+	dependencies: [
+		"430fc923",
+		"eae55908"
+	],
+	tasks: [{
+		uid: "dddcc995",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "ae255e10",
+		type: "item",
+		item: "packagedexcrafting:advanced_crafter"
+	}]
+}

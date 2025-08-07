@@ -1,0 +1,35 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"封包编辑器用来写样板，一个样板可以存储很多配方，所以不必一个配方使用一个样板储存",
+		"建议摆放的顺序如下：AE线缆>封包机>解包机>xx封包合成器"
+	],
+	tasks: [{
+		uid: "f7a84c9a",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "a4c53fbf",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "fec187ec",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	}],
+	rewards: [{
+		uid: "3675829c",
+		type: "item",
+		item: "packagedauto:recipe_holder",
+		count: 16
+	}]
+}

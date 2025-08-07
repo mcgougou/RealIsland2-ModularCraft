@@ -1076,7 +1076,7 @@
             "z": 6,
 
             "elements": [
-                "mekanism:basicblock@10"
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -1562,20 +1562,20 @@
         },
         {
             "x": -3,
-            "y": -2,
-            "z": 3,
-
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": -3,
             "y": 0,
             "z": 3,
 
             "elements": [
                 "modularmachinery:blockenergyoutputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
             ]
         },
         {
@@ -1705,6 +1705,15 @@
         },
         {
             "x": 3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
             "y": -2,
             "z": 4,
 
@@ -1718,15 +1727,6 @@
             "z": 0,
             "elements": [
                 "mekanism:basicblock3@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 1,
-
-            "elements": [
-                "mekanism:basicblock@10"
             ]
         },
         {

@@ -83,17 +83,17 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <real_island_mod:hefanyingdui>*
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(2, <modularmachinery:hefanyingdui_controller>, [
-	[<ic2:containment_plating>, <ic2:containment_plating>, <ic2:iridium_reflector>, <ic2:containment_plating>, <ic2:containment_plating>], 
+	[<ic2:containment_plating>, <ic2:containment_plating>, <ic2:thick_neutron_reflector>, <ic2:containment_plating>, <ic2:containment_plating>], 
 	[<ic2:containment_plating>, <ic2:hex_heat_storage>, <real_island_mod:hefanyingdui>, <ic2:hex_heat_storage>, <ic2:containment_plating>], 
 	[<ic2:advanced_heat_vent>, <ic2:overclocked_heat_vent>, <mekanism:controlcircuit:4>, <ic2:overclocked_heat_vent>, <ic2:advanced_heat_vent>], 
 	[<ic2:containment_plating>, <ic2:hex_heat_storage>, <real_island_mod:hefanyingdui>, <ic2:hex_heat_storage>, <ic2:containment_plating>], 
-	[<ic2:containment_plating>, <ic2:containment_plating>, <ic2:iridium_reflector>, <ic2:containment_plating>, <ic2:containment_plating>]
+	[<ic2:containment_plating>, <ic2:containment_plating>, <ic2:thick_neutron_reflector>, <ic2:containment_plating>, <ic2:containment_plating>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <advanced_solar_panels:crafting:12>, [
 	[<advanced_solar_panels:crafting:6>, <ic2:nuclear:4>, <mekanism:controlcircuit:4>, <ic2:nuclear:4>, <advanced_solar_panels:crafting:6>], 
-	[<advanced_solar_panels:crafting:6>, <ic2:iridium_reflector>, <ic2:iridium_reflector>, <ic2:iridium_reflector>, <advanced_solar_panels:crafting:6>], 
+	[<advanced_solar_panels:crafting:6>, <ic2:thick_neutron_reflector>, <ic2:thick_neutron_reflector>,<ic2:thick_neutron_reflector>, <advanced_solar_panels:crafting:6>], 
 	[<advanced_solar_panels:crafting:6>, null, null, null, <advanced_solar_panels:crafting:6>], 
-	[<advanced_solar_panels:crafting:6>, <ic2:iridium_reflector>, <ic2:iridium_reflector>, <ic2:iridium_reflector>, <advanced_solar_panels:crafting:6>], 
+	[<advanced_solar_panels:crafting:6>, <ic2:thick_neutron_reflector>,<ic2:thick_neutron_reflector>,<ic2:thick_neutron_reflector>, <advanced_solar_panels:crafting:6>], 
 	[<advanced_solar_panels:crafting:6>, <ic2:nuclear:4>, <mekanism:controlcircuit:4>, <ic2:nuclear:4>, <advanced_solar_panels:crafting:6>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <advanced_solar_panels:machines>, [

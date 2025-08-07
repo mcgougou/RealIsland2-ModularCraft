@@ -20,19 +20,19 @@
 		}]
 	}],
 	rewards: [{
-		uid: "223391ac",
-		type: "item",
-		item: {
-			id: "mekanism:energycube",
-			tag: {
-				tier: 2
-			}
-		}
-	},
-	{
 		uid: "a27964aa",
 		type: "item",
 		item: "immersiveengineering:wirecoil 1 7",
 		count: 16
+	},
+	{
+		uid: "76dcd939",
+		type: "item",
+		item: {
+			id: "mekanism:energycube",
+			tag: {
+				tier: 1
+			}
+		}
 	}]
 }
