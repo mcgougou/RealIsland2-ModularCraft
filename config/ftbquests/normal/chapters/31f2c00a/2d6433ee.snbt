@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	text: [
+		"用来制作集成控制器",
+		"添加了集成控制器配方的机器都是群友投票选出的，集成控制器未经过充分测试，所以如果使用集成控制器时出现问题，请切换回普通控制器！"
+	],
+	dependencies: [
+		"3891da47"
+	],
+	tasks: [{
+		uid: "578023a0",
+		type: "item",
+		items: [{
+			item: "real_island_mod:jichengkongzhiqihexin"
+		}]
+	}],
+	rewards: [{
+		uid: "e30bc773",
+		type: "random",
+		table: 0
+	}]
+}

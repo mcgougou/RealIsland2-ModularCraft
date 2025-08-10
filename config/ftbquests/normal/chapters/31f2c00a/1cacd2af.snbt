@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	dependencies: [
+		"2d6433ee"
+	],
+	tasks: [{
+		uid: "1854cd72",
+		type: "item",
+		items: [{
+			item: "modularmachinery:yinghuajiaolu_factory_controller"
+		}]
+	}]
+}

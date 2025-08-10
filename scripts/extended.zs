@@ -34,13 +34,13 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <ic2:resource:12>*4, [
 	[<ore:blockOsmium>, <real_island_mod:hengxinhejin>, <ore:blockZorrasteel>, <real_island_mod:hengxinhejin>, <ore:blockRefinedObsidian>], 
 	[<mekanism:plasticblock:15>, <mekanism:plasticblock:15>, <pneumaticcraft:advanced_pcb>, <mekanism:plasticblock:15>, <mekanism:plasticblock:15>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(2, <mekanism:controlcircuit:4>, [
-	[null, null, <thermalfoundation:upgrade:3>, null, null], 
-	[null, <mekanism:speedupgrade>, <mekanism:cosmicalloy>, <mekanism:energyupgrade>, null], 
-	[<thermalfoundation:upgrade:3>, <mekanism:cosmicalloy>, <ore:circuitUltimate>, <mekanism:cosmicalloy>, <thermalfoundation:upgrade:3>], 
-	[null, <mekanism:energyupgrade>, <mekanism:cosmicalloy>, <mekanism:speedupgrade>, null], 
-	[null, null, <thermalfoundation:upgrade:3>, null, null]
-]);
+// mods.extendedcrafting.TableCrafting.addShaped(2, <mekanism:controlcircuit:4>, [
+// 	[null, null, <thermalfoundation:upgrade:3>, null, null], 
+// 	[null, <mekanism:speedupgrade>, <mekanism:cosmicalloy>, <mekanism:energyupgrade>, null], 
+// 	[<thermalfoundation:upgrade:3>, <mekanism:cosmicalloy>, <ore:circuitUltimate>, <mekanism:cosmicalloy>, <thermalfoundation:upgrade:3>], 
+// 	[null, <mekanism:energyupgrade>, <mekanism:cosmicalloy>, <mekanism:speedupgrade>, null], 
+// 	[null, null, <thermalfoundation:upgrade:3>, null, null]
+// ]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <extendedcrafting:ender_crafter>, [
 	[<ore:pearlEnderEye>, <ore:pearlEnderEye>, <ore:pearlEnderEye>, <ore:pearlEnderEye>, <ore:pearlEnderEye>], 
 	[<ore:machineBlockAdvanced>, <mekanism:cosmicalloy>, <extendedcrafting:material:2>, <mekanism:cosmicalloy>, <ore:machineBlockAdvanced>], 
@@ -70,9 +70,9 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <modularmachinery:renenglixinji
 // 	[null, <mekanism:cosmicalloy>, null, <mekanism:cosmicalloy>, null]
 // ]);
 mods.extendedcrafting.EnderCrafting.addShaped(<ic2:resource:12>*8, [
-	[<mekanism:controlcircuit:4>, <modularmachinery:blockcasing:4>, <mekanism:controlcircuit:4>], 
+	[<mekanism:controlcircuit:3>, <modularmachinery:blockcasing:4>, <mekanism:controlcircuit:3>], 
 	[<ore:machineBlockAdvanced>, <extendedcrafting:material:48>, <ore:machineBlockAdvanced>], 
-	[<mekanism:controlcircuit:4>, <modularmachinery:blockcasing:4>, <mekanism:controlcircuit:4>]
+	[<mekanism:controlcircuit:3>, <modularmachinery:blockcasing:4>, <mekanism:controlcircuit:3>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <real_island_mod:hefanyingdui>*2, [
 	[null, null, <ore:machineBlockAdvanced>, null, null], 
@@ -314,4 +314,18 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <modularmachinery:zuolashu_cont
 	[<mekanism:basicblock:8>, <ore:circuitAdvanced>, <prodigytech:primordium>, <ore:circuitAdvanced>, <mekanism:basicblock:8>], 
 	[<ore:blockZorrasteel>, <prodigytech:aeternus_crystal>, <ore:circuitAdvanced>, <prodigytech:aeternus_crystal>, <ore:blockZorrasteel>], 
 	[<ore:blockZorrasteel>, <ore:blockZorrasteel>, <mekanism:basicblock:8>, <ore:blockZorrasteel>, <ore:blockZorrasteel>]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(2, <mekanism:controlcircuit:4>, [
+	[<real_island_mod:jichengkongzhiqihexin>, null, <thermalfoundation:upgrade:3>, null, <real_island_mod:jichengkongzhiqihexin>], 
+	[null, <mekanism:speedupgrade>, <mekanism:cosmicalloy>, <mekanism:energyupgrade>, null], 
+	[<thermalfoundation:upgrade:3>, <mekanism:cosmicalloy>, <ore:circuitUltimate>, <mekanism:cosmicalloy>, <thermalfoundation:upgrade:3>], 
+	[null, <mekanism:energyupgrade>, <mekanism:cosmicalloy>, <mekanism:speedupgrade>, null], 
+	[<real_island_mod:jichengkongzhiqihexin>, null, <thermalfoundation:upgrade:3>, null, <real_island_mod:jichengkongzhiqihexin>]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(2, <modularmachinery:dianlujiagongji_controller>, [
+	[<mekanism:basicblock:8>, <mekanism:basicblock:8>, <pneumaticcraft:advanced_pcb>, <mekanism:basicblock:8>, <mekanism:basicblock:8>], 
+	[<mekanism:basicblock:8>, <threng:material:6>, <thermalfoundation:upgrade:3>, <threng:material:6>, <mekanism:basicblock:8>], 
+	[<pneumaticcraft:advanced_pcb>, <thermalfoundation:upgrade:3>, <appliedenergistics2:crafting_storage_64k>, <thermalfoundation:upgrade:3>, <pneumaticcraft:advanced_pcb>], 
+	[<mekanism:basicblock:8>, <threng:material:6>, <thermalfoundation:upgrade:3>, <threng:material:6>, <mekanism:basicblock:8>], 
+	[<mekanism:basicblock:8>, <mekanism:basicblock:8>, <pneumaticcraft:advanced_pcb>, <mekanism:basicblock:8>, <mekanism:basicblock:8>]
 ]);

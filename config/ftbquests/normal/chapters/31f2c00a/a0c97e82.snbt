@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: 2.0d,
+	dependencies: [
+		"2d6433ee"
+	],
+	tasks: [{
+		uid: "c0d30c3d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:zidongzuanshishaizi_factory_controller"
+		}]
+	}]
+}

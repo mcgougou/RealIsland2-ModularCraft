@@ -1,0 +1,2320 @@
+{   "registryname": "dianlujiagongji", 
+    "localizedname": "电路加工机", 
+    "requires-blueprint": false, 
+    "color": "696969",
+    "parts": [
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_storage_64k@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_storage_64k@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "pneumaticcraft:assembly_controller@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "pneumaticcraft:assembly_io_unit@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_storage_64k@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_storage_64k@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_storage_64k@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_storage_64k@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:assembly_drill@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:assembly_platform@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_storage_64k@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "pneumaticcraft:assembly_laser@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_storage_64k@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "prodigytech:zorrasteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "appliedenergistics2:crafting_accelerator@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+
+            "elements": [
+                "mekanism:basicblock@10"
+            ]
+        }
+    ]}

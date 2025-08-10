@@ -1,4 +1,5 @@
 {
+	title: "重要！！！",
 	x: 0.0d,
 	y: -1.5d,
 	text: [
@@ -7,15 +8,14 @@
 		"ae已关闭频道限制",
 		"前期模块化合金锭需要熔炉烧制",
 		"用木棍右键机械控制器可以自动搭建",
-		"本包连锁挖矿和垃圾桶键位冲突，请自行调整"
+		"模块化机械尽量在一个区块里，不然可能出现各种奇怪的bug"
 	],
 	dependencies: [
 		"d9625f8e"
 	],
 	tasks: [{
 		uid: "05aa95f0",
-		type: "checkmark",
-		title: "一些碎碎念"
+		type: "checkmark"
 	}],
 	rewards: [{
 		uid: "a7b068ff",

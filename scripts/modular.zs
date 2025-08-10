@@ -129,7 +129,7 @@ RecipeBuilder.newBuilder("shaichentu1","zidongzuanshishaizi",1,10)
 <appliedenergistics2:material:45>*3,
 ])
 .build();
-RecipeBuilder.newBuilder("shaichentu2","zidongzuanshishaizi",1,1)
+RecipeBuilder.newBuilder("shaichentu2","zidongzuanshishaizi",1,2)
 .addItemInput(<ore:compressed1xDust>)
 .addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
 .addItemOutputs([
@@ -140,6 +140,13 @@ RecipeBuilder.newBuilder("shaichentu2","zidongzuanshishaizi",1,1)
 <minecraft:blaze_powder>*27,
 <minecraft:redstone>*27,
 <appliedenergistics2:material:45>*27,
+])
+.build();
+RecipeBuilder.newBuilder("shaichentu3","zidongzuanshishaizi",1,1)
+.addItemInput(<ore:compressed1xDust>)
+.addItemInput(<real_island_mod:jiyanfenshengji>).setChance(0)
+.addItemOutputs([
+<enderio:item_material:20>*36
 ])
 .build();
 RecipeBuilder.newBuilder("shaijiyanfen1","zidongzuanshishaizi",1,10)
@@ -1418,4 +1425,22 @@ RecipeBuilder.newBuilder("zuolashu","zuolashu",20)
 .addItemOutput(<prodigytech:zorra_log>*6)
 .addItemOutput(<prodigytech:zorra_leaf>*64)
 .addItemOutput(<minecraft:stick>*16)
+.build();
+//电路加工
+RecipeBuilder.newBuilder("jichengkongz","dianlujiagongji",100)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addEnergyPerTickInput(5000)
+.addItemInput(<pneumaticcraft:advanced_pcb>*4)
+.addItemInput(<immersiveengineering:material:27>*4)
+.addItemInput(<prodigytech:circuit_perfected>)
+.addItemInput(<prodigytech:circuit_refined>)
+.addItemInput(<prodigytech:circuit_crude>)
+.addItemInput(<threng:material:6>*8)
+.addItemInput(<threng:material:14>*4)
+.addItemInput(<appliedenergistics2:material:22>*4)
+.addItemInput(<appliedenergistics2:material:23>*4)
+.addItemInput(<appliedenergistics2:material:24>*4)
+.addItemInput(<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})*16)
+.addItemInput(<calculator:atomicmodule>)
+.addItemOutput(<real_island_mod:jichengkongzhiqihexin>)
 .build();
