@@ -1444,3 +1444,9 @@ RecipeBuilder.newBuilder("jichengkongz","dianlujiagongji",100)
 .addItemInput(<calculator:atomicmodule>)
 .addItemOutput(<real_island_mod:jichengkongzhiqihexin>)
 .build();
+RecipeBuilder.newBuilder("pneumdianlu","dianlujiagongji",20)
+.addCatalystInput(<torcherino:blocktorcherino>, ["速度消耗降低 80%"], [RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.2, 1, false).build()]).setChance(0)
+.addEnergyPerTickInput(5000)
+.addItemInput(<pneumaticcraft:empty_pcb:100>)
+.addItemOutput(<pneumaticcraft:unassembled_pcb>)
+.build();
