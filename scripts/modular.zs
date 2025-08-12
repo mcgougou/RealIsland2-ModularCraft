@@ -1216,7 +1216,6 @@ RecipeBuilder.newBuilder("zhongjidingmm","daxingzhongzisuyasuoji",100)
     <enderio:item_alloy_endergy_ingot:1>,
     <enderio:item_alloy_endergy_ingot:2>,
     <real_island_mod:hengxinhejin>,
-    <enderio:item_alloy_endergy_ingot:4>,
     <enderio:item_alloy_endergy_ingot:5>,
     <enderio:item_alloy_endergy_ingot:6>,
     <extendedcrafting:material>,

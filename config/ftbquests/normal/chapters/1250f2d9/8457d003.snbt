@@ -1,0 +1,17 @@
+{
+	x: 11.0d,
+	y: 1.0d,
+	dependencies: [
+		"c065ab8e"
+	],
+	tasks: [{
+		uid: "df903858",
+		type: "checkmark",
+		title: "回生存"
+	}],
+	rewards: [{
+		uid: "fcb91673",
+		type: "command",
+		command: "/gamemode 1 @a"
+	}]
+}

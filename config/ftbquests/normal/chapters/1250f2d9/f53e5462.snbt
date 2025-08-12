@@ -1,0 +1,17 @@
+{
+	x: 11.0d,
+	y: -1.0d,
+	dependencies: [
+		"c065ab8e"
+	],
+	tasks: [{
+		uid: "95dd2c1d",
+		type: "checkmark",
+		title: "回创造"
+	}],
+	rewards: [{
+		uid: "07155add",
+		type: "command",
+		command: "/gamemode 1 @a"
+	}]
+}

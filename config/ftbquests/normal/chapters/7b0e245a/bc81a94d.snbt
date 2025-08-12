@@ -1,0 +1,33 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	text: [
+		"好用的无线传输物品和流体的工具"
+	],
+	tasks: [{
+		uid: "f4a64a62",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	},
+	{
+		uid: "32a97c7a",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "8da087b8",
+		type: "item",
+		item: "enderstorage:ender_storage",
+		count: 7
+	},
+	{
+		uid: "ea30db1e",
+		type: "item",
+		item: "enderstorage:ender_storage 1 1",
+		count: 7
+	}]
+}

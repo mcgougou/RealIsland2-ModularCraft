@@ -1,0 +1,17 @@
+{
+	title: "不要去下界（",
+	x: 0.0d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "92d6d06a",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "ef4e7d1b",
+		type: "command",
+		auto: "enabled",
+		command: "/kill @a"
+	}]
+}

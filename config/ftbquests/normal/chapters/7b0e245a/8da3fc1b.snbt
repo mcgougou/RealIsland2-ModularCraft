@@ -2,23 +2,16 @@
 	x: 2.0d,
 	y: -1.5d,
 	tasks: [{
-		uid: "2b159e0e",
-		type: "item",
-		items: [{
-			item: "enderio:item_item_conduit"
-		}]
-	},
-	{
 		uid: "52545e27",
 		type: "item",
 		items: [{
-			item: "enderio:item_liquid_conduit"
+			item: "enderio:item_liquid_conduit 1 1"
 		}]
 	}],
 	rewards: [{
 		uid: "15aac694",
 		type: "item",
-		item: "enderio:item_liquid_conduit 1 2",
+		item: "enderio:item_liquid_conduit 1 1",
 		count: 32
 	},
 	{
