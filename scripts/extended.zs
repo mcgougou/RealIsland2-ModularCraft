@@ -259,11 +259,11 @@ mods.extendedcrafting.TableCrafting.addShaped(3, <draconicevolution:crafting_inj
 	[<ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>, <ore:blockRefinedObsidian>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <minecraft:spawn_egg>.withTag({EntityTag: {id: "deepmoblearning:glitch"}}), [
-	[null, null, <ore:ingotUnstable>, null, null], 
+	[null, null, <extrautils2:unstableingots:2>, null, null], 
 	[null, <minecraft:soul_sand>, <ore:ingotEvilMetal>, <minecraft:soul_sand>, null], 
-	[<ore:ingotUnstable>, <ore:ingotEvilMetal>, <ore:dragonEgg>, <ore:ingotEvilMetal>, <ore:ingotUnstable>], 
+	[<extrautils2:unstableingots:2>, <ore:ingotEvilMetal>, <ore:dragonEgg>, <ore:ingotEvilMetal>, <extrautils2:unstableingots:2>], 
 	[null, <minecraft:soul_sand>, <ore:ingotEvilMetal>, <minecraft:soul_sand>, null], 
-	[null, null, <ore:ingotUnstable>, null, null]
+	[null, null, <extrautils2:unstableingots:2>, null, null]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(2, <modularmachinery:baozharonglu_controller>, [
 	[<modularmachinery:blockcasing:4>, <ore:blockZorrasteel>, <ore:blockZorrasteel>, <ore:blockZorrasteel>, <modularmachinery:blockcasing:4>], 

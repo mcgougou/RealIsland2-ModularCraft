@@ -619,6 +619,11 @@
       "meshLevel": 1
     },
     {
+      "drop": "minecraft:beetroot_seeds:-1",
+      "chance": 0.35,
+      "meshLevel": 1
+    },
+    {
       "drop": "exnihilocreatio:item_material:3",
       "chance": 0.05,
       "meshLevel": 1

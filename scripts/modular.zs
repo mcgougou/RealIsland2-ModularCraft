@@ -150,15 +150,15 @@ RecipeBuilder.newBuilder("shaichentu3","zidongzuanshishaizi",1,1)
 ])
 .build();
 RecipeBuilder.newBuilder("shaijiyanfen1","zidongzuanshishaizi",1,10)
-.addItemInput(<ore:compressed3xDustBedrock>)
+.addItemInput(<ore:compressed2xDustBedrock>)
 .addItemOutputs([
 <exnihilocreatio:item_ore_mithril:1>*3,
-<enderio:item_material:20>*3    ,
+<enderio:item_material:20>*3,
 <exnihilocreatio:item_ore_platinum:1>*3,
 ])
 .build();
 RecipeBuilder.newBuilder("shaijiyanfen2","zidongzuanshishaizi",1,1)
-.addItemInput(<ore:compressed3xDustBedrock>)
+.addItemInput(<ore:compressed2xDustBedrock>)
 .addItemInput(<real_island_mod:shiyunshengji>).setChance(0)
 .addItemOutputs([
 <exnihilocreatio:item_ore_mithril:1>*9,

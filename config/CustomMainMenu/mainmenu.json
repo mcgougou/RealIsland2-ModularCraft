@@ -3,21 +3,21 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
+            "image" : "custommainmenu:ri2.png",
+            "posX" : -150,
             "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "width" : 384,
+            "height" : 384,
             "alignment" : "top_center"
         },
         
         "edition":
         {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
+            "image" : "custommainmenu:edition.png",
+            "posX" : -123,
             "posY" : 67,
-            "width" : 128,
-            "height" : 16,
+            "width" : 256,
+            "height" : 32,
             "alignment" : "top_center"
         }
     },
@@ -148,7 +148,7 @@
             "alignment" : "bottom_left"
         },
         "minecraftersion": {
-			"text": "#username#，现在是#date#年的#time#，当前版本为1.0.0-rc1(发布候选版本)",
+			"text": "#username#，现在是#date#年的#time#，当前版本为1.0.0-rc3(发布候选版本)",
             "color": -1,
             "posX": 2,
             "posY": 0,

@@ -40,6 +40,8 @@ recipes.addShapeless(<extendedcrafting:material:7> * 9, [<extendedcrafting:stora
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<minecraft:bedrock> * 2, [[<ore:compressed2xDustBedrock>, <ore:compressed3xDustBedrock>, <ore:compressed2xDustBedrock>], [<ore:compressed2xDustBedrock>, <minecraft:bedrock>, <ore:compressed2xDustBedrock>], [<ore:compressed2xDustBedrock>, <ore:compressed3xDustBedrock>, <ore:compressed2xDustBedrock>]]);
+recipes.addShaped(<modularmachinery:hefanyingdui_factory_controller>, [[<modularmachinery:hefanyingdui_controller>, <real_island_mod:jichengkongzhiqihexin>, <modularmachinery:hefanyingdui_controller>]]);
 recipes.addShaped(<real_island_mod:jiyanfenshengji>, [[<real_island_mod:shiyunshengji>, <real_island_mod:shiyunshengji>, <real_island_mod:shiyunshengji>], [<real_island_mod:shiyunshengji>, <dirtcraft:yasuojiyan>, <real_island_mod:shiyunshengji>], [<real_island_mod:shiyunshengji>, <real_island_mod:shiyunshengji>, <real_island_mod:shiyunshengji>]]);
 recipes.addShaped(<modularmachinery:daxingzhongzisuyasuoji_factory_controller>, [[<modularmachinery:daxingzhongzisuyasuoji_controller>, <real_island_mod:jichengkongzhiqihexin>, <modularmachinery:daxingzhongzisuyasuoji_controller>]]);
 recipes.addShaped(<modularmachinery:renenglixinji_factory_controller>, [[null, <modularmachinery:renenglixinji_controller>, null], [<modularmachinery:renenglixinji_controller>, <real_island_mod:jichengkongzhiqihexin>, <modularmachinery:renenglixinji_controller>], [null, <modularmachinery:renenglixinji_controller>, null]]);
@@ -76,7 +78,6 @@ recipes.addShaped(<modularmachinery:lengdongji_controller>, [[<minecraft:water_b
 recipes.addShaped(<minecraft:chorus_flower>, [[<minecraft:chorus_fruit>, <minecraft:chorus_fruit>], [<minecraft:chorus_fruit>, <minecraft:chorus_fruit>]]);
 recipes.addShaped(<ic2:sapling>, [[null, <ore:slimeball>, null], [<ore:slimeball>, <ore:treeSapling>, <ore:slimeball>], [null, <ore:slimeball>, null]]);
 recipes.addShaped(<ic2:resource:11>, [[<extrautils2:decorativesolid:3>, <ore:stone>, <extrautils2:decorativesolid:3>], [<ore:stone>, <ore:machineBlockAdvanced>, <ore:stone>], [<extrautils2:decorativesolid:3>, <ore:stone>, <extrautils2:decorativesolid:3>]]);
-recipes.addShaped(<minecraft:bedrock> * 2, [[null, <ore:compressed3xDustBedrock>, null], [<ore:compressed3xDustBedrock>, <minecraft:bedrock>, <ore:compressed3xDustBedrock>], [null, <ore:compressed3xDustBedrock>, null]]);
 recipes.addShaped(<minecraft:command_block>, [[<dirtcraft:modihunningtu>, <dirtcraft:minglinghexin>, <dirtcraft:modihunningtu>], [<dirtcraft:minglinghexin>, <minecraft:bedrock>, <dirtcraft:minglinghexin>], [<dirtcraft:modihunningtu>, <dirtcraft:minglinghexin>, <dirtcraft:modihunningtu>]]);
 recipes.addShaped(<minecraft:bedrock>, [[null, <ore:compressed1xCobblestone>, null], [<ore:compressed1xCobblestone>, <dirtcraft:zhongjihunningtu>, <ore:compressed1xCobblestone>], [null, <ore:compressed1xCobblestone>, null]]);
 recipes.addShaped(<modularmachinery:zidongfamuchang_controller>, [[<modularmachinery:blockcasing:4>, <ore:blockSteel>, <modularmachinery:blockcasing:4>], [<ore:blockSteel>, <ore:treeSapling>, <ore:blockSteel>], [<modularmachinery:blockcasing:4>, <ore:blockSteel>, <modularmachinery:blockcasing:4>]]);

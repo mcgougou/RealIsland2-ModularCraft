@@ -1,4 +1,5 @@
 {
+	title: "末影存储",
 	x: 4.5d,
 	y: -1.5d,
 	text: [
@@ -9,14 +10,16 @@
 		type: "item",
 		items: [{
 			item: "enderstorage:ender_storage"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "32a97c7a",
 		type: "item",
 		items: [{
 			item: "enderstorage:ender_storage 1 1"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "8da087b8",

@@ -8,36 +8,6 @@
       "fortuneChance": 0.0
     }
   ],
-  "ore:logWood": [
-    {
-      "item": "excompressum:wood_chippings:0",
-      "amount": 1,
-      "miningLevel": 0,
-      "chance": 1.0,
-      "fortuneChance": 1.0
-    },
-    {
-      "item": "excompressum:wood_chippings:0",
-      "amount": 1,
-      "miningLevel": 0,
-      "chance": 0.75,
-      "fortuneChance": 1.0
-    },
-    {
-      "item": "excompressum:wood_chippings:0",
-      "amount": 1,
-      "miningLevel": 0,
-      "chance": 0.5,
-      "fortuneChance": 1.0
-    },
-    {
-      "item": "excompressum:wood_chippings:0",
-      "amount": 1,
-      "miningLevel": 0,
-      "chance": 0.25,
-      "fortuneChance": 1.0
-    }
-  ],
   "minecraft:concrete:14": [
     {
       "item": "minecraft:concrete_powder:14",
