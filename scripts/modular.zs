@@ -105,6 +105,7 @@ RecipeBuilder.newBuilder("shaishazi1","zidongzuanshishaizi",1,10)
 .addItemOutputs([
 <exnihilocreatio:item_ore_aluminium:1>,
 <exnihilocreatio:item_ore_tin:1>,
+<exnihilocreatio:item_ore_silver:1>,
 <minecraft:prismarine_shard>,
 ])
 .build();
@@ -114,6 +115,7 @@ RecipeBuilder.newBuilder("shaishazi2","zidongzuanshishaizi",1,1)
 .addItemOutputs([
 <exnihilocreatio:item_ore_aluminium:1>*9,
 <exnihilocreatio:item_ore_tin:1>*9,
+<exnihilocreatio:item_ore_silver:1>*9,
 <minecraft:prismarine_shard>*3,
 ])
 .build();
