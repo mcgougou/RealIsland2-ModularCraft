@@ -24,6 +24,7 @@
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<thermalfoundation:dye:3>, [<ore:dyeBlack>, <ore:dyeYellow>]);
 recipes.addShapeless(<modularmachinery:machine_projector>, [<ore:stickWood>]);
 recipes.addShapeless(<minecraft:magma_cream>, [<ore:slimeball>, <minecraft:blaze_powder>]);
 recipes.addShapeless(<torcherino:blockcompressedtorcherino> * 9, [<torcherino:blockdoublecompressedtorcherino>]);
@@ -40,6 +41,14 @@ recipes.addShapeless(<extendedcrafting:material:7> * 9, [<extendedcrafting:stora
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<modularmachinery:yanjiangzhizaoji_controller>, [[<minecraft:blaze_rod>, <modularmachinery:itemmodularium>, <minecraft:blaze_rod>], [<modularmachinery:itemmodularium>, <thermalfoundation:coin>, <modularmachinery:itemmodularium>], [<minecraft:blaze_rod>, <modularmachinery:itemmodularium>, <minecraft:blaze_rod>]]);
+recipes.addShaped(<minecraft:sapling:5>, [[<ore:treeSapling>, null], [null, <prodigytech:primordium>]]);
+recipes.addShaped(<minecraft:sapling:4>, [[<ore:treeSapling>, <prodigytech:primordium>]]);
+recipes.addShaped(<minecraft:sapling:3>, [[null, <prodigytech:primordium>], [<ore:treeSapling>, null]]);
+recipes.addShaped(<minecraft:sapling:2>, [[<prodigytech:primordium>], [<ore:treeSapling>]]);
+recipes.addShaped(<minecraft:sapling:1>, [[<prodigytech:primordium>, null], [null, <ore:treeSapling>]]);
+recipes.addShaped(<modularmachinery:gaojilengdongji_factory_controller>, [[<modularmachinery:gaojilengdongji_controller>, <modularmachinery:gaojilengdongji_controller>, <modularmachinery:gaojilengdongji_controller>], [<modularmachinery:gaojilengdongji_controller>, <real_island_mod:jichengkongzhiqihexin>, <modularmachinery:gaojilengdongji_controller>], [<modularmachinery:gaojilengdongji_controller>, <modularmachinery:gaojilengdongji_controller>, <modularmachinery:gaojilengdongji_controller>]]);
+recipes.addShaped(<modularmachinery:nituzhizaoji_factory_controller>, [[<modularmachinery:nituzhizaoji_controller>, <modularmachinery:nituzhizaoji_controller>, <modularmachinery:nituzhizaoji_controller>], [<modularmachinery:nituzhizaoji_controller>, <real_island_mod:jichengkongzhiqihexin>, <modularmachinery:nituzhizaoji_controller>], [<modularmachinery:nituzhizaoji_controller>, <modularmachinery:nituzhizaoji_controller>, <modularmachinery:nituzhizaoji_controller>]]);
 recipes.addShaped(<minecraft:bedrock> * 2, [[<ore:compressed2xDustBedrock>, <ore:compressed3xDustBedrock>, <ore:compressed2xDustBedrock>], [<ore:compressed2xDustBedrock>, <minecraft:bedrock>, <ore:compressed2xDustBedrock>], [<ore:compressed2xDustBedrock>, <ore:compressed3xDustBedrock>, <ore:compressed2xDustBedrock>]]);
 recipes.addShaped(<modularmachinery:hefanyingdui_factory_controller>, [[<modularmachinery:hefanyingdui_controller>, <real_island_mod:jichengkongzhiqihexin>, <modularmachinery:hefanyingdui_controller>]]);
 recipes.addShaped(<real_island_mod:jiyanfenshengji>, [[<real_island_mod:shiyunshengji>, <real_island_mod:shiyunshengji>, <real_island_mod:shiyunshengji>], [<real_island_mod:shiyunshengji>, <dirtcraft:yasuojiyan>, <real_island_mod:shiyunshengji>], [<real_island_mod:shiyunshengji>, <real_island_mod:shiyunshengji>, <real_island_mod:shiyunshengji>]]);
@@ -61,7 +70,6 @@ recipes.addShaped(<modularmachinery:xiajiezhixingchuliji_controller>, [[<modular
 recipes.addShaped(<minecraft:nether_star>, [[<real_island_mod:diaolingkulou>, <real_island_mod:diaolingkulou>, <real_island_mod:diaolingkulou>], [<ore:compressed1xSoulsand>, <ore:compressed1xSoulsand>, <ore:compressed1xSoulsand>], [null, <ore:compressed1xSoulsand>, null]]);
 recipes.addShaped(<prodigytech:carbon_plate>, [[<prodigytech:coal_dust>, <prodigytech:coal_dust>, <prodigytech:coal_dust>], [<prodigytech:coal_dust>, <prodigytech:coal_dust>, <prodigytech:coal_dust>], [<prodigytech:coal_dust>, <prodigytech:coal_dust>, <prodigytech:coal_dust>]]);
 recipes.addShaped(<minecraft:bone_block>, [[<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>], [<minecraft:dye:15>, <minecraft:dye:15>, <minecraft:dye:15>]]);
-recipes.addShaped(<extrautils2:teleporter:1>, [[<ore:compressed2xCobblestone>, <ore:compressed2xNetherrack>, <ore:compressed2xCobblestone>], [<ore:compressed2xDirt>, <ore:blockSteel>, <ore:compressed2xDirt>], [<ore:compressed2xCobblestone>, <ore:compressed2xNetherrack>, <ore:compressed2xCobblestone>]]);
 recipes.addShaped(<dirtcraft:gangjinhunningtu>, [[<dirtcraft:chengxinghunningnituding>, <ore:ingotSteel>, <dirtcraft:chengxinghunningnituding>], [<ore:ingotSteel>, <dirtcraft:bianxieyanjiang>.reuse(), <ore:ingotSteel>], [<dirtcraft:chengxinghunningnituding>, <ore:ingotSteel>, <dirtcraft:chengxinghunningnituding>]]);
 recipes.addShaped(<extrautils2:rainbowgenerator>, [[<ore:machineBlockAdvanced>, <extrautils2:rainbowgenerator:2>, <ore:machineBlockAdvanced>], [<ore:machineBlockAdvanced>, <modularmachinery:hefanyingdui_controller>, <ore:machineBlockAdvanced>], [<ore:machineBlockAdvanced>, <extrautils2:rainbowgenerator:1>, <ore:machineBlockAdvanced>]]);
 recipes.addShaped(<modularmachinery:blockrainbowprovider>, [[<extrautils2:decorativesolid:8>, <ore:machineBlockAdvanced>, <extrautils2:decorativesolid:8>], [<ore:machineBlockAdvanced>, <extrautils2:rainbowgenerator>, <ore:machineBlockAdvanced>], [<extrautils2:decorativesolid:8>, <ore:machineBlockAdvanced>, <extrautils2:decorativesolid:8>]]);

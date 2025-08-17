@@ -4,7 +4,7 @@
         "title":
         {
             "image" : "custommainmenu:ri2.png",
-            "posX" : -150,
+            "posX" : -147,
             "posY" : 30,
             "width" : 384,
             "height" : 384,
@@ -14,7 +14,7 @@
         "edition":
         {
             "image" : "custommainmenu:edition.png",
-            "posX" : -123,
+            "posX" : -125,
             "posY" : 67,
             "width" : 256,
             "height" : 32,
@@ -148,7 +148,7 @@
             "alignment" : "bottom_left"
         },
         "minecraftersion": {
-			"text": "#username#，现在是#date#年的#time#，当前版本为1.0.0-rc3(发布候选版本)",
+			"text": "#username#，现在是#date#年的#time#，当前版本为1.0.0-Release(正式版)",
             "color": -1,
             "posX": 2,
             "posY": 0,

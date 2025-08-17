@@ -1,14 +1,14 @@
 {
-	x: -2.0d,
+	x: 0.0d,
 	y: 3.5d,
 	dependencies: [
 		"2d6433ee"
 	],
 	tasks: [{
-		uid: "c887fc39",
+		uid: "c47c036a",
 		type: "item",
 		items: [{
-			item: "modularmachinery:hefanyingdui_factory_controller"
+			item: "modularmachinery:gaojilengdongji_factory_controller"
 		}]
 	}]
 }

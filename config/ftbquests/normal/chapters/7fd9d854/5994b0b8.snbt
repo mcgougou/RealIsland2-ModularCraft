@@ -2,6 +2,9 @@
 	title: "uu物质",
 	x: 0.5d,
 	y: 1.0d,
+	text: [
+		"可以复制终极混凝土或加速火把"
+	],
 	dependencies: [
 		"2dfec8c4"
 	],

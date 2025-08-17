@@ -5,6 +5,8 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:upgrade:1>, <r
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:upgrade:2>, <real_island_mod:shengji_3>, <liquid:cryotheum>*500, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:upgrade:3>, <real_island_mod:shengji_4>, <liquid:pyrotheum>*500, 5000);
 mods.thermalexpansion.Compactor.addPressRecipe(<extendedcrafting:material:2>, <extendedcrafting:material>*2, 4000);
+
+
 //熔盐炉
 mods.thermalexpansion.Crucible.addRecipe(<liquid:knightslime>*144, <tconstruct:ingots:3>, 4000);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:alubrass>*144, <tconstruct:ingots:5>, 4000);

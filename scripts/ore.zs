@@ -3,3 +3,7 @@
 <ore:ingotSteel>.remove(<dirtcraft:steel>);
 <ore:dustIridium>.remove(<thermalfoundation:material:71>);
 <ore:ingotIridium>.remove(<thermalfoundation:material:135>);
+<ore:nuggetIridium>.remove(<thermalfoundation:material:199>);
+<ore:oreIridium>.remove(<thermalfoundation:ore:7>);
+<ore:dustPlatinum>.remove(<thermalfoundation:material:70>);
+<ore:orePlatinum>.remove(<thermalfoundation:ore:6>);

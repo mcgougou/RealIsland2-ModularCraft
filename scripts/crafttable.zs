@@ -1,5 +1,7 @@
 furnace.addRecipe(<modularmachinery:itemmodularium>,<real_island_mod:mokuaihuahejincupei>);
+furnace.addRecipe(<thermalfoundation:material:134>,<exnihilocreatio:item_ore_platinum:1>);
 furnace.remove(<tconstruct:materials>);//
+furnace.remove(<thermalfoundation:material:134>);
 furnace.remove(<pyrotech:material:4>);
 //
 recipes.addShapeless(<minecraft:apple>, [<minecraft:leaves>, <minecraft:leaves>, <minecraft:leaves>, <minecraft:leaves>]);
@@ -85,11 +87,11 @@ recipes.addShaped(<modularmachinery:blockfluidoutputhatch:5>, [[<minecraft:bucke
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:4>, [[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:3>, <modularmachinery:itemmodularium>], [null, <ore:blockHopper>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:3>, [[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:2>, <modularmachinery:itemmodularium>], [null, <ore:blockHopper>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:2>, [[<minecraft:bucket>, <modularmachinery:itemmodularium>, <minecraft:bucket>], [<modularmachinery:itemmodularium>, <modularmachinery:blockfluidoutputhatch:1>, <modularmachinery:itemmodularium>], [null, <ore:blockHopper>, null]]);
-recipes.addShaped(<modularmachinery:blockoutputbus:6>, [[<ore:chest>, <modularmachinery:itemmodularium>, <ore:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:5>, <modularmachinery:itemmodularium>], [<storagedrawers:upgrade_storage:4>, <ore:blockHopper>, <storagedrawers:upgrade_storage:4>]]);
-recipes.addShaped(<modularmachinery:blockoutputbus:5>, [[<ore:chest>, <modularmachinery:itemmodularium>, <ore:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:4>, <modularmachinery:itemmodularium>], [<storagedrawers:upgrade_storage:4>, <ore:blockHopper>, <storagedrawers:upgrade_storage:4>]]);
-recipes.addShaped(<modularmachinery:blockoutputbus:4>, [[<ore:chest>, <modularmachinery:itemmodularium>, <ore:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:3>, <modularmachinery:itemmodularium>], [null, <ore:blockHopper>, null]]);
-recipes.addShaped(<modularmachinery:blockoutputbus:3>, [[<ore:chest>, <modularmachinery:itemmodularium>, <ore:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:2>, <modularmachinery:itemmodularium>], [null, <ore:blockHopper>, null]]);
-recipes.addShaped(<modularmachinery:blockoutputbus:2>, [[<ore:chest>, <modularmachinery:itemmodularium>, <ore:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:1>, <modularmachinery:itemmodularium>], [null, <ore:blockHopper>, null]]);
+recipes.addShaped(<modularmachinery:blockoutputbus:6>, [[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:5>, <modularmachinery:itemmodularium>], [<storagedrawers:upgrade_storage:4>, <ore:blockHopper>, <storagedrawers:upgrade_storage:4>]]);
+recipes.addShaped(<modularmachinery:blockoutputbus:5>, [[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:4>, <modularmachinery:itemmodularium>], [<storagedrawers:upgrade_storage:4>, <ore:blockHopper>, <storagedrawers:upgrade_storage:4>]]);
+recipes.addShaped(<modularmachinery:blockoutputbus:4>, [[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:3>, <modularmachinery:itemmodularium>], [null, <ore:blockHopper>, null]]);
+recipes.addShaped(<modularmachinery:blockoutputbus:3>, [[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:2>, <modularmachinery:itemmodularium>], [null, <ore:blockHopper>, null]]);
+recipes.addShaped(<modularmachinery:blockoutputbus:2>, [[<minecraft:chest>, <modularmachinery:itemmodularium>, <minecraft:chest>], [<modularmachinery:itemmodularium>, <modularmachinery:blockoutputbus:1>, <modularmachinery:itemmodularium>], [null, <ore:blockHopper>, null]]);
 recipes.addShaped(<modularmachinery:wuxianshuiyuan_controller>, [[<modularmachinery:blockcasing:4>, <minecraft:water_bucket>, <modularmachinery:blockcasing:4>], [<minecraft:water_bucket>, <ore:blockSteel>, <minecraft:water_bucket>], [<modularmachinery:blockcasing:4>, <minecraft:water_bucket>, <modularmachinery:blockcasing:4>]]);
 recipes.addShaped(<modularmachinery:daxingyixizhizaoji_controller>, [[<modularmachinery:blockcasing:4>, <ore:blockSteel>, <modularmachinery:blockcasing:4>], [<ore:blockSteel>, null, <ore:blockSteel>], [<modularmachinery:blockcasing:4>, <ore:blockSteel>, <modularmachinery:blockcasing:4>]]);
 recipes.addShaped(<modularmachinery:liutiwutizhuanhuaji_controller>, [[<modularmachinery:blockcasing:4>, <exnihilocreatio:block_barrel1>, <modularmachinery:blockcasing:4>], [<exnihilocreatio:block_barrel1>, <thermalfoundation:coin>, <exnihilocreatio:block_barrel1>], [<modularmachinery:blockcasing:4>, <exnihilocreatio:block_barrel1>, <modularmachinery:blockcasing:4>]]);
@@ -109,7 +111,7 @@ recipes.addShaped(<modularmachinery:zidongzuanshishaizi_controller>, [[<modularm
 recipes.addShaped(<modularmachinery:zidongfensuiji_controller>, [[<thermalfoundation:coin>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:crushing_wheels>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <thermalfoundation:coin>]]);
 recipes.addShaped(<modularmachinery:crushing_wheels>, [[<ore:barsIron>, <ore:blockIron>, <ore:barsIron>], [<ore:barsIron>, <exnihilocreatio:hammer_iron>, <ore:barsIron>], [<ore:barsIron>, <ore:blockIron>, <ore:barsIron>]]);
 recipes.addShaped(<modularmachinery:mucaiqiegeji_controller>, [[<modularmachinery:itemmodularium>, <pyrotech:material:20>, <modularmachinery:itemmodularium>], [<pyrotech:material:20>, <pyrotech:sawmill_blade_diamond>, <pyrotech:material:20>], [<modularmachinery:itemmodularium>, <pyrotech:material:20>, <modularmachinery:itemmodularium>]]);
-recipes.addShaped(<modularmachinery:yanjiangzhizaoji_controller>, [[null, <modularmachinery:itemmodularium>, null], [<modularmachinery:itemmodularium>, <ore:itemBlazeRod>, <modularmachinery:itemmodularium>], [null, <modularmachinery:itemmodularium>, null]]);
+//recipes.addShaped(<modularmachinery:yanjiangzhizaoji_controller>, [[null, <modularmachinery:itemmodularium>, null], [<modularmachinery:itemmodularium>, <ore:itemBlazeRod>, <modularmachinery:itemmodularium>], [null, <modularmachinery:itemmodularium>, null]]);
 recipes.addShaped(<pyrotech:crafting_table_template>, [[<ore:ingotIron>, <minecraft:iron_ingot>, <ore:ingotIron>], [<minecraft:iron_ingot>, <pyrotech:worktable>, <ore:ingotIron>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <ore:ingotIron>]]);
 recipes.addShaped(<torcherino:blockcompressedtorcherino>, [[<torcherino:blocktorcherino>, <torcherino:blocktorcherino>, <torcherino:blocktorcherino>], [<torcherino:blocktorcherino>, <torcherino:blocktorcherino>, <torcherino:blocktorcherino>], [<torcherino:blocktorcherino>, <torcherino:blocktorcherino>, <torcherino:blocktorcherino>]]);
 recipes.addShaped(<minecraft:blaze_rod>, [[null, <ore:itemBlazePowder>, <ore:nuggetGold>], [<ore:itemBlazePowder>, <ore:rodStone>, <ore:itemBlazePowder>], [<ore:nuggetGold>, <minecraft:blaze_powder>, null]]);
@@ -117,6 +119,9 @@ recipes.addShaped(<minecraft:blaze_rod>, [[null, <ore:itemBlazePowder>, <ore:nug
 recipes.addShaped(<pyrotech:rock:8> * 4, [[null, <ore:rock>, null], [<ore:rock>, <pyrotech:material>, <ore:rock>], [null, <ore:rock>, null]]);
 recipes.addShaped(<mekanism:machineblock:8>, [[<minecraft:iron_ingot>, <minecraft:furnace>, <minecraft:iron_ingot>], [<minecraft:redstone>, <mekanism:basicblock:8>, <minecraft:redstone>], [<minecraft:iron_ingot>, <minecraft:furnace>, <minecraft:iron_ingot>]]);
 //
+recipes.remove(<dirtcraft:yiciyuanlianjieqi>);
+recipes.remove(<advanced_solar_panels:crafting:10>);
+recipes.remove(<thermalexpansion:augment:304>);
 recipes.remove(<ic2:crafting:2>);
 recipes.remove(<ic2:crafting:1>);
 recipes.remove(<calculator:atomicmultiplier>);
