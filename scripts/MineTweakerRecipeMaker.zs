@@ -41,6 +41,8 @@ recipes.addShapeless(<extendedcrafting:material:7> * 9, [<extendedcrafting:stora
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<randomthings:glowingmushroom>, [[null, <minecraft:glowstone_dust>, null], [<minecraft:glowstone_dust>, <minecraft:brown_mushroom>, <minecraft:glowstone_dust>], [null, <minecraft:glowstone_dust>, null]]);
+recipes.addShaped(<randomthings:glowingmushroom>, [[null, <minecraft:glowstone_dust>, null], [<minecraft:glowstone_dust>, <minecraft:red_mushroom>, <minecraft:glowstone_dust>], [null, <minecraft:glowstone_dust>, null]]);
 recipes.addShaped(<modularmachinery:yanjiangzhizaoji_controller>, [[<minecraft:blaze_rod>, <modularmachinery:itemmodularium>, <minecraft:blaze_rod>], [<modularmachinery:itemmodularium>, <thermalfoundation:coin>, <modularmachinery:itemmodularium>], [<minecraft:blaze_rod>, <modularmachinery:itemmodularium>, <minecraft:blaze_rod>]]);
 recipes.addShaped(<minecraft:sapling:5>, [[<ore:treeSapling>, null], [null, <prodigytech:primordium>]]);
 recipes.addShaped(<minecraft:sapling:4>, [[<ore:treeSapling>, <prodigytech:primordium>]]);
