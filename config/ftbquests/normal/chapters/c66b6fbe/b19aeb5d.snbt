@@ -1,5 +1,5 @@
 {
-	title: "基础机器",
+	title: "Basic Machine",
 	x: 6.0d,
 	y: -1.5d,
 	dependencies: [

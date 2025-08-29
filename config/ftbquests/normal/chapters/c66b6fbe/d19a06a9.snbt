@@ -1,9 +1,6 @@
 {
 	x: 9.0d,
 	y: 1.0d,
-	text: [
-		"还能再快吗？"
-	],
 	dependencies: [
 		"a91dae88"
 	],

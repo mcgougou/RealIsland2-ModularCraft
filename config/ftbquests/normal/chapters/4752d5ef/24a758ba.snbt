@@ -1,5 +1,5 @@
 {
-	title: "裂变燃料",
+	title: "Fissile Fuel",
 	x: 2.0d,
 	y: 0.0d,
 	dependencies: [

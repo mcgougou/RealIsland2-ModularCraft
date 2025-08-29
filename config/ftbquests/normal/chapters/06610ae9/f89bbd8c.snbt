@@ -1,5 +1,5 @@
 {
-	title: "死亡后金币刷新",
+	title: "Coin Refresh",
 	x: -5.0d,
 	y: -0.5d,
 	can_repeat: true,

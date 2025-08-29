@@ -2,7 +2,7 @@
 	x: -1.0d,
 	y: 0.0d,
 	text: [
-		"一次性任务"
+		"One-time quest"
 	],
 	tasks: [{
 		uid: "05cc9d1b",

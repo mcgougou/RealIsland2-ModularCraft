@@ -1,5 +1,5 @@
 {
-	title: "金币",
+	title: "Coin",
 	icon: "minecraft:gold_ingot",
 	always_invisible: false,
 	group: 0,

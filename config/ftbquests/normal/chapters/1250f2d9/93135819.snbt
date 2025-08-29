@@ -2,7 +2,7 @@
 	x: 1.0d,
 	y: 0.0d,
 	text: [
-		"量子压缩机已ban"
+		"Quantum compressor has been banned."
 	],
 	dependencies: [
 		"359b5a13",

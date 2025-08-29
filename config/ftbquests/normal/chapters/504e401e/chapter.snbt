@@ -1,5 +1,5 @@
 {
-	title: "封包合成",
+	title: "Packaged Auto",
 	icon: "packagedauto:packager",
 	always_invisible: false,
 	group: -1033959167,

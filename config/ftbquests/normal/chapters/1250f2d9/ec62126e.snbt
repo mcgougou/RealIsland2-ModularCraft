@@ -1,7 +1,9 @@
 {
-	title: "结束了……？",
 	x: 5.0d,
 	y: 0.0d,
+	text: [
+		"THE END……?"
+	],
 	dependencies: [
 		"2c586efc"
 	],

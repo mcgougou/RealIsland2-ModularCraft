@@ -1,9 +1,6 @@
 {
 	x: 3.0d,
 	y: 0.0d,
-	text: [
-		"包好用的"
-	],
 	dependencies: [
 		"1bd3ae1d"
 	],
