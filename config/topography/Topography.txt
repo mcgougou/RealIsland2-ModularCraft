@@ -9,7 +9,7 @@ setAsDefaultWorldType()
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
 
 
-fogExample = registerPreset("空岛", "images/sky", "经典的真实空岛2：模块化之旅的空岛地图")
+fogExample = registerPreset("skyblock", "images/sky", "A special skyblock map for Real Island 2 - Modular Craft")
 fogExample.registerDimension(0, "examples/Transitioning_Fog")
 
 
