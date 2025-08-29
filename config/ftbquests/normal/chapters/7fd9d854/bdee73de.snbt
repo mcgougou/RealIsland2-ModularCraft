@@ -2,7 +2,7 @@
 	x: 2.0d,
 	y: 0.0d,
 	text: [
-		"机械外壳终于能简易合成了"
+		"IC2's Machine Casing can craft more easily"
 	],
 	dependencies: [
 		"2dfec8c4"

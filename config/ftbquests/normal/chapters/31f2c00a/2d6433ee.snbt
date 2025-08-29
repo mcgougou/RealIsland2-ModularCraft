@@ -2,8 +2,8 @@
 	x: 0.0d,
 	y: 0.5d,
 	text: [
-		"用来制作集成控制器",
-		"添加了集成控制器配方的机器都是群友投票选出的，集成控制器未经过充分测试，所以如果使用集成控制器时出现问题，请切换回普通控制器！"
+		"To make Factory Controller",
+		"Machines with factory controller recipes are voted on by some of the players, and factory controllers are not fully tested, so if you have problems using factory controllers, switch back to normal controllers!"
 	],
 	dependencies: [
 		"3891da47"

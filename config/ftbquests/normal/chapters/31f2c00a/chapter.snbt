@@ -1,5 +1,5 @@
 {
-	title: "集成控制器",
+	title: "Factory Controller",
 	icon: "real_island_mod:jichengkongzhiqihexin",
 	always_invisible: false,
 	group: -1033959167,

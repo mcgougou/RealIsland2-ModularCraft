@@ -1,9 +1,6 @@
 {
 	x: -3.0d,
 	y: -1.5d,
-	text: [
-		"前期最好用的管道，造价便宜"
-	],
 	tasks: [{
 		uid: "0f1debd2",
 		type: "item",

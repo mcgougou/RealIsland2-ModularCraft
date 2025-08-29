@@ -1,9 +1,9 @@
 {
-	title: "uu物质",
+	title: "uu matter",
 	x: 0.5d,
 	y: 1.0d,
 	text: [
-		"可以复制终极混凝土或加速火把"
+		"You can replicate Torcherino or Ultimate Concrete"
 	],
 	dependencies: [
 		"2dfec8c4"

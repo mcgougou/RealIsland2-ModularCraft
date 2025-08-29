@@ -1,13 +1,16 @@
 {
 	x: -1.5d,
 	y: 1.0d,
+	text: [
+		"This is an unofficial version mod made by mcgougou"
+	],
 	dependencies: [
 		"45b0b190"
 	],
 	tasks: [{
 		uid: "8bf70374",
 		type: "checkmark",
-		title: "泥土工艺"
+		title: "DirtCraft"
 	}],
 	rewards: [{
 		uid: "55ec80bc",
