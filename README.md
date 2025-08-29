@@ -1,15 +1,11 @@
 # Real Island 2-Modular Craft
 
-This page is the Chinese version package! Please switch to enUS Edition.
+This page is the English version modpack!
 
-这里是Real Island 2-Modular Craft整合包的数据库，包含了配置文件、魔改文件、模组列表，可以给有需要的人进行参考。
+This is the database of the Real Island 2-Modular Craft integrated pack, which contains configuration files, script files, and mod lists, which can be used as a reference for those in need.
 
-如果要在这里下载整合包，请点击右侧的releases，然后选择最新版本，点击assests左边的箭头，选择第一个文件下载。
+If you have any questions, you can also submit issues here.
 
-注意：右上角绿色的Code按钮下载的不是整合包文件！
-
-有任何问题也可以到此处提交issues。
-
-本整合包基于CC BY-NC-ND 4.0 协议分发。
+This modpack is distributed under the CC BY-NC-ND 4.0 license.
 
 Copyright © 2025 mcgougou
