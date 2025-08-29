@@ -148,7 +148,9 @@
             "alignment" : "bottom_left"
         },
         "minecraftersion": {
-			"text": "#username#，现在是#date#年的#time#，当前版本为1.0.0-Release(正式版)",
+			"text": "§9#username#§ ,Welcome to this modpack.
+It's #time#, #date# now.
+Modpack version §41.0.0-enUS Edition",
             "color": -1,
             "posX": 2,
             "posY": 0,
