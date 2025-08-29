@@ -1,5 +1,5 @@
 {   "registryname": "liutiwutizhuanhuaji", 
-    "localizedname": "流体/物体转化机", 
+    "localizedname": "Advanced Fluid+Item Transform", 
     "requires-blueprint": false, 
     "color": "87CEEB",
     "parts": [

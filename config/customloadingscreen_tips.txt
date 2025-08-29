@@ -1,8 +1,6 @@
-整合包制作开始于2025年2月8日
-这一代的整合包没有无限骨粉了
-模块化机械是个好东西
-游玩时遇到问题建议先看任务和JEI
-欢迎加入QQ群980970757进行讨论
-整合包总共有35个模块化机械
+Modpack production began on Feb 8, 2025
+Modular machinery is a good thing
+If you encounter problems while playing, it is recommended to look at the FTBQuests and JEI first
+There are 35 modular machines in this modpack
 qiT
-有时候整合包启动可能会卡住，如果卡太久建议重新启动
+Sometimes the modpack startup can get stuck, and if it is stuck for too long, it is recommended to restart

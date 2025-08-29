@@ -1,5 +1,5 @@
 {   "registryname": "hefanyingdui", 
-    "localizedname": "简易核反应堆", 
+    "localizedname": "Simple Nuclear Reactor", 
     "requires-blueprint": false, 
     "color": "000000",
     "parts": [

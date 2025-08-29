@@ -1,5 +1,5 @@
 {   "registryname": "chaolinjieyixiangqi", 
-    "localizedname": "超临界移相器", 
+    "localizedname": "Supercritical Phase Shifter", 
     "requires-blueprint": false, 
     "color": "FFFFFF",
     "parts": [

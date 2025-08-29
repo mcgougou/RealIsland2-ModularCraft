@@ -1,5 +1,5 @@
 {   "registryname": "dianliangzhuanhuanqi", 
-    "localizedname": "电量转换器", 
+    "localizedname": "RF Converter", 
     "requires-blueprint": false, 
     "color": "FFFFFF",
     "parts": [

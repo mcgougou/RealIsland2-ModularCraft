@@ -1,5 +1,5 @@
 {   "registryname": "daochuanranliaofadianji", 
-    "localizedname": "氘氚燃料发电机", 
+    "localizedname": "D-T Fuel Generator", 
     "requires-blueprint": false, 
     "color": "000000",
     "parts": [
@@ -1562,20 +1562,20 @@
         },
         {
             "x": -3,
-            "y": 0,
-            "z": 3,
-
-            "elements": [
-                "modularmachinery:blockenergyoutputhatch"
-            ]
-        },
-        {
-            "x": -3,
             "y": -2,
             "z": 3,
 
             "elements": [
                 "mekanism:basicblock@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+
+            "elements": [
+                "modularmachinery:blockenergyoutputhatch"
             ]
         },
         {
@@ -1705,15 +1705,6 @@
         },
         {
             "x": 3,
-            "y": 1,
-            "z": 1,
-
-            "elements": [
-                "mekanism:basicblock@10"
-            ]
-        },
-        {
-            "x": 3,
             "y": -2,
             "z": 4,
 
@@ -1727,6 +1718,15 @@
             "z": 0,
             "elements": [
                 "mekanism:basicblock3@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+
+            "elements": [
+                "mekanism:basicblock@10"
             ]
         },
         {

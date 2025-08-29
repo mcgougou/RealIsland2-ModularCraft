@@ -119,12 +119,10 @@
     "oreIridium": {
       "slagColor": "d5d4e7",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.iridium",
-        "thermalfoundation:tile.thermalfoundation.ore.iridium"
+        "exnihilocreatio:item.exnihilocreatio.ore.iridium"
       ],
       "output": [
-        "ic2:misc_resource:2",
-        "thermalfoundation:material:199"
+        "ic2:misc_resource:2"
       ],
       "bloomYieldMinMax": [
         12,
@@ -236,8 +234,7 @@
     "orePlatinum": {
       "slagColor": "55f3ff",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.platinum",
-        "thermalfoundation:tile.thermalfoundation.ore.platinum"
+        "exnihilocreatio:item.exnihilocreatio.ore.platinum"
       ],
       "output": [
         "thermalfoundation:material:198"

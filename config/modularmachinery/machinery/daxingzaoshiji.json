@@ -1,5 +1,5 @@
 {   "registryname": "daxingzaoshiji", 
-    "localizedname": "大型造石机", 
+    "localizedname": "Huge Cobblestone Generator", 
     "requires-blueprint": false, 
     "color": "87CEEB",
     "parts": [
