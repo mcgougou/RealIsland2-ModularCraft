@@ -1,11 +1,7 @@
 {
-	title: "压力室",
+	title: "Pressure Chamber",
 	x: 4.0d,
 	y: 0.0d,
-	text: [
-		"详细搭建方法请查看手册",
-		"压力室接口需要连接其他管道运输物品"
-	],
 	dependencies: [
 		"70c1c029",
 		"b2b799e5",

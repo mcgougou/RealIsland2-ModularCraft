@@ -1,9 +1,6 @@
 {
 	x: -3.0d,
 	y: 4.5d,
-	text: [
-		"500金币就能少打6次凋零"
-	],
 	dependencies: [
 		"fdf69da0"
 	],

@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 4.0d,
 	text: [
-		"塑料板自动"
+		"To make plastic"
 	],
 	dependencies: [
 		"67a5feca"

@@ -2,8 +2,8 @@
 	x: -1.5d,
 	y: 0.0d,
 	text: [
-		"整合包由mcgougou制作，交流群980970757",
-		"感谢在测试阶段做出巨大贡献的妤歆和luck_Mika，以及所有游玩本整合包的玩家。感谢你们让整合包变得更好！"
+		"This modpack is made by mcgougou,a Chinese Minecraft player.So the translations may not be 100% accurate.",
+		"If you have any problems,you can submit issues in GitHub or in COMMENTS in Curseforge"
 	],
 	dependencies: [
 		"d9625f8e"
@@ -11,36 +11,11 @@
 	tasks: [{
 		uid: "143a33d9",
 		type: "checkmark",
-		title: "整合包制作成员&鸣谢清单"
+		title: "Modpack Author"
 	}],
 	rewards: [{
-		uid: "12d4171d",
-		type: "ftbmoney:money",
-		ftb_money: 1L
-	},
-	{
 		uid: "33d9ffd0",
 		type: "ftbmoney:money",
 		ftb_money: 1L
-	},
-	{
-		uid: "6fbeb230",
-		type: "ftbmoney:money",
-		ftb_money: 4L
-	},
-	{
-		uid: "5af23565",
-		type: "ftbmoney:money",
-		ftb_money: 5L
-	},
-	{
-		uid: "bff7bb66",
-		type: "ftbmoney:money",
-		ftb_money: 1L
-	},
-	{
-		uid: "54595895",
-		type: "ftbmoney:money",
-		ftb_money: 4L
 	}]
 }

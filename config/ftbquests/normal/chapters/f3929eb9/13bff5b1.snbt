@@ -1,6 +1,9 @@
 {
 	x: -3.0d,
 	y: 0.0d,
+	text: [
+		"From here, you can upgrade some of your machine's controllers to factory controllers, for more information, go to the [Factory Controllers] chapter"
+	],
 	dependencies: [
 		"430fc923"
 	],

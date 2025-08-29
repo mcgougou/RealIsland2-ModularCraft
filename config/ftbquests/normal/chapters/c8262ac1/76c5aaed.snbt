@@ -1,5 +1,5 @@
 {
-	title: "下雨",
+	title: "Rainy",
 	x: -1.5d,
 	y: 3.0d,
 	can_repeat: true,

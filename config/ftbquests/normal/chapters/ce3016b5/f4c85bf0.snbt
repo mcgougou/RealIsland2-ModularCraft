@@ -2,7 +2,7 @@
 	x: -0.5d,
 	y: 0.5d,
 	text: [
-		"商店有创造GP发电机"
+		"There is a creative mill in the shop."
 	],
 	dependencies: [
 		"1ab8e0e1"

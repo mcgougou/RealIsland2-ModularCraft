@@ -3,8 +3,8 @@
 	y: -1.0d,
 	shape: "gear",
 	text: [
-		"这……对吗？",
-		"一个mek的机器都没做就搓出这个了"
+		"Is it real?",
+		"We didn't make any MEK machine but we still produce it successfully."
 	],
 	dependencies: [
 		"0f0d33cd"

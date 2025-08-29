@@ -2,7 +2,7 @@
 	x: 0.0d,
 	y: 0.0d,
 	text: [
-		"本模组可以让你使用一些机器来获取怪物的掉落物"
+		"This mod allows you to use some machines to get monster drops"
 	],
 	tasks: [{
 		uid: "08ab23d3",

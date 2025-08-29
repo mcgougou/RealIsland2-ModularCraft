@@ -1,10 +1,7 @@
 {
-	title: "欢迎来到整合包",
+	title: "Welcome to Real Island 2 - Modular Craft modpack!",
 	x: 0.0d,
 	y: 0.0d,
-	text: [
-		"欢迎来到真实空岛2：模块化之旅！"
-	],
 	tasks: [{
 		uid: "e1734861",
 		type: "checkmark"

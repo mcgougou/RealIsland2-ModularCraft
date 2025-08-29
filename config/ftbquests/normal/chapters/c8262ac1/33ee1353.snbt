@@ -1,14 +1,14 @@
 {
-	title: "重要！！！",
+	title: "Some important things……",
 	x: 0.0d,
 	y: -1.5d,
 	text: [
-		"按P键可以将物品放在地上，节约存储空间",
-		"死亡会导致金币数量显示为0，请到金币章节刷新",
-		"ae已关闭频道限制",
-		"前期模块化合金锭需要熔炉烧制",
-		"用木棍右键机械控制器可以自动搭建",
-		"模块化机械尽量在一个区块里，不然可能出现各种奇怪的bug"
+		"Press P to place items on the ground,it can help you save the storage space in early stage.",
+		"Death will cause the number of coins to display as 0. Please refresh in the [Coin] chapter",
+		"Channel restrictions are disabled.",
+		"In early stage,modularium require smelting in a furnace.",
+		"Right-clicking the modular machine controller with a stick can automatically build the machine.",
+		"It's best to keep modular machinery within a single chunk to avoid potential bugs"
 	],
 	dependencies: [
 		"d9625f8e"

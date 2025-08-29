@@ -1,5 +1,5 @@
 {
-	title: "第五章：气动工艺",
+	title: "5th Chapter:PneumaticCraft",
 	icon: "pneumaticcraft:thermopneumatic_processing_plant",
 	always_invisible: false,
 	group: 0,

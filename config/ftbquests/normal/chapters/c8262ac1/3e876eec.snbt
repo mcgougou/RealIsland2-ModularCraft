@@ -7,7 +7,7 @@
 	tasks: [{
 		uid: "1d385d40",
 		type: "checkmark",
-		title: "指南"
+		title: "Guide"
 	}],
 	rewards: [{
 		uid: "fdc4624d",

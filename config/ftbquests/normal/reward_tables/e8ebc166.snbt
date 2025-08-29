@@ -1,5 +1,5 @@
 {
-	title: "加速火把",
+	title: "TORCHERINO",
 	loot_size: 1,
 	rewards: [{
 		item: "torcherino:blocktorcherino",
@@ -37,7 +37,7 @@
 			tag: {
 				RepairCost: 0,
 				display: {
-					Name: "模块化自动搭建手杖"
+					Name: "Modular Machine Auto Builder"
 				}
 			}
 		},

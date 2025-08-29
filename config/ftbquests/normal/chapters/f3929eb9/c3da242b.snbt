@@ -1,5 +1,5 @@
 {
-	title: "升级",
+	title: "Upgrade",
 	x: 1.5d,
 	y: -1.5d,
 	dependencies: [

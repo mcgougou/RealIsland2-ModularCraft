@@ -1,10 +1,9 @@
 {
-	title: "锂",
+	title: "Lithium",
 	x: -1.5d,
 	y: 5.0d,
 	text: [
-		"滴管可以抽取一些气体和液体",
-		"注意：此处硫酸需用液态（因翻译问题气态和液态硫酸的名称相同）"
+		"Note: Sulfuric acid needs to be used in liquid form here (gaseous and liquid sulfuric acid have the same name due to translation problems)."
 	],
 	dependencies: [
 		"253ca310",

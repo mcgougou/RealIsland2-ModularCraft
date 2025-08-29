@@ -1,10 +1,7 @@
 {
-	title: "氘",
+	title: "Deuterium",
 	x: -4.5d,
 	y: 3.0d,
-	text: [
-		"将重水店里分解后获得"
-	],
 	dependencies: [
 		"2300f88a"
 	],

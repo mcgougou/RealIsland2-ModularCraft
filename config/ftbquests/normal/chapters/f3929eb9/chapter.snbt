@@ -1,5 +1,5 @@
 {
-	title: "第七章：通用机械",
+	title: "7th Chapter:Mekanism",
 	icon: "mekanism:machineblock 1 8",
 	always_invisible: false,
 	group: 0,

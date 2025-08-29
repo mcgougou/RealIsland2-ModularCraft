@@ -1,9 +1,9 @@
 {
-	title: "基础机器",
+	title: "Basic Machine",
 	x: -1.5d,
 	y: 0.0d,
 	text: [
-		"本模组有些配方能耗过大，所以如果合成时遇到无法合成的问题（箭头满了但是不出成品），可以试试把机器升级成更高级的工厂来解决"
+		"Some of the recipes in this mod consume too much energy, so if you encounter the problem of not being able to craft (the arrows are full but the finished product is not produced), you can try upgrading the machine to a more advanced factory to solve "
 	],
 	dependencies: [
 		"13bff5b1"

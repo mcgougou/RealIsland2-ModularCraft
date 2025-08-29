@@ -1,10 +1,7 @@
 {
-	title: "乙烯",
+	title: "Ethylene",
 	x: 7.0d,
 	y: -1.0d,
-	text: [
-		"为什么要用铝矿？因为乙醇脱水法制乙烯需要氧化铝做催化剂：）"
-	],
 	dependencies: [
 		"d3ace75b"
 	],

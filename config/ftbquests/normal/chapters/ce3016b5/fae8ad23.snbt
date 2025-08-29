@@ -1,5 +1,5 @@
 {
-	title: "水车发电",
+	title: "Water Wheel",
 	x: -0.5d,
 	y: 3.5d,
 	dependencies: [

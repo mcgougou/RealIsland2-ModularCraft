@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: 0.0d,
 	text: [
-		"丢出一些铁锭，然后用在旁边点燃tnt后获得"
+		"BOOM!"
 	],
 	dependencies: [
 		"a1769c41"

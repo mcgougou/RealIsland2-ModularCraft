@@ -1,10 +1,7 @@
 {
-	title: "重水",
+	title: "Heavy Water",
 	x: -4.5d,
 	y: 1.5d,
-	text: [
-		"将电动泵里放入过滤升级，下方放入水即可抽取重水"
-	],
 	dependencies: [
 		"13bff5b1"
 	],

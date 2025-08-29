@@ -2,7 +2,7 @@
 	x: -3.0d,
 	y: 1.5d,
 	text: [
-		"更简易的聚乙烯合成"
+		"Simpler HDPE Crafting"
 	],
 	dependencies: [
 		"80c4a7c2"
