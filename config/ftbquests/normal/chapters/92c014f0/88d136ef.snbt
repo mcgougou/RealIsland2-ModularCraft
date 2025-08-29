@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: 0.0d,
 	text: [
-		"骨粉催熟草方块后打草小概率获得"
+		"Using bone meal on grass blocks to grow up the grass, and breaking grass has a small chance to drop them."
 	],
 	dependencies: [
 		"b2cff2d1"

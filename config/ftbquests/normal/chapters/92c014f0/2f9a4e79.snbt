@@ -2,7 +2,7 @@
 	x: 4.0d,
 	y: 3.5d,
 	text: [
-		"生物燃料可以用来堆肥获得泥土"
+		"It can be used for composting to produce dirt."
 	],
 	dependencies: [
 		"78e980d3"

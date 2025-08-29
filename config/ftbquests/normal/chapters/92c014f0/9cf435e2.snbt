@@ -2,8 +2,8 @@
 	x: -5.0d,
 	y: 0.0d,
 	text: [
-		"打树叶获得",
-		"tips:不要空手挖原木，必须用斧头才会掉落"
+		"Break leaves has a chance to drop stick.",
+		"tips:Don't break wood with bare hands.You should use AXE!"
 	],
 	dependencies: [
 		"d9625f8e"

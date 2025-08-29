@@ -2,8 +2,7 @@
 	x: -3.5d,
 	y: 0.0d,
 	text: [
-		"地上有，可以直接挖",
-		"缺石块可以挖掘草方块或泥土获得土块，土块合成石块"
+		"It's on the floor."
 	],
 	dependencies: [
 		"9cf435e2"

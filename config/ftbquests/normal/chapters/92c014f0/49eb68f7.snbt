@@ -2,7 +2,7 @@
 	x: -2.0d,
 	y: -1.5d,
 	text: [
-		"有了它就能做燧石工具了"
+		"You can make flint tools now:)"
 	],
 	dependencies: [
 		"88d136ef"

@@ -2,8 +2,7 @@
 	x: 7.0d,
 	y: 1.0d,
 	text: [
-		"燃料可以放稻草捆",
-		"可以直接用木桶、粘土桶之类的装液态粘土，液态粘土不属于\"滚烫的流体\""
+		"Liquid Clay is NOT \"Hot Fluid\",so you can put the liquid clay in your clay bucket or wooden bucket."
 	],
 	dependencies: [
 		"425251f4"

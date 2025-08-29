@@ -5,7 +5,7 @@
 	y: -3.5d,
 	shape: "diamond",
 	text: [
-		"不要998，不要98，299全套ae带回家"
+		"Just $299 to buy an AE2 Network!"
 	],
 	dependencies: [
 		"efd2a770"

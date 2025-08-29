@@ -2,8 +2,8 @@
 	x: -1.5d,
 	y: -3.0d,
 	text: [
-		"将柴堆进行填坑焚烧后获得（详细方法见JEI或MC百科）",
-		"注意：不是用坑窑烧木炭！不是用坑窑烧木炭！不是用坑窑烧木炭！烧木炭是另外一种名叫填坑焚烧的方法！！！"
+		"You can make it by Pit Burning(for more information,please see JEI or Pyrotech WIKI)",
+		"It was not made by Pit Kiln!!!!"
 	],
 	dependencies: [
 		"00fda0a5"

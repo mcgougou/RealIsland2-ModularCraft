@@ -3,7 +3,7 @@
 	y: 0.0d,
 	shape: "rsquare",
 	text: [
-		"终于能正常烧矿了"
+		"FURNACE!"
 	],
 	dependencies: [
 		"a1769c41"

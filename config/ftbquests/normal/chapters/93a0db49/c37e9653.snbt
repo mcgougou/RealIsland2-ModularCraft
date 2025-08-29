@@ -2,7 +2,7 @@
 	x: 7.0d,
 	y: 3.0d,
 	text: [
-		"挖掘佐拉树树叶掉落"
+		"Break Zorra Leaves to drop"
 	],
 	dependencies: [
 		"0f16c738"

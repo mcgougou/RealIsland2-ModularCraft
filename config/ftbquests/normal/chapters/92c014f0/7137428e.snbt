@@ -1,9 +1,9 @@
 {
-	title: "真正的开始",
+	title: "Real Start!",
 	x: 15.0d,
 	y: 3.5d,
 	text: [
-		"木棍右键机械控制器可以自动搭建"
+		"Right-clicking the modular machine controller with a stick can automatically build the machine."
 	],
 	dependencies: [
 		"7baa33ac"

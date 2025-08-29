@@ -2,9 +2,9 @@
 	x: -0.5d,
 	y: -1.5d,
 	text: [
-		"使用方法请查看jei",
-		"一次最多烧8个物品（建议配合加速火把使用）",
-		"燧石和火绒用鼠标长按右键生火"
+		"Look JEI for more information.",
+		"It can smelt up to 8 items at once (recommended to use with a Torcherino).",
+		"Long press and hold the right mouse button to start a fire."
 	],
 	dependencies: [
 		"49eb68f7",

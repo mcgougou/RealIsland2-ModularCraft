@@ -2,7 +2,7 @@
 	x: 17.5d,
 	y: 1.5d,
 	text: [
-		"终于不用用砧板了"
+		"We don't need Chopping Block anymore!"
 	],
 	dependencies: [
 		"efd2a770"

@@ -3,7 +3,7 @@
 	y: 0.0d,
 	shape: "gear",
 	text: [
-		"摆放物品后用火种科技的锤（如简陋的锤）右键来合成"
+		"Place the items, then right-click with a Pyrotech hammer (such as a Crude Hammer) to craft."
 	],
 	dependencies: [
 		"87efaecd"

@@ -2,7 +2,7 @@
 	x: 5.0d,
 	y: -1.5d,
 	text: [
-		"花岗岩用筛子筛泥土得到"
+		"Granite can be obtained by firing cobbled granite in a Pit Kiln."
 	],
 	dependencies: [
 		"00fda0a5",

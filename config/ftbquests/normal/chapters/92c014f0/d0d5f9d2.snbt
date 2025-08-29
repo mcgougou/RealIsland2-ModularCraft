@@ -1,12 +1,11 @@
 {
-	title: "大型分子装配室",
+	title: "Mass Assembler",
 	icon: "threng:big_assembler 1 2",
 	x: 18.0d,
 	y: -7.5d,
 	shape: "square",
 	text: [
-		"材料可以组装成10*10*10的大型分子装配室",
-		"样板核心和处理核心数量可以自行调整，商店有卖"
+		"You can build a 10*10*10 mass assembler."
 	],
 	dependencies: [
 		"b179f95d"

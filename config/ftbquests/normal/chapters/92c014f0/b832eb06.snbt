@@ -2,7 +2,7 @@
 	x: 0.5d,
 	y: -3.0d,
 	text: [
-		"总比用火把加热好"
+		"Magma block is better than a torch,isn't it?"
 	],
 	dependencies: [
 		"00fda0a5",

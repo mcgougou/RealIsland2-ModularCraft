@@ -1,5 +1,5 @@
 {
-	title: "刷怪塔",
+	title: "Mob Grinder",
 	x: 5.5d,
 	y: 4.5d,
 	dependencies: [
