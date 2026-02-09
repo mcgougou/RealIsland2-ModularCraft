@@ -1,9 +1,15 @@
+/*
+This script is created for Real Island 2 modpack,do not distribute!!!Copyright © 2026 mcgougou
+这个魔改文件是用来魔改Real Island 2整合包的，请勿转载！！！版权所有 © 2026 mcgougou
+*/
+
 furnace.addRecipe(<modularmachinery:itemmodularium>,<real_island_mod:mokuaihuahejincupei>);
 furnace.addRecipe(<thermalfoundation:material:134>,<exnihilocreatio:item_ore_platinum:1>);
 furnace.remove(<tconstruct:materials>);//
 furnace.remove(<thermalfoundation:material:134>);
 furnace.remove(<pyrotech:material:4>);
 //
+recipes.addShapeless(<immersiveengineering:metal:8>, [<ore:blockSteel>]);
 recipes.addShapeless(<dirtcraft:ironcoalmixeddust>, [<ore:dustIron>, <ore:dustCoal>]);
 recipes.addShapeless(<minecraft:apple>, [<minecraft:leaves>, <minecraft:leaves>, <minecraft:leaves>, <minecraft:leaves>]);
 recipes.addShapeless(<extendedcrafting:material> * 9, [<extendedcrafting:storage>]);
@@ -120,6 +126,8 @@ recipes.addShaped(<minecraft:blaze_rod>, [[null, <ore:itemBlazePowder>, <ore:nug
 recipes.addShaped(<pyrotech:rock:8> * 4, [[null, <ore:rock>, null], [<ore:rock>, <pyrotech:material>, <ore:rock>], [null, <ore:rock>, null]]);
 recipes.addShaped(<mekanism:machineblock:8>, [[<minecraft:iron_ingot>, <minecraft:furnace>, <minecraft:iron_ingot>], [<minecraft:redstone>, <mekanism:basicblock:8>, <minecraft:redstone>], [<minecraft:iron_ingot>, <minecraft:furnace>, <minecraft:iron_ingot>]]);
 //
+recipes.remove(<immersiveengineering:metal_device1:7>);
+recipes.remove(<immersivepetroleum:metal_device:1>);
 recipes.remove(<ic2:te:111>);
 recipes.remove(<nae2:material:1>);
 recipes.remove(<nae2:material:2>);
@@ -244,3 +252,4 @@ recipes.remove(<modularmachinery:blockcontroller>);
 recipes.addShaped(<mekanism:basicblock2:5>, [[<ore:alloyBasic>, <ore:ingotCopper>, <ore:alloyBasic>], [<ore:ingotCopper>, <immersiveengineering:stone_decoration:3>, <ore:ingotCopper>], [<minecraft:redstone>, <ore:ingotCopper>, <ore:alloyBasic>]]);
 recipes.remove(<mekanism:basicblock2:5>);
 recipes.remove(<modularmachinery:itemmodularium>);
+recipes.removeByRecipeName("immersiveengineering:metal_storage/steel_block_uncraft");
